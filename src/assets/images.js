@@ -19,6 +19,7 @@
       deleteHarmfulApps: "https://ethicalbyte.in/blogs/img/16.webp",
       chromeZeroDayExploit: "https://ethicalbyte.in/blogs/img/17.webp",
       fileUploadPhishing: "https://ethicalbyte.in/blogs/img/18.webp"
+      //sidnvsilndvsionvi
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
