@@ -607,7 +607,7 @@ export const blogPosts = [
   id: 'modern-file-upload-phishing-defense-2025',
   title: 'Fixing the File Upload Phishing Weakness: A Modern Approach Without ClickFix',
   date: '2025-07-01',
-  author: 'Your Name or Company',
+  author: 'Mr Dox',
   summary: 'Phishing via uploaded files is a real risk, but you can protect your users even without ClickFix. Learn how to scan and sanitize uploaded documents with a custom FileFix middleware to neutralize malicious links.',
   tags: ['phishing', 'file security', 'clickfix alternative', 'cyber defense'],
   imageKey: 'fileUploadPhishing',
