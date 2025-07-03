@@ -21,6 +21,7 @@
       fileUploadPhishing: "https://ethicalbyte.in/blogs/img/18.webp"
       //sidnvsilndvsionvi
       //jnfvinidnivwn
+      //hi venkatesh
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
