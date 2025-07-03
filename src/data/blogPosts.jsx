@@ -896,7 +896,7 @@ fileInput.addEventListener('change', () =&gt; {
 {
   id: 'chrome-firefox-critical-update-june-2025',
   title: 'Chrome 138 & Firefox 140 Security Updates: What You Need to Know',
-  date: '2025-06-25',
+  date: '2025-07-03',
   author: 'EthicalByte',
   summary: 'Google and Mozilla have released critical security updates for Chrome and Firefox, addressing over two dozen vulnerabilities—including high-severity memory flaws capable of remote code execution. This breakdown explains what’s been fixed, who’s at risk, and how to respond.',
   tags: ['Chrome', 'Firefox', 'browser security', 'memory safety', 'vulnerability patch'],
