@@ -19,7 +19,8 @@
       deleteHarmfulApps: "https://ethicalbyte.in/blogs/img/16.webp",
       chromeZeroDayExploit: "https://ethicalbyte.in/blogs/img/17.webp",
       fileUploadPhishing: "https://ethicalbyte.in/blogs/img/18.webp",
-      scatteredSpiderAirline: "https://ethicalbyte.in/blogs/img/19.webp"
+      scatteredSpiderAirline: "https://ethicalbyte.in/blogs/img/19.webp",
+      chromeFirefoxUpdate: "https://ethicalbyte.in/blogs/img/20.webp"
     
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
