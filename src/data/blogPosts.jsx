@@ -999,7 +999,53 @@ fileInput.addEventListener('change', () =&gt; {
 
     <blockquote>🚫 Don't fall for fake updates. Trust only official sources and question every download prompt.</blockquote>
   `
+},
+{
+  id: 'google-314m-cellular-data-verdict',
+  title: 'Google Ordered to Pay $314M for Misusing Android Users’ Cellular Data',
+  date: '2025-07-02',
+  author: 'EthicalByte',
+  summary: 'A California jury has awarded $314 million to Android users after finding Google intentionally used cellular data from idle devices without consent. Learn what happened, the implications, and how to protect yourself.',
+  tags: ['Google', 'Android', 'mobile privacy', 'data misuse', 'legal verdict'],
+  imageKey: 'googleDataVerdict',
+  content: `
+    <p>In a landmark July 2025 verdict, a jury in San Jose, California, ruled that Google must pay over $314 million for using Android users’ cellular data when their devices were idle—without proper consent. The class-action case, representing about 14 million Californians, accused Google of unfair data collection practices that benefited the company while burdening users.</p>
+
+    <h3>📊 What the Jury Decided</h3><br>
+    <ul>
+      <li>Google used cellular data—even when phones were idle or Wi‑Fi wasn’t enabled—to send and receive device information.</li>
+      <li>The jury concluded these transfers were “mandatory and unavoidable,” giving Google an unfair advantage and costing users data from their plans.</li>
+      <li>The verdict awards $314.6 million, but Google plans to appeal, arguing these data flows are necessary for Android’s security and performance and are disclosed in user agreements.</li>
+    </ul>
+
+    <h3>📱 How the Data Transfers Worked</h3><br>
+    <p>These transfers occurred in the background—Android phones periodically sent usage logs, network statuses, and app activity to Google servers, regardless of user settings. One test found an idle device using nearly 9 MB of cellular data daily, predominantly communicating with Google even when stationary and unused.</p>
+
+    <h3>🔍 Why This Verdict Matters</h3><br>
+    <ul>
+      <li><strong>Consumer rights spotlighted:</strong> The ruling reinforces that background data usage requires clear user consent—especially when not tied to Wi‑Fi.</li>
+      <li><strong>Standard for tech accountability:</strong> This class-action may influence upcoming trials involving all other U.S. states in April 2026.</li>
+      <li><strong>Privacy vs. convenience:</strong> The case highlights tensions between seamless device functionality and user control over data.</li>
+    </ul>
+
+    <h3>🛡️ How to Take Control of Your Data</h3><br>
+    <ol>
+      <li><strong>Monitor cellular usage:</strong> Regularly check your data meter for unexplained background consumption.</li>
+      <li><strong>Adjust background settings:</strong> Disable background data for apps and enable “Wi‑Fi only” options in settings.</li>
+      <li><strong>Review permissions:</strong> Audit apps accessing device logs or statuses and revoke unnecessary permissions.</li>
+      <li><strong>Use data-saving tools:</strong> Employ built-in OS features or third-party apps that restrict idle background transfers.</li>
+      <li><strong>Stay informed:</strong> Monitor court outcomes—especially the upcoming trial covering the other U.S. states.</li>
+    </ol>
+
+    <h3>⚖️ Google’s Response & What’s Next</h3><br>
+    <p>Google contends that these processes support critical system operations—such as performance tuning, security monitoring, and diagnostics—and are disclosed in user agreements. The company will appeal the verdict, claiming the jury misunderstood these essential functions.</p>
+    <p>Meanwhile, a broader national class-action is scheduled for April 2026. Should that case mirror California’s decision, the financial and regulatory impact on Google could increase significantly.</p>
+
+    <h3>🔚 Final Takeaway</h3><br>
+    <p>This verdict sends a powerful message: users deserve transparency and control over background data usage. Whether or not Google overturns the decision, it's a reminder to take charge of your data privacy—by monitoring usage, adjusting settings, and questioning what runs behind the scenes on your devices.</p>
+  `
 }
+
 
 
 
