@@ -904,7 +904,7 @@ fileInput.addEventListener('change', () =&gt; {
   content: `
     <p>On June 25, 2025, both Google and Mozilla launched major browser updates: <strong>Chrome 138</strong> and <strong>Firefox 140</strong>. These versions address a combined two dozen vulnerabilities—several of which are high-severity memory safety bugs that can lead to remote code execution. While there’s no confirmed active exploitation in the wild, the risk remains very real, and updating is crucial.</p>
 
-    <h3>🔍 Chrome 138: Eleven Security Fixes</h3>
+    <h3>🔍 Chrome 138: Eleven Security Fixes</h3><br>
     <p>Chrome 138 brings 11 patches, including memory-related vulnerabilities and logic flaws in browser subsystems:</p>
     <ul>
       <li><strong>Use-after-free in Animation:</strong> Can cause memory corruption; a $4,000 bug bounty was awarded.</li>
@@ -914,7 +914,7 @@ fileInput.addEventListener('change', () =&gt; {
     </ul>
     <p>Chrome’s patch—versions 138.0.7204.49/50—reinforces key browser boundaries and safeguards memory handling.</p>
 
-    <h3>🔐 Firefox 140: Thirteen Vulnerabilities Sealed</h3>
+    <h3>🔐 Firefox 140: Thirteen Vulnerabilities Sealed</h3><br>
     <p>Released alongside updates for ESR versions 128.12 and 115.25, Firefox 140 includes fixes for 13 security flaws:</p>
     <ul>
       <li><strong>Use-after-free in FontFaceSet:</strong> Potentially exploitable for arbitrary code execution.</li>
@@ -923,14 +923,14 @@ fileInput.addEventListener('change', () =&gt; {
     </ul>
     <p>These patches close gaps that could be abused by specially crafted media or web sequences.</p>
 
-    <h3>📌 Why These Updates Matter</h3>
+    <h3>📌 Why These Updates Matter</h3><br>
     <ul>
       <li>Memory safety flaws allow deep control over browser processes—translating to high-risk remote exploits.</li>
       <li>Drive-by attacks using crafted scripts or media offer no-click compromise potential.</li>
       <li>Chrome and Firefox share core engine technologies—parallel vulnerabilities illustrate shared threat surfaces.</li>
     </ul>
 
-    <h3>🛡️ What You Should Do Immediately</h3>
+    <h3>🛡️ What You Should Do Immediately</h3><br>
     <ol>
       <li><strong>Update Now:</strong>  
         – Chrome users: upgrade to version 138.0.7204.50+  
@@ -941,14 +941,14 @@ fileInput.addEventListener('change', () =&gt; {
       <li><strong>Deploy in Enterprise:</strong> IT teams should push patched versions across all endpoints quickly.</li>
     </ol>
 
-    <h3>🔍 Broader Security Lessons</h3>
+    <h3>🔍 Broader Security Lessons</h3><br>
     <ul>
       <li>Frequent memory vulnerabilities show browser engines remain a lucrative exploit target.</li>
       <li>Strong update processes and education can block critical attack channels.</li>
       <li>Complement browser hardening with script control, threat detection, and DNS filtering.</li>
     </ul>
 
-    <h3>🔚 Final Takeaway</h3>
+    <h3>🔚 Final Takeaway</h3><br>
     <p>These simultaneous updates from Chrome and Firefox emphasize that even widely-used software remains vulnerable—especially as attackers zero in on core browser components. While no active exploits have been confirmed, patching now offers the best defense. Make updating browsers a non-negotiable part of your cyber hygiene routine.</p>
   `
 }
