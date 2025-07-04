@@ -954,7 +954,7 @@ fileInput.addEventListener('change', () =&gt; {
 },{
   id: "north-korea-fake-zoom-macos",
   title: "North Korean Hackers Spread MacOS Malware Using Fake Zoom Updates",
-  date: "2025-07-03",
+  date: "2025-07-04",
   author: "Ethical Byte",
   summary: "A new campaign by North Korean state-backed hackers targets MacOS users with malware disguised as Zoom updates. Learn how the attack works and how to stay protected.",
   tags: ["north korea", "macos", "zoom", "malware", "social engineering", "cyberattack"],
