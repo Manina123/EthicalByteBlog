@@ -789,7 +789,7 @@ fileInput.addEventListener('change', () =&gt; {
 
     <h3>🔚 Final Takeaway</h3><br>
     <p>These simultaneous updates from Chrome and Firefox emphasize that even widely-used software remains vulnerable—especially as attackers zero in on core browser components. While no active exploits have been confirmed, patching now offers the best defense. Make updating browsers a non-negotiable part of your cyber hygiene routine.</p>
-  `},{id:"north-korea-fake-zoom-macos",title:"North Korean Hackers Spread MacOS Malware Using Fake Zoom Updates",date:"2025-07-03",author:"Ethical Byte",summary:"A new campaign by North Korean state-backed hackers targets MacOS users with malware disguised as Zoom updates. Learn how the attack works and how to stay protected.",tags:["north korea","macos","zoom","malware","social engineering","cyberattack"],imageKey:"northKoreaZoomMalware",content:`
+  `},{id:"north-korea-fake-zoom-macos",title:"North Korean Hackers Spread MacOS Malware Using Fake Zoom Updates",date:"2025-07-04",author:"Ethical Byte",summary:"A new campaign by North Korean state-backed hackers targets MacOS users with malware disguised as Zoom updates. Learn how the attack works and how to stay protected.",tags:["north korea","macos","zoom","malware","social engineering","cyberattack"],imageKey:"northKoreaZoomMalware",content:`
     <h3>🎯 The New Threat: Fake Zoom Updates on MacOS</h3><br>
     <p>In July 2025, cybersecurity researchers uncovered a North Korean-sponsored campaign targeting MacOS users by distributing malware disguised as legitimate Zoom application updates. This attack is part of the group’s ongoing espionage operations aimed at stealing sensitive information from individuals and organizations worldwide.</p>
 
