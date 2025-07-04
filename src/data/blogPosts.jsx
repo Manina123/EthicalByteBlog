@@ -1003,7 +1003,7 @@ fileInput.addEventListener('change', () =&gt; {
 {
   id: 'google-314m-cellular-data-verdict',
   title: 'Google Ordered to Pay $314M for Misusing Android Users’ Cellular Data',
-  date: '2025-07-02',
+  date: '2025-07-05',
   author: 'EthicalByte',
   summary: 'A California jury has awarded $314 million to Android users after finding Google intentionally used cellular data from idle devices without consent. Learn what happened, the implications, and how to protect yourself.',
   tags: ['Google', 'Android', 'mobile privacy', 'data misuse', 'legal verdict'],
