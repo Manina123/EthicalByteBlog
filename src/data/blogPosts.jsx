@@ -1113,17 +1113,17 @@ fileInput.addEventListener('change', () =&gt; {
   tags: ["android", "spyware", "catwatchful", "data leak", "mobile security", "credential theft"],
   imageKey: "catwatchfulSpyware",
   content: `
-    <h3>🐾 A Silent Predator: What Is Catwatchful?</h3>
+    <h3>🐾 A Silent Predator: What Is Catwatchful?</h3><br>
     <p>In July 2025, researchers at Gbhackers uncovered a large-scale Android spyware campaign dubbed <strong>Catwatchful</strong>, responsible for stealing and leaking personal data from at least <strong>62,000 users worldwide</strong>. This malware has operated largely undetected for months, quietly siphoning data from victims' devices to an attacker-controlled server.</p>
 
     <p>Unlike simple adware or scams, Catwatchful is a <strong>persistent, highly invasive spyware</strong> that masquerades as legitimate apps and silently takes over the device.</p>
 
-    <h3>📰 What Did Researchers Find?</h3>
+    <h3>📰 What Did Researchers Find?</h3><br>
     <p>The campaign came to light when cybersecurity teams discovered an <strong>unprotected server</strong> operated by the attackers, hosting an enormous trove of stolen credentials, call logs, messages, location data, and more. Researchers were able to analyze the leaked data and map the full scope of the campaign — which had already compromised tens of thousands of Android devices.</p>
 
     <p>The name <em>Catwatchful</em> comes from its stealthy, watchful behavior — quietly observing victims while keeping itself hidden from detection.</p>
 
-    <h3>🎭 How Does Catwatchful Infect Devices?</h3>
+    <h3>🎭 How Does Catwatchful Infect Devices?</h3><br>
     <p>The spyware is usually distributed as <strong>fake apps</strong> — often utilities, games, or social tools — that users download outside of the official Google Play Store. In particular, attackers rely on:</p>
     <ul>
       <li>Untrusted APK download sites and forums</li>
@@ -1134,7 +1134,7 @@ fileInput.addEventListener('change', () =&gt; {
 
     <p>Once installed, the app requests a long list of permissions, including admin rights, making it very difficult to remove. Even after rebooting, the spyware remains active — recording data and transmitting it back to the attackers.</p>
 
-    <h3>🔍 What Kind of Data Does It Steal?</h3>
+    <h3>🔍 What Kind of Data Does It Steal?</h3><br>
     <p>Catwatchful is designed to harvest <strong>as much personal and sensitive information as possible</strong>. This includes:</p>
     <ul>
       <li>👤 Usernames, passwords, and saved login credentials</li>
@@ -1147,7 +1147,7 @@ fileInput.addEventListener('change', () =&gt; {
 
     <p>The stolen data can be sold on dark web marketplaces, used for identity theft, or even exploited in targeted extortion campaigns.</p>
 
-    <h3>🚨 Why Is This Campaign Alarming?</h3>
+    <h3>🚨 Why Is This Campaign Alarming?</h3><br>
     <p>Catwatchful is notable for its:</p>
     <ul>
       <li>🌐 Global reach — affecting victims in dozens of countries</li>
@@ -1158,7 +1158,7 @@ fileInput.addEventListener('change', () =&gt; {
 
     <p>This shows not only how effective social engineering and sideloading attacks still are, but also how carelessly some attackers handle stolen data once collected.</p>
 
-    <h3>🛡️ How You Can Stay Safe</h3>
+    <h3>🛡️ How You Can Stay Safe</h3><br>
     <p>Here’s how to defend yourself against Catwatchful and similar spyware campaigns:</p>
     <ul>
       <li>✅ Never download APKs from untrusted or unofficial sources</li>
@@ -1170,7 +1170,7 @@ fileInput.addEventListener('change', () =&gt; {
       <li>✅ Change passwords if you suspect compromise and enable multi-factor authentication (MFA)</li>
     </ul>
 
-    <h3>🌟 Lessons for the Future</h3>
+    <h3>🌟 Lessons for the Future</h3><br>
     <p>The Catwatchful incident reminds us that mobile devices are treasure troves of sensitive data — and attackers know it. With millions of Android users worldwide still sideloading apps and ignoring permissions, campaigns like Catwatchful are likely to continue thriving.</p>
 
     <p>Education, vigilance, and modern security tools are essential to keep your data and privacy intact.</p>
