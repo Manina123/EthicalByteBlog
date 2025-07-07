@@ -24,7 +24,8 @@
       northKoreaZoomMalware: "https://ethicalbyte.in/blogs/img/21.webp",
       googleDataVerdict: "https://ethicalbyte.in/blogs/img/22.webp",
       taiwanChineseApps: "https://ethicalbyte.in/blogs/img/23.webp",
-      catwatchfulSpyware: "https://ethicalbyte.in/blogs/img/24.webp"
+      catwatchfulSpyware: "https://ethicalbyte.in/blogs/img/24.webp",
+      vishingQantas: "https://ethicalbyte.in/blogs/img/25.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
