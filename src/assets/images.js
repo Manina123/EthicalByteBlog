@@ -27,7 +27,8 @@
       catwatchfulSpyware: "https://ethicalbyte.in/blogs/img/24.webp",
       vishingQantas: "https://ethicalbyte.in/blogs/img/25.webp",
       euProtectEU: "https://ethicalbyte.in/blogs/img/26.webp",
-      ingramMicroRansomware: "https://ethicalbyte.in/blogs/img/27.webp"
+      ingramMicroRansomware: "https://ethicalbyte.in/blogs/img/27.webp",
+      maliciousEsDomains: "https://ethicalbyte.in/blogs/img/28.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
