@@ -1577,7 +1577,7 @@ fileInput.addEventListener('change', () =&gt; {
       <p>This is not just a session—it’s a career starter. Real strategies. Real clarity. From real experts. Let EthicalByte help you plan your journey into the world of cybersecurity.</p>
 
       <div style="margin-top:30px;text-align:center;">
-        <a href="https://tally.so/r/3j4aN1" target="_blank" style="background:#007bff;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-size:16px;font-weight:bold;">🚀 Secure Your Seat – Register Now</a>
+        <a href="https://tally.so/r/3j4aN1" target="_blank" style="background:#007bff;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-size:16px;font-weight:bold;">🚀 Secure Your Seat</a>
       </div>
     </div>
   `
