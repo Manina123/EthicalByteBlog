@@ -1527,9 +1527,61 @@ fileInput.addEventListener('change', () =&gt; {
 
     <blockquote>🚗 Treat your car like your phone: every wireless connection is a potential door. Make sure you’re the only one holding the keys.</blockquote>
   `
+},
+{
+  id: 'cyber-talk-july',
+  title: 'Join Us for Cyber Talk 2025 – Your Questions, Answered!',
+  date: '2025-07-12',
+  author: 'Team EthicalByte',
+  summary: 'A live, interactive cybersecurity event hosted by EthicalByte’s CEO , COO & CTO, where we decode trends, certifications, tools, and career paths in cyber. Register now and take the first step toward your future in cybersecurity.',
+  tags: ['event', 'cybersecurity career', 'certifications', 'ethicalbyte', 'future of cybersecurity'],
+  imageKey: 'cyberTalk2025Banner',
+  content: `
+    <div style="background-color:#f5f7fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
+      <h3 style="color:#1e2f48;margin-top:0;">🚨 <br> Cyber Talk 2025 <br>Live Cybersecurity Career Event</h3><br>
+      <p><strong>Hosted by:</strong> EthicalByte CEO, COO & CTO</p>
+      <p><strong>Date:</strong> July 12, 2025</p>
+      <p><strong>Format:</strong> Virtual + Interactive Q&A</p>
+      <p>Whether you're a beginner or already exploring the cybersecurity space, this event is designed to give you clarity, direction, and insider knowledge on how to grow in cybersecurity in 2026 and beyond.</p>
+      
+      <div style="margin:20px 0;">
+        <a href="https://tally.so/r/3j4aN1" target="_blank" style="background:#007bff;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;display:inline-block;">📩 Register Now</a>
+      </div>
+
+      <h3>📌 What We’ll Cover</h3><br>
+      <ul>
+        <li><strong>Do you need cybersecurity certifications?</strong> Which ones actually matter in 2026?</li>
+        <li><strong>Should you pursue a degree in cybersecurity?</strong> Pros, cons, and alternatives.</li>
+        <li><strong>What should you learn first?</strong> Tools, skills, and the right mindset for beginners.</li>
+        <li><strong>Is coding required?</strong> What domains need it—and which don’t.</li>
+        <li><strong>Building a home lab:</strong> Tools, platforms, and legal hacking practice.</li>
+        <li><strong>How to land your first job or internship?</strong> Resume tips, portfolio advice, and where to apply.</li>
+        <li><strong>Specialist or generalist?</strong> Choosing your cybersecurity path smartly.</li>
+      </ul>
+
+      <h3>🎙️ Expert Panel</h3><br>
+      <p>This session will be hosted by our <strong>CEO</strong> and <strong>CTO , COO</strong> who bring years of industry knowledge, startup experience, and mentorship insights. Expect practical advice—not just theory.</p>
+
+      <h3>🛠️ Interactive Q&A</h3><br>
+      <p>Ask anything! We’ll be answering live questions from the audience. Whether it’s about hacking tools, certifications, lab setup, or career doubts—this is your chance to ask directly.</p>
+
+      <h3>🎯 Who Should Attend?</h3><br>
+      <ul>
+        <li>College students exploring cybersecurity</li>
+        <li>Beginners who want to enter the field in 2026</li>
+        <li>Professionals looking to upskill or switch careers</li>
+        <li>Anyone curious about certifications, hacking tools, or job preparation</li>
+      </ul>
+
+      <h3>🚀 Why Attend?</h3><br>
+      <p>This is not just a session—it’s a career starter. Real strategies. Real clarity. From real experts. Let EthicalByte help you plan your journey into the world of cybersecurity.</p>
+
+      <div style="margin-top:30px;text-align:center;">
+        <a href="https://tally.so/r/3j4aN1" target="_blank" style="background:#007bff;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-size:16px;font-weight:bold;">🚀 Secure Your Seat – Register Now</a>
+      </div>
+    </div>
+  `
 }
-
-
 
 
 
