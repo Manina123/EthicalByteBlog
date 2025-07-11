@@ -1291,10 +1291,10 @@ fileInput.addEventListener('change', () =&gt; {
       <p><strong>Format:</strong> Virtual + Interactive Q&A</p>
       <p>Whether you're a beginner or already exploring the cybersecurity space, this event is designed to give you clarity, direction, and insider knowledge on how to grow in cybersecurity in 2026 and beyond.</p>
       
-      <div style="margin:20px 0;">
-        <a href="https://tally.so/r/3j4aN1" target="_blank" style="background:#007bff;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;display:inline-block;">📩 Register Now</a>
+      <div style="text-align:center; margin: 20px 0;">
+        <a href="https://tally.so/r/3j4aN1" target="_blank" style="background:#2563eb;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;display:inline-block;">📩 Register Now</a>
       </div>
-
+      
       <h3>📌 What We’ll Cover</h3><br>
       <ul>
         <li><strong>Do you need cybersecurity certifications?</strong> Which ones actually matter in 2026?</li>
