@@ -31,7 +31,8 @@
       maliciousEsDomains: "https://ethicalbyte.in/blogs/img/28.webp",
       perfektBlueCarHack: "https://ethicalbyte.in/blogs/img/29.webp",
       cyberTalk2025Banner: "https://ethicalbyte.in/blogs/img/30.webp",
-      deepfakeThreatBanner: "https://ethicalbyte.in/blogs/img/31.webp"
+      deepfakeThreatBanner: "https://ethicalbyte.in/blogs/img/31.webp",
+      nipponSteelBreachBanner: "https://ethicalbyte.in/blogs/img/32.webp"
 
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
