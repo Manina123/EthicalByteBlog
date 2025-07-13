@@ -1737,14 +1737,14 @@ fileInput.addEventListener('change', () =&gt; {
   id: 'ntro-phishing-domains-2025',
   title: 'NTRO Detects 1,172 Phishing Domains in India',
   date: '2025-07-13',
-  author: 'EthicalByte News Desk',
+  author: 'EthicalByte',
   summary: 'India’s NTRO identified and blocked over 1,172 phishing domains in the first half of 2025, showcasing coordinated efforts to safeguard citizens, businesses, and government from rising phishing threats.',
   tags: ['phishing', 'ntro', 'india cybersecurity', 'threat intelligence', 'awareness'],
   imageKey: 'ntroPhishingBanner',
   content: `
     <div style="padding:20px;border-radius:12px;border:1px solid #ddd;">
 
-      <h3>🛡️ <br> Cybersecurity News: NTRO Detects 1,172 Phishing Domains in India</h3><br>
+      <h3>🛡️ Cybersecurity News: NTRO Detects 1,172 Phishing Domains in India</h3><br>
       <p>In a significant move to safeguard India’s digital ecosystem, the <strong>National Technical Research Organisation (NTRO)</strong>, India’s premier technical intelligence agency, has detected and initiated action against <strong>1,172 phishing domains</strong> in just the first six months of 2025. This proactive operation demonstrates the increasing vigilance and capability of Indian cyber defense mechanisms in the face of rising cybercrime.</p>
 
       <h3>What Happened?</h3><br>
