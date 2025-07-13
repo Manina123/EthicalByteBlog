@@ -32,8 +32,8 @@
       perfektBlueCarHack: "https://ethicalbyte.in/blogs/img/29.webp",
       cyberTalk2025Banner: "https://ethicalbyte.in/blogs/img/30.webp",
       deepfakeThreatBanner: "https://ethicalbyte.in/blogs/img/31.webp",
-      nipponSteelBreachBanner: "https://ethicalbyte.in/blogs/img/32.webp"
-
+      nipponSteelBreachBanner: "https://ethicalbyte.in/blogs/img/32.webp",
+      ntroPhishingBanner: "https://ethicalbyte.in/blogs/img/33.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };

@@ -1733,6 +1733,62 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'ntro-phishing-domains-2025',
+  title: 'NTRO Detects 1,172 Phishing Domains in India',
+  date: '2025-07-13',
+  author: 'EthicalByte News Desk',
+  summary: 'India’s NTRO identified and blocked over 1,172 phishing domains in the first half of 2025, showcasing coordinated efforts to safeguard citizens, businesses, and government from rising phishing threats.',
+  tags: ['phishing', 'ntro', 'india cybersecurity', 'threat intelligence', 'awareness'],
+  imageKey: 'ntroPhishingBanner',
+  content: `
+    <div style="padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <h3>🛡️ <br> Cybersecurity News: NTRO Detects 1,172 Phishing Domains in India</h3><br>
+      <p>In a significant move to safeguard India’s digital ecosystem, the <strong>National Technical Research Organisation (NTRO)</strong>, India’s premier technical intelligence agency, has detected and initiated action against <strong>1,172 phishing domains</strong> in just the first six months of 2025. This proactive operation demonstrates the increasing vigilance and capability of Indian cyber defense mechanisms in the face of rising cybercrime.</p>
+
+      <h3>What Happened?</h3><br>
+      <ul>
+        <li>🇮🇳 NTRO, leveraging its advanced surveillance infrastructure and intelligence gathering, identified 1,172 phishing domains targeting Indian citizens, businesses, and government entities.</li>
+        <li>🔎 These domains were designed to steal sensitive data, install malware, and impersonate legitimate organizations to deceive victims.</li>
+        <li>📑 The agency briefed the findings to the Parliamentary Standing Committee on Information Technology, explaining the detection strategy and next steps.</li>
+      </ul>
+
+      <h3>Why It Matters</h3><br>
+      <p>Phishing remains one of the most widely used and effective attack methods by cybercriminals. The NTRO’s findings highlight:</p>
+      <ul>
+        <li>🎣 The growing sophistication of phishing campaigns that often evade traditional defenses.</li>
+        <li>🧲 How attackers exploit human trust — using fake websites, lookalike domains, and urgency tactics.</li>
+        <li>🏛️ The vital role of government‑led monitoring to protect critical sectors and citizens from mass exploitation.</li>
+      </ul>
+      <p>Such operations are crucial not just for blocking attacks in real time, but also for raising awareness about the evolving nature of these threats.</p>
+
+      <h3>NTRO’s Actions</h3><br>
+      <ul>
+        <li>✅ Flagged and shared the list of malicious domains with telecom operators, hosting providers, and ISPs to ensure prompt blocking.</li>
+        <li>✅ Devised a collaborative <strong>matrix approach</strong> that aligns government, private sector, and service providers for faster detection and takedown of threats.</li>
+        <li>✅ Ensured continued monitoring and intelligence gathering to stay ahead of emerging phishing campaigns.</li>
+      </ul>
+
+      <h3>Recommendations for Users</h3><br>
+      <ul>
+        <li>🔒 Be wary of unsolicited messages, emails, or SMS requesting personal, financial, or login information.</li>
+        <li>🖥️ Always type website URLs manually or use bookmarks instead of clicking links in emails.</li>
+        <li>🔧 Enable <strong>multi-factor authentication (MFA)</strong> to protect accounts even if credentials are compromised.</li>
+        <li>📣 Report suspicious emails or websites to your organization’s IT/security team or India’s official cybercrime portal.</li>
+      </ul>
+
+      <h3>Real‑World Example</h3><br>
+      <blockquote>📧 A user receives an email from “income‑tax‑india.co” prompting them to submit their PAN and banking details for a supposed refund. Thanks to NTRO’s early detection, ISPs block access to this domain before the victim can interact, preventing data theft.</blockquote>
+
+      <h3>Looking Ahead</h3><br>
+      <p>The NTRO’s initiative sets a benchmark for how public‑private collaboration can proactively counter cyber threats. As phishing tactics evolve — using AI, deepfakes, and more sophisticated lures — the need for vigilance, education, and fast response becomes even more critical. Strengthening awareness at the individual level, while enhancing intelligence at the institutional level, remains key to securing India’s cyberspace.</p>
+
+      <h3>Key Takeaway</h3><br>
+      <blockquote>🚀 Phishing is a battle of trust versus deception. NTRO’s proactive detection and blocking of malicious domains protect millions of Indians — and underscore the power of vigilance, collaboration, and preparedness.</blockquote>
+
+    </div>
+  `
 }
 
 
