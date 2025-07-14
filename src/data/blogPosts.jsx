@@ -1789,7 +1789,70 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'ev-charging-vulnerability-2025',
+  title: 'Critical EV Charger Flaw: What Drivers and Operators Need to Know',
+  date: '2025-07-14',
+  author: 'EthicalByte News Desk',
+  summary: 'A major vulnerability in popular EV charging stations has exposed millions of users to risks of outages, fraud, and even grid disruptions. Here’s what happened — and what you can do now.',
+  tags: ['EV', 'cybersecurity', 'vulnerability', 'iot security', 'electric vehicles'],
+  imageKey: 'evChargingVulnBanner',
+  content: `
+    <div style="background-color:#f9fbfd;padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <div style="text-align:center;">
+        <h3 style="color:#1e2f48;">⚡ Critical EV Charger Vulnerability Uncovered</h3>
+        <p style="font-style:italic;">Millions of drivers at risk. Here’s what happened — and how to stay secure.</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#2563eb;">📖 The Story So Far</h4>
+        <p>Earlier this week, researchers disclosed a serious security flaw in widely‑used electric vehicle (EV) charging stations. By exploiting weak authentication and poor input validation, attackers could remotely tamper with chargers worldwide. The flaw — now patched — affected multiple brands and models.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <strong>🚗 What Could Attackers Do?</strong>
+        <ul style="margin-top:10px;">
+          <li>Disable or shut down entire charging stations, leaving drivers stranded.</li>
+          <li>Alter billing records — letting them “charge for free” or overbill users.</li>
+          <li>Overload local grids by turning multiple chargers on/off in patterns.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#2563eb;">🔍 How Was It Discovered?</h4>
+        <p>A team of cybersecurity researchers conducted a penetration test on public chargers and found they accepted unauthenticated API requests. This allowed remote control of critical functions with minimal effort — essentially leaving chargers exposed to anyone with an internet connection.</p>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#2563eb;">💡 Why This Matters</h4>
+        <p>EV adoption is booming — but as cars become smarter, the infrastructure that supports them must also evolve to resist cyber threats. An insecure charger isn’t just inconvenient — it can hurt trust, cost money, and even threaten local electricity stability.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#e2f0d9;padding:15px;border-radius:8px;">
+        <h4 style="color:#1e7e34;">✅ What Should You Do Now?</h4>
+        <ul>
+          <li>🔧 Update your charger’s firmware & software immediately — vendors have issued patches.</li>
+          <li>🔒 Avoid connecting to chargers via public, unsecured Wi-Fi networks if possible.</li>
+          <li>📝 Review recent charging session bills to ensure accuracy.</li>
+          <li>📣 Report suspicious charger behavior to the manufacturer or your service provider promptly.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#2563eb;">📋 A Real‑World Example</h4>
+        <p>One reported incident involved a fleet of EVs at a corporate parking lot, where chargers were remotely disabled just as employees were leaving for the day. This caused significant delays and showcased how disruptive even short outages can be.</p>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#2563eb;">🚀 Moving Forward</h4>
+        <p>This vulnerability reminds us that convenience and security must go hand‑in‑hand. As EV infrastructure grows, so does its appeal to attackers. Building robust security into these systems from the start — and staying vigilant with updates — is the best way to keep the road ahead safe and smooth for everyone.</p>
+      </section>
+
+    </div>
+  `
 }
+
 
 
 

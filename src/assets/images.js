@@ -33,7 +33,8 @@
       cyberTalk2025Banner: "https://ethicalbyte.in/blogs/img/30.webp",
       deepfakeThreatBanner: "https://ethicalbyte.in/blogs/img/31.webp",
       nipponSteelBreachBanner: "https://ethicalbyte.in/blogs/img/32.webp",
-      ntroPhishingBanner: "https://ethicalbyte.in/blogs/img/33.webp"
+      ntroPhishingBanner: "https://ethicalbyte.in/blogs/img/33.webp",
+      evChargingVulnBanner:"https://ethicalbyte.in/blogs/img/34.webp" 
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
