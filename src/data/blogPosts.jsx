@@ -1851,6 +1851,74 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'jack-dorsey-messaging-app-2025',
+  title: 'Jack Dorsey Launches Blockchain-Based Messaging App Without Internet',
+  date: '2025-07-15',
+  author: 'EthicalByte',
+  summary: 'Twitter co-founder Jack Dorsey unveiled a decentralized messaging app that works without internet, using blockchain & alternative connectivity to enable communication anywhere.',
+  tags: ['blockchain', 'messaging', 'decentralized', 'jack dorsey', 'innovation'],
+  imageKey: 'jackMessagingAppBanner',
+  content: `
+    <div style="background-color:#f4f9ff;padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <div style="text-align:center;"><br>
+        <h3 style="color:#1a1a1a;">📡 Jack Dorsey’s New Messaging App Works Without Internet</h3><br>
+        <p style="font-style:italic;">Blockchain + radio waves + satellites = communication, anywhere.</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#007bff;">🌟 The Big Reveal</h4><br>
+        <p>Jack Dorsey, co-founder of Twitter and a prominent figure in blockchain innovation, has launched a **decentralized messaging app** that doesn’t rely on traditional internet infrastructure. Instead, the app lets users communicate using radio waves, local Wi-Fi, or even satellite links.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <strong>🚀 What Makes It Special?</strong>
+        <ul style="margin-top:10px;">
+          <li>Works without internet – perfect for remote areas or during outages.</li>
+          <li>Leverages blockchain to ensure decentralization and security.</li>
+          <li>Uses radio, Wi-Fi mesh, and satellites for flexible connectivity.</li>
+          <li>Bypasses traditional telecom and government censorship.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#007bff;">🔗 Why This Matters</h4><br>
+        <p>In many parts of the world, access to reliable internet is a privilege — and in some regions, information flow is deliberately restricted. A decentralized messaging platform like this promotes:</p>
+        <ul>
+          <li>🌍 Uninterrupted communication during natural disasters & crises.</li>
+          <li>🕊️ Freedom from censorship & centralized control.</li>
+          <li>🤝 Building resilient, local & global communities.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+        <h4 style="color:#155724;">✅ Who Can Benefit?</h4><br>
+        <ul>
+          <li>People in rural or underserved areas with no internet coverage.</li>
+          <li>Activists & journalists operating in censored regions.</li>
+          <li>Emergency responders needing reliable backup communication channels.</li>
+          <li>Anyone looking for more privacy & autonomy in digital communication.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#007bff;">🛠️ How Does It Work?</h4><br>
+        <p>The app combines blockchain technology (for decentralized identity & security) with alternative networks such as:</p>
+        <ul>
+          <li>📻 Radio frequencies to send data point-to-point locally.</li>
+          <li>📶 Wi-Fi mesh networks connecting nearby devices.</li>
+          <li>🛰️ Satellite uplinks to cover vast distances when nothing else is available.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#007bff;">🚀 Looking Ahead</h4><br>
+        <p>This app represents a step toward internet independence — empowering people to stay connected regardless of where they are or what barriers exist. Like all disruptive innovations, its success will depend on adoption, regulation, and ongoing development.</p>
+      </section>
+
+    </div>
+  `
 }
 
 
