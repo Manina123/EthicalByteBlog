@@ -1619,7 +1619,7 @@ fileInput.addEventListener('change', () =&gt; {
       </section>
 
     </div>
-  `},{id:"louis-vuitton-data-breach-2025",title:"Louis Vuitton Data Breach Exposes Customer Data Across Several Countries",date:"2025-07-15",author:"EthicalByte",summary:"Luxury brand Louis Vuitton disclosed a data breach affecting customers in multiple countries, including nearly 143,000 residents in Turkey, after a third-party service provider account was compromised.",tags:["data breach","louis vuitton","luxury brand","third-party risk","customer privacy"],imageKey:"louisVuittonBreachBanner",content:`
+  `},{id:"louis-vuitton-data-breach-2025",title:"Louis Vuitton Data Breach Exposes Customer Data Across Several Countries",date:"2025-07-16",author:"EthicalByte",summary:"Luxury brand Louis Vuitton disclosed a data breach affecting customers in multiple countries, including nearly 143,000 residents in Turkey, after a third-party service provider account was compromised.",tags:["data breach","louis vuitton","luxury brand","third-party risk","customer privacy"],imageKey:"louisVuittonBreachBanner",content:`
     <div style="background-color:#f4f9ff;padding:20px;border-radius:12px;border:1px solid #ddd;">
 
       <div style="text-align:center;"><br>
