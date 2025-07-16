@@ -35,7 +35,8 @@
       nipponSteelBreachBanner: "https://ethicalbyte.in/blogs/img/32.webp",
       ntroPhishingBanner: "https://ethicalbyte.in/blogs/img/33.webp",
       evChargingVulnBanner:"https://ethicalbyte.in/blogs/img/34.webp",
-      jackMessagingAppBanner: "https://ethicalbyte.in/blogs/img/35.webp"
+      jackMessagingAppBanner: "https://ethicalbyte.in/blogs/img/35.webp",
+      louisVuittonBreachBanner: "https://ethicalbyte.in/blogs/img/36.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
