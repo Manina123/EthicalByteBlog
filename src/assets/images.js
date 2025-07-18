@@ -38,7 +38,8 @@
       jackMessagingAppBanner: "https://ethicalbyte.in/blogs/img/35.webp",
       louisVuittonBreachBanner: "https://ethicalbyte.in/blogs/img/36.webp",
       oracleJuly2025PatchBanner: "https://ethicalbyte.in/blogs/img/37.webp",
-      bciCybersecurityBanner: "https://ethicalbyte.in/blogs/img/38.webp"
+      bciCybersecurityBanner: "https://ethicalbyte.in/blogs/img/38.webp",
+      mcdonaldsAIHiringBreachBanner: "https://ethicalbyte.in/blogs/img/39.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
