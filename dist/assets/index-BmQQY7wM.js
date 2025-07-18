@@ -1752,12 +1752,12 @@ fileInput.addEventListener('change', () =&gt; {
       </section>
 
     </div>
-  `},{id:"bci-cybersecurity-july-2025",title:"🧠 Securing the Mind-Machine Highway: The Urgent Need for BCI Cybersecurity",date:"2025-07-17",author:"Annika Dubey & Dr. Neetha Kala",summary:"BCIs open the brain to the digital world — and to cyberattacks. This blog explores how to secure neural interfaces against unprecedented risks and build a neuro-secure future.",tags:["BCI","brain-computer interfaces","cybersecurity","neurosecurity","future tech"],imageKey:"bciCybersecurityBanner",content:`
+  `},{id:"bci-cybersecurity-july-2025",title:"🧠 Securing the Mind-Machine Highway: The Urgent Need for BCI Cybersecurity",date:"2025-07-17",author:"Annika Dubey & Dr. Neetha S S",summary:"BCIs open the brain to the digital world — and to cyberattacks. This blog explores how to secure neural interfaces against unprecedented risks and build a neuro-secure future.",tags:["BCI","brain-computer interfaces","cybersecurity","neurosecurity","future tech"],imageKey:"bciCybersecurityBanner",content:`
     <div style="background-color:#f4f9ff;padding:20px;border-radius:12px;border:1px solid #ddd;">
 
       <div style="text-align:center;"><br>
         <h3 style="color:#1a1a1a;">🧠 Securing the Mind-Machine Highway: The Urgent Need for BCI Cybersecurity</h3><br>
-        <p style="font-style:italic;">By Annika Dubey & Dr. Neetha Kala | July 2025</p>
+        <p style="font-style:italic;">By <a href="https://www.linkedin.com/in/annika-dubey-818060261/">Annika Dubey</a> & <a href="https://www.linkedin.com/in/dr-neetha-kala-463484248/">Dr. Neetha S S | Christ University </p>
       </div>
 
       <section style="margin-top:20px;">
