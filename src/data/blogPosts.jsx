@@ -2238,7 +2238,100 @@ fileInput.addEventListener('change', () =&gt; {
       
     </div>
   `
+},{
+  id: 'blockchain-decentralized-threat-intelligence-2025',
+  title: '🔗 Blockchain-Enabled Decentralized Threat Intelligence Sharing: When Trust Is the Target, Decentralization Is the Shield',
+  date: '2025-07-19',
+  author: 'Sriniketh Sudheendra & Dr. Neetha S.S',
+  summary: 'In an era where cyberattacks move faster than defenses, traditional threat intelligence systems are failing. This blog explores how blockchain-powered decentralized intelligence sharing provides the speed, resilience, and trust needed to outsmart attackers.',
+  tags: ['blockchain', 'threat intelligence', 'cybersecurity', 'decentralization', 'trust'],
+  imageKey: 'blockchainThreatIntelBanner',
+  content: `
+    <div style="background-color:#f6f8fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <div style="text-align:center;"><br>
+        <h3 style="color:#1a1a1a;">🔗 Blockchain-Enabled Decentralized Threat Intelligence Sharing</h3><br>
+        <p style="font-style:italic;">When trust is under attack, decentralization becomes the shield.</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#e63946;">🌐 Why We Need a New Approach</h4><br>
+        <p>Modern cyberattacks don’t respect organizational boundaries. Ransomware gangs, state-sponsored groups, and hacktivists share tools and information in underground forums — collaborating faster than defenders can react. Meanwhile, defenders remain siloed, reluctant to share threat intelligence due to privacy, compliance, and competitive concerns.</p>
+        <p>This mismatch creates a dangerous gap: while attackers operate like a swarm, defenders operate like islands.</p>
+        <p>It’s time for defenders to adopt a more collaborative, decentralized model to keep pace with threats.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <h4 style="color:#856404;">🚩 Shortcomings of Centralized Threat Intelligence</h4><br>
+        <ul>
+          <li>⏳ <strong>Latency:</strong> Central authorities take too long to validate, sanitize, and share intelligence — attackers don’t wait.</li>
+          <li>🔒 <strong>Trust Deficit:</strong> Many organizations fear reputational or legal consequences if they share sensitive data openly.</li>
+          <li>🎯 <strong>Single Point of Failure:</strong> Centralized systems become juicy targets for attackers.</li>
+          <li>🚪 <strong>Information Bottlenecks:</strong> Valuable local intelligence may never reach the broader community.</li>
+          <li>🧊 <strong>Rigid Hierarchies:</strong> Centralized bodies may prioritize certain sectors or geographies over others.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#457b9d;">🔗 How Blockchain Solves These Problems</h4><br>
+        <p>Blockchain technology offers a secure, tamper-proof, and transparent way to share threat intelligence without needing to rely on a single authority.</p>
+        <ul>
+          <li>🌍 <strong>Decentralization:</strong> Every node (organization, researcher, sensor) contributes & accesses data independently.</li>
+          <li>📜 <strong>Immutability:</strong> Once threat data is recorded — e.g., malicious URLs, IPs, malware hashes — it cannot be altered or deleted.</li>
+          <li>🔐 <strong>Transparency with Privacy:</strong> Blockchain can allow sharing of metadata or anonymized indicators while keeping sensitive internal details hidden.</li>
+          <li>⚡ <strong>Real-Time Sharing:</strong> Participants can view new indicators as soon as they’re published on the chain, enabling faster response.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+        <h4 style="color:#155724;">📈 Real-World Success: The Cyber Shield Collective</h4><br>
+        <p>In 2024, 50 global banks formed the <strong>Cyber Shield Collective</strong> — a private blockchain-based threat intelligence network. Within six months, they:</p>
+        <ul>
+          <li>📉 Reduced phishing attacks by 38%.</li>
+          <li>🔗 Improved response times to emerging threats by 60%.</li>
+          <li>📝 Created a tamper-proof audit trail for regulators and forensic teams.</li>
+        </ul>
+        <p>This initiative proved that decentralized sharing is not just possible — it’s powerful.</p>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#007bff;">🪙 Beyond Banking: Where Else Can This Help?</h4><br>
+        <ul>
+          <li>🏥 <strong>Healthcare:</strong> Share indicators of ransomware or medical device vulnerabilities across hospitals.</li>
+          <li>🏢 <strong>Critical Infrastructure:</strong> Energy, transportation, and water sectors can collaboratively defend against nation-state actors.</li>
+          <li>🎓 <strong>Academia & Research:</strong> Universities and labs can publish findings securely while maintaining attribution.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#e7f1ff;padding:15px;border-radius:8px;">
+        <h4 style="color:#1a73e8;">💡 How to Get Started</h4><br>
+        <ul>
+          <li>✅ Evaluate your risk appetite and compliance requirements.</li>
+          <li>✅ Join or form a consortium of trusted peers.</li>
+          <li>✅ Use permissioned blockchains for sensitive environments.</li>
+          <li>✅ Develop APIs & automation to feed intelligence directly into your SOC (Security Operations Center).</li>
+          <li>✅ Train staff to understand blockchain concepts and security controls.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#e63946;">📣 Final Thoughts</h4><br>
+        <p>The future of cybersecurity depends on collaboration. Blockchain gives us the tools to collaborate without fear — to share without losing privacy — and to fight back against attackers who already act collectively.</p>
+        <blockquote style="border-left:4px solid #007bff;padding-left:10px;">“When trust is decentralized, resilience becomes inevitable.”</blockquote>
+        <p>We are entering an era where no single entity can defend itself alone. Together, armed with technology and trust, we can close the gap between attacker and defender — one block at a time.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#f1f1f1;padding:15px;border-radius:8px;">
+        <h4 style="color:#555;">✍️ About the Authors</h4><br>
+        <p><strong>Sriniketh Sudheendra</strong> is a BCA student at Christ University focusing on cybersecurity and emerging blockchain technologies.<br>
+        <strong>Dr. Neetha S.S</strong> is an Assistant Professor of Computer Science at Christ University, specializing in cybersecurity, AI, and digital forensics. Together, they bring academic rigor and fresh insight into blockchain’s role in cybersecurity.</p>
+      </section>
+
+    </div>
+  `
 }
+
+
 
 
 
