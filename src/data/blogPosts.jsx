@@ -2336,7 +2336,7 @@ fileInput.addEventListener('change', () =&gt; {
   author: 'EthicalByte',
   summary: 'The European Data Protection Board has launched a sweeping investigation into TikTok’s cross-border data practices. The outcome could reshape privacy enforcement and redefine global data flows.',
   tags: ['TikTok', 'Data Privacy', 'GDPR', 'EU Regulations', 'China Data', 'Cybersecurity', 'Cross-Border'],
-  imageKey: 'tiktokEUPrivacyBanner',
+  imageKey: 'tiktokEUPrivacyBanner', 
   content: `
     <div style="background-color:#f9f9f9;padding:20px;border-radius:12px;border:1px solid #ddd;">
 
