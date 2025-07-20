@@ -1984,7 +1984,7 @@ fileInput.addEventListener('change', () =&gt; {
       </section>
 
     </div>
-  `},{id:"tiktok-eu-privacy-investigation-2025",title:"📄 TikTok Faces Fresh EU Privacy Investigation Over China Data Transfers",date:"2025-07-19",author:"EthicalByte",summary:"The European Data Protection Board has launched a sweeping investigation into TikTok’s cross-border data practices. The outcome could reshape privacy enforcement and redefine global data flows.",tags:["TikTok","Data Privacy","GDPR","EU Regulations","China Data","Cybersecurity","Cross-Border"],imageKey:"tiktokEUPrivacyBanner",content:`
+  `},{id:"tiktok-eu-privacy-investigation-2025",title:"📄 TikTok Faces Fresh EU Privacy Investigation Over China Data Transfers",date:"2025-07-20",author:"EthicalByte",summary:"The European Data Protection Board has launched a sweeping investigation into TikTok’s cross-border data practices. The outcome could reshape privacy enforcement and redefine global data flows.",tags:["TikTok","Data Privacy","GDPR","EU Regulations","China Data","Cybersecurity","Cross-Border"],imageKey:"tiktokEUPrivacyBanner",content:`
     <div style="background-color:#f9f9f9;padding:20px;border-radius:12px;border:1px solid #ddd;">
 
       <div style="text-align:center;"><br>

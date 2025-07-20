@@ -2332,7 +2332,7 @@ fileInput.addEventListener('change', () =&gt; {
 },{
   id: 'tiktok-eu-privacy-investigation-2025',
   title: '📄 TikTok Faces Fresh EU Privacy Investigation Over China Data Transfers',
-  date: '2025-07-19',
+  date: '2025-07-20',
   author: 'EthicalByte',
   summary: 'The European Data Protection Board has launched a sweeping investigation into TikTok’s cross-border data practices. The outcome could reshape privacy enforcement and redefine global data flows.',
   tags: ['TikTok', 'Data Privacy', 'GDPR', 'EU Regulations', 'China Data', 'Cybersecurity', 'Cross-Border'],
