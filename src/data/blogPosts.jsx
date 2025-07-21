@@ -2402,7 +2402,69 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'china-massistant-phone-surveillance-2025',
+  title: '📱 China’s “Massistant” Tool Secretly Extracts Data From Phones at the Border',
+  date: '2025-07-21',
+  author: 'EthicalByte',
+  summary: 'A shocking report reveals that Chinese border police are using a secretive tool, Massistant, to silently extract GPS, messages, and even encrypted chats from visitors’ phones — raising global privacy alarms.',
+  tags: ['China', 'Massistant', 'Privacy', 'Surveillance', 'Border Security', 'Cybersecurity'],
+  imageKey: 'massistantSurveillanceBanner',
+  content: `
+    <div style="background-color:#f8f9fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <div style="text-align:center;"><br>
+        <h3 style="color:#1a1a1a;">📱 China’s “Massistant” Tool Secretly Extracts Data From Phones at the Border</h3><br>
+        <p style="font-style:italic;">If your phone crosses the border, so does your privacy.</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#e63946;">🔥 What Happened?</h4><br>
+        <p>According to a recent <a href="https://thehackernews.com/2025/07/chinas-massistant-tool-secretly.html" target="_blank">investigation</a>, China’s border police have been deploying a covert tool called <strong>Massistant</strong> to extract sensitive data from travelers’ phones during inspections.</p>
+        <p>This tool silently installs itself, scrapes the device for GPS history, Signal chats, text messages, contacts, and photos — and then disappears without a trace.</p>
+        <p>While currently known to target Android devices, researchers fear that **iPhones could be next**.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <h4 style="color:#856404;">🔍 Why It Matters</h4><br>
+        <ul>
+          <li>📍 <strong>Invasive Surveillance:</strong> Users are unaware their data has been harvested.</li>
+          <li>🕵️ <strong>Targets Everyone:</strong> Not just suspects — ordinary travelers are exposed.</li>
+          <li>🔒 <strong>Signal Compromised:</strong> Even secure messaging apps like Signal may be decrypted if local data is copied.</li>
+        </ul>
+        <p>Massistant shows just how far state surveillance can reach when physical access to devices is involved.</p>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#457b9d;">📈 How Does It Work?</h4><br>
+        <ul>
+          <li>⚡ Installs silently while the device is in border agents’ possession.</li>
+          <li>📂 Crawls through files, app data, GPS logs, chat histories, and downloads copies.</li>
+          <li>🧹 Wipes itself clean from the phone after completing the operation, leaving no evidence behind.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+        <h4 style="color:#155724;">🛡️ What Can You Do?</h4><br>
+        <ul>
+          <li>✅ Travel with a clean device or “travel phone” with minimal personal data.</li>
+          <li>✅ Log out and uninstall sensitive apps before entering high‑risk regions.</li>
+          <li>✅ Use full‑device encryption & strong passcodes.</li>
+          <li>✅ Avoid unlocking your phone if not legally required to do so.</li>
+        </ul>
+        <p>Awareness and preparation can significantly reduce the risks to your digital privacy.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#e7f1ff;padding:15px;border-radius:8px;">
+        <h4 style="color:#1a73e8;">🌟 Final Thoughts</h4><br>
+        <blockquote style="border-left:4px solid #007bff;padding-left:10px;">“In an age where your phone holds your life, crossing a border shouldn’t mean surrendering your privacy.”</blockquote>
+        <p>Massistant serves as a wake‑up call about the fragility of privacy when physical device access is involved. It’s crucial to take proactive steps and stay vigilant in an increasingly monitored world.</p>
+      </section>
+
+    </div>
+  `
 }
+
 
 
 
