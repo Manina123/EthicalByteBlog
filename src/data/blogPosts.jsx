@@ -2463,7 +2463,66 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'apt41-africa-sharepoint-c2-july-2025',
+  title: '🕵️ China-linked APT41 Hacks African Governments Using SharePoint as C2',
+  date: '2025-07-22',
+  author: 'EthicalByte',
+  summary : 'APT41, a China-backed hacking group, breached African government IT networks by abusing internal SharePoint servers as command‑and‑control infrastructure, using stolen admin credentials, DLL sideloading, and fake GitHub domains.',
+  tags: ['APT41', 'China', 'Africa', 'SharePoint', 'CyberEspionage', 'ThreatIntel'],
+  imageKey: 'apt41AfricaSharePointBanner',
+  content: `
+    <div style="background-color:#f5f7fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <div style="text-align:center;"><br>
+        <h3 style="color:#1a1a1a;">🕵️ China-linked APT41 Hacks African Governments Using SharePoint as C2</h3><br>
+        <p style="font-style:italic;">Even trusted internal servers can become a weapon in the hands of attackers.</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#e63946;">🔥 What Happened?</h4><br>
+        <p>A new investigation has revealed that <strong>APT41</strong> — a Chinese state‑linked advanced persistent threat group — infiltrated African government networks using creative and stealthy techniques.</p>
+        <p>Most notably, they abused internal <strong>Microsoft SharePoint servers</strong> as command‑and‑control (C2) nodes to control malware and exfiltrate data while blending into legitimate traffic.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <h4 style="color:#856404;">🧰 Tactics & Techniques</h4><br>
+        <ul>
+          <li>🔑 Stolen administrator credentials for initial access.</li>
+          <li>🖇️ <strong>DLL sideloading</strong> — loading malicious code via trusted apps.</li>
+          <li>🌐 <strong>Fake GitHub domains</strong> — masking malicious traffic as legitimate developer activity.</li>
+          <li>🗃️ Exploiting internal SharePoint servers as covert C2 infrastructure.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#457b9d;">🌍 Why Africa?</h4><br>
+        <p>This campaign highlights Africa’s growing geopolitical and economic significance. APT41 targeted sensitive policy documents, trade negotiations, and natural resource data — signaling heightened Chinese interest in the region.</p>
+        <p>This is one of the few publicly reported APT41 campaigns focused on Africa, showing that no region is safe from cyber‑espionage.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+        <h4 style="color:#155724;">🛡️ What Should Organizations Do?</h4><br>
+        <ul>
+          <li>✅ Rotate and harden admin credentials; enable MFA.</li>
+          <li>✅ Monitor SharePoint servers and internal web traffic for anomalies.</li>
+          <li>✅ Block or closely monitor traffic to lookalike GitHub domains.</li>
+          <li>✅ Implement whitelisting and restrict DLL execution paths.</li>
+          <li>✅ Conduct regular threat hunting exercises based on APT41 TTPs.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#e7f1ff;padding:15px;border-radius:8px;">
+        <h4 style="color:#1a73e8;">🌟 Final Thoughts</h4><br>
+        <blockquote style="border-left:4px solid #007bff;padding-left:10px;">“When even your internal tools are suspect, vigilance inside the perimeter becomes critical.”</blockquote>
+        <p>APT41’s latest activity is a stark reminder that internal platforms like SharePoint are no longer “safe zones.” Organizations must adopt a <strong>zero‑trust mindset</strong> and proactively monitor their networks to stay ahead of sophisticated threats.</p>
+      </section>
+
+    </div>
+  `
 }
+
+
 
 
 
