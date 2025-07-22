@@ -2520,6 +2520,73 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'coindcx-44m-internal-breach-july-2025',
+  title: '🔐 CoinDCX Suffers $44M Internal Fund Breach — Customer Funds Remain Safe',
+  date: '2025-07-23',
+  author: 'EthicalByte',
+  summary: 'CoinDCX, one of India’s leading crypto exchanges, suffered a $44 million internal breach from an operational account. No customer funds were affected, thanks to their secure cold wallet setup and swift incident response.',
+  tags: ['CoinDCX', 'Crypto Breach', 'Operational Wallet', 'Web3 Security', 'India', 'Centralized Exchange'],
+  imageKey: 'coindcxBreachBanner',
+  content: `
+    <div style="background-color:#f8f9fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
+      
+      <div style="text-align:center;"><br>
+        <h3 style="color:#1a1a1a;">🔐 CoinDCX Suffers $44M Internal Fund Breach — Customer Funds Remain Safe</h3><br>
+        <p style="font-style:italic;">Proof that even non-customer wallets need bulletproof security.</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#e63946;">🚨 What Happened?</h4><br>
+        <p>CoinDCX confirmed a <strong>sophisticated breach</strong> involving one of its internal operational wallets — not linked to customer holdings — leading to a loss of approximately <strong>$44 million (₹368–378 crore)</strong>. This wallet was specifically used to maintain liquidity across partner exchanges.</p>
+        <p>Investigators identified unauthorized transactions routed through obfuscation platforms like <strong>Tornado Cash</strong>, with assets eventually diverted to <strong>Ethereum and Solana wallets</strong>.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <h4 style="color:#856404;">🔍 Discovery & Response Timeline</h4><br>
+        <ul>
+          <li>🕵️ Blockchain investigators <strong>Cyvers</strong> and <strong>ZachXBT</strong> flagged the anomaly through on-chain behavior monitoring.</li>
+          <li>🔐 CoinDCX <strong>immediately isolated</strong> the compromised account, suspended the affected Web3 wallet functionality, and launched a full forensic audit.</li>
+          <li>💰 All trading activity, customer withdrawals, and INR deposits remained fully operational during the incident.</li>
+          <li>💼 The company announced that <strong>internal reserves</strong> (treasury) will be used to absorb the losses, with <strong>zero impact to users</strong>.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h4 style="color:#457b9d;">📢 Official Statement Highlights</h4><br>
+        <p>CoinDCX reaffirmed its commitment to transparency and security, stating:</p>
+        <blockquote style="border-left:4px solid #007bff;padding-left:10px;">“While this incident impacted a specific operational wallet, all customer assets were and remain completely safe in our cold storage system.”</blockquote>
+        <ul>
+          <li>✅ Working closely with <strong>CERT-In</strong> and global cybersecurity firms to trace and recover assets.</li>
+          <li>✅ Initiated a new <strong>bug bounty program</strong> to crowdsource vulnerabilities from ethical hackers.</li>
+          <li>✅ Promised regular updates as the investigation progresses.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#d1ecf1;padding:15px;border-radius:8px;">
+        <h4 style="color:#0c5460;">📉 Context & Industry Comparison</h4><br>
+        <p>This ranks as India’s <strong>second-largest exchange breach</strong>, after the infamous <strong>$235 million WazirX hack</strong> in 2024. Though smaller, the incident raises broader concerns around how internal wallets are managed across centralized exchanges.</p>
+        <p>It underscores a growing trend: <strong>customer funds might be safe, but CEX infrastructure remains vulnerable</strong> to gaps in internal privilege control, wallet isolation, and real-time monitoring.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+        <h4 style="color:#155724;">🛡️ Key Takeaways</h4><br>
+        <ul>
+          <li>✅ <strong>Cold wallet separation worked</strong>: Customer assets were never exposed or compromised.</li>
+          <li>⚠️ <strong>Hot & operational wallets require layered monitoring and privilege access controls.</strong></li>
+          <li>💬 <strong>Communication was swift</strong>, public, and transparent — helping protect the company’s trust score.</li>
+          <li>🔧 <strong>Bug bounty initiative</strong> shows CoinDCX is actively learning and adapting post-incident.</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#e7f1ff;padding:15px;border-radius:8px;">
+        <h4 style="color:#1a73e8;">🌐 Final Reflection</h4><br>
+        <p>As centralized exchanges evolve, so do the attack surfaces. Even systems designed for internal liquidity carry major risks when not monitored rigorously. CoinDCX’s breach may serve as a benchmark moment for CEXs worldwide to reassess internal wallet security and develop stricter frameworks for incident detection.</p>
+        <blockquote style="border-left:4px solid #007bff;padding-left:10px;">“In Web3, your weakest wallet is your loudest breach.”</blockquote>
+      </section>
+
+    </div>
+  `
 }
 
 
