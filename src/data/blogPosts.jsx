@@ -2587,7 +2587,79 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'cyber-heist-stacc-attack-july-2025',
+  title: '💰 Cyber Heist Chronicles: The $1.9 Million "Stacc Attack"',
+  date: '2025-07-25',
+  author: 'EthicalByte',
+  summary: 'A Canadian hacker named “StaccOverflow” (Jarett Dunn) exploited a Solana DeFi app, live-streaming a $1.9M flash loan hack. The event triggered debates on ethics, law, and the evolution of DeFi security.',
+  tags: ['DeFi', 'Flash Loan', 'Crypto Crime', 'StaccOverflow', 'Pump Fun', 'Solana', 'Smart Contract Hack'],
+  imageKey: 'staccAttackBanner',
+  content: `
+    <div style="background:#fdfdfd;padding:24px;border-radius:12px;border:1px solid #e0e0e0;font-family:sans-serif;">
+
+      <div style="text-align:center;margin-bottom:20px;">
+        <h2 style="color:#1a1a1a;">💰 Cyber Heist Chronicles: The $1.9 Million "Stacc Attack"</h2>
+        <p style="font-style:italic;">A DeFi exploit that blurs the line between ethical hacking and criminality — and it happened in broad digital daylight.</p>
+      </div>
+
+      <section>
+        <h3 style="color:#e63946;">📉 What Actually Happened?</h3>
+        <p>Canadian software developer <strong>Jarett Dunn</strong>, known by the alias <strong>“StaccOverflow”</strong>, carried out a <strong>$1.9 million flash loan exploit</strong> against the Solana-based meme token platform <strong>Pump Fun</strong>. What’s extraordinary is that he <em>live-streamed</em> and <em>tweeted</em> the entire event in real time — all under the claim of “ethical hacking.”</p>
+        <ul>
+          <li>⚠️ Exploited a smart contract vulnerability involving flash loan logic</li>
+          <li>⏱️ Executed the attack in seconds</li>
+          <li>🌪️ Obfuscated fund movement via Tornado Cash</li>
+          <li>🎙️ Livestreamed and tweeted every step as a “public bug bounty”</li>
+          <li>🚓 Arrested within hours in British Columbia</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:16px;border-radius:8px;">
+        <h3 style="color:#856404;">⚖️ Ethical Hacking... or Crime?</h3>
+        <p>Stacc claimed the exploit was to prove a point — that <strong>Pump Fun</strong> was insecure. He argued it was a “white-hat action,” even referring to the funds as a <em>bounty</em> and saying he was doing the project a favor.</p>
+        <p>But authorities didn’t see it that way. His lack of disclosure, immediate financial gain, and use of mixers were all flagged as criminal behavior. He was arrested without bail, pending cybercrime charges.</p>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h3 style="color:#2a9d8f;">🛠️ Technical Breakdown</h3>
+        <p>Flash loans in DeFi allow users to borrow huge amounts of crypto instantly and repay them within the same transaction. Stacc used this mechanism to manipulate token pricing, buying undervalued tokens and reselling at inflated values — effectively draining liquidity.</p>
+        <ul>
+          <li>🧠 Vulnerability exploited in Pump Fun’s smart contract pricing model</li>
+          <li>🔄 Flash loan loop executed on-chain within seconds</li>
+          <li>🧩 Asset laundering via Tornado Cash</li>
+          <li>📉 Liquidity pools depleted, price manipulation confirmed</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:16px;border-radius:8px;">
+        <h3 style="color:#155724;">🔐 What This Means for DeFi</h3>
+        <ul>
+          <li>🚨 Flash loans remain a top attack vector for under-secured smart contracts</li>
+          <li>📜 Projects must implement and enforce <strong>bug bounty programs</strong> and <strong>disclosure channels</strong></li>
+          <li>👥 There’s no legal gray area when millions are stolen — intent does not excuse impact</li>
+          <li>🔍 The DeFi ecosystem urgently needs better <strong>on-chain forensics</strong> and exploit alerts</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h3 style="color:#264653;">🎙️ Darknet Diaries Feature</h3>
+        <p>The entire incident has been covered in <strong>Episode 152</strong> of <a href="https://darknetdiaries.com/episode/152/" target="_blank">Darknet Diaries</a>, breaking down the event, motivations, technology, and arrest. Highly recommended for cybersecurity pros and enthusiasts alike.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#e7f1ff;padding:16px;border-radius:8px;">
+        <h3 style="color:#1a73e8;">🧠 Final Thoughts</h3>
+        <blockquote style="border-left:4px solid #007bff;padding-left:10px;margin:10px 0;">
+          “In DeFi, it's not just code that gets exploited — it’s trust.”
+        </blockquote>
+        <p>The “Stacc Attack” is a cautionary tale. Transparency is powerful, but so is accountability. While some may applaud the guts it took to livestream a heist, the law doesn’t — and won’t — applaud intent without consent. Ethical hacking must walk a razor-thin line. Are we ready to redefine what that line even looks like in Web3?</p>
+      </section>
+
+    </div>
+  `
 }
+
+
 
 
 

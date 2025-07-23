@@ -44,7 +44,8 @@
       tiktokEUPrivacyBanner: "https://ethicalbyte.in/blogs/img/41.webp",
       massistantSurveillanceBanner: "https://ethicalbyte.in/blogs/img/42.webp",
       apt41AfricaSharePointBanner: "https://ethicalbyte.in/blogs/img/43.webp",
-      coindcxBreachBanner: "https://ethicalbyte.in/blogs/img/44.webp"
+      coindcxBreachBanner: "https://ethicalbyte.in/blogs/img/44.webp",
+      staccAttackBanner: "https://ethicalbyte.in/blogs/img/45.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
