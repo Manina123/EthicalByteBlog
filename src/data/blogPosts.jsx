@@ -2590,7 +2590,7 @@ fileInput.addEventListener('change', () =&gt; {
 },{
   id: 'cyber-heist-stacc-attack-july-2025',
   title: '💰 Cyber Heist Chronicles: The $1.9 Million "Stacc Attack"',
-  date: '2025-07-25',
+  date: '2025-07-24',
   author: 'EthicalByte',
   summary: 'A Canadian hacker named “StaccOverflow” (Jarett Dunn) exploited a Solana DeFi app, live-streaming a $1.9M flash loan hack. The event triggered debates on ethics, law, and the evolution of DeFi security.',
   tags: ['DeFi', 'Flash Loan', 'Crypto Crime', 'StaccOverflow', 'Pump Fun', 'Solana', 'Smart Contract Hack'],
