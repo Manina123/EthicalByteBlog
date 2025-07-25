@@ -2657,6 +2657,75 @@ fileInput.addEventListener('change', () =&gt; {
 
     </div>
   `
+},{
+  id: 'usb-cable-hacking-mg-july-2025',
+title: '\ud83c\udf99\ufe0f The USB Cable That Could Hack You: The Story of MG',
+date: '2025-07-25',
+author: 'Cyber Talk Team',
+summary: 'A deep dive into the OMG Cable, a weaponized USB device created by hacker MG, capable of injecting keystrokes, executing remote payloads, and exposing the limits of hardware trust. What looks like a normal cable could be a hacker\'s backdoor.',
+tags: ['Hardware Hacking', 'Cybersecurity', 'OMG Cable', 'MG', 'DEF CON', 'USB Exploits'],
+imageKey: 'usbCableHackingBanner',
+content: `
+  <div style="background:#f9f9f9;padding:24px;border-radius:10px;border:1px solid #ddd;">
+    <div style="text-align:center;margin-bottom:20px">
+      <h2>🔌 The USB Cable That Could Hack You — The Story of MG</h2>
+      <p><i>Published: July 25, 2025 | Author: Cyber Talk Team</i></p>
+    </div>
+
+    <section>
+      <h3>🧠 Meet MG: Hacker Turned Hardware Security Legend</h3>
+      <p>MG is a name that echoes through DEF CON and Black Hat. A brilliant hardware hacker who stunned the cybersecurity world with the creation of the <strong>OMG Cable</strong> — a USB cable that looks normal but behaves like a cyber weapon.</p>
+      <p>The cable can connect over Wi-Fi, impersonate a keyboard (HID), and inject commands or malware in seconds — all while remaining invisible to unsuspecting users.</p>
+    </section>
+
+    <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+      <h3>⚙️ What Makes the OMG Cable So Dangerous?</h3>
+      <ul>
+        <li>✅ <strong>Indistinguishable from standard cables</strong></li>
+        <li>📶 <strong>Wi-Fi Controlled</strong> — attackers can send commands wirelessly</li>
+        <li>🖥️ <strong>Keystroke Injection</strong> — launches attacks within seconds</li>
+        <li>🚫 <strong>Stealth Mode</strong> — leaves virtually no trace on the system</li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;">
+      <h3>📽️ Evolution Timeline of the OMG Cable</h3>
+      <table style="width:100%;border:1px solid #ccc;text-align:left;border-collapse:collapse;">
+        <thead>
+          <tr><th style="border:1px solid #ccc;padding:8px;">Year</th><th style="border:1px solid #ccc;padding:8px;">Development</th></tr>
+        </thead>
+        <tbody>
+          <tr><td style="border:1px solid #ccc;padding:8px;">2019</td><td style="border:1px solid #ccc;padding:8px;">First DIY prototype with Arduino internals</td></tr>
+          <tr><td style="border:1px solid #ccc;padding:8px;">2020</td><td style="border:1px solid #ccc;padding:8px;">DEF CON demo and public awareness</td></tr>
+          <tr><td style="border:1px solid #ccc;padding:8px;">2022</td><td style="border:1px solid #ccc;padding:8px;">Encrypted Wi-Fi payload support added</td></tr>
+          <tr><td style="border:1px solid #ccc;padding:8px;">2023</td><td style="border:1px solid #ccc;padding:8px;">Geo-fencing, kill-switch, delayed triggers introduced</td></tr>
+          <tr><td style="border:1px solid #ccc;padding:8px;">2025</td><td style="border:1px solid #ccc;padding:8px;">USB-C and cross-platform support released</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section style="margin-top:20px;background:#e7f1ff;padding:15px;border-radius:8px;">
+      <h3>💡 Key Takeaways</h3>
+      <ul>
+        <li>🧠 Even a cable can become a cybersecurity risk</li>
+        <li>🚷 Never trust peripherals from unknown sources</li>
+        <li>🔐 Implement USB access policies on enterprise devices</li>
+        <li>🧰 Red teams are using OMG Cable for realistic simulations</li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;">
+      <h3>🎧 Want More?</h3>
+      <p>MG’s story and tools are discussed in depth in <strong>Darknet Diaries Ep. 154: “The Cable”</strong>. It explores how hardware trust has become a battleground for cybersecurity experts.</p>
+    </section>
+
+    <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+      <h3>🔐 Final Thoughts</h3>
+      <blockquote style="border-left:4px solid #28a745;padding-left:10px;">“In cybersecurity, never assume the harmless is harmless.”</blockquote>
+      <p>The OMG Cable is a wake-up call: If a USB cable can be a hacker’s gateway, what else can be? From firmware to hardware, vigilance is the new default.</p>
+    </section>
+  </div>
+`
 }
 
 
