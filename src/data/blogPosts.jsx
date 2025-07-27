@@ -2661,7 +2661,7 @@ fileInput.addEventListener('change', () =&gt; {
   id: 'usb-cable-hacking-mg-july-2025',
 title: '\ud83c\udf99\ufe0f The USB Cable That Could Hack You: The Story of MG',
 date: '2025-07-25',
-author: 'Cyber Talk Team',
+author: 'Ethicalbyte',
 summary: 'A deep dive into the OMG Cable, a weaponized USB device created by hacker MG, capable of injecting keystrokes, executing remote payloads, and exposing the limits of hardware trust. What looks like a normal cable could be a hacker\'s backdoor.',
 tags: ['Hardware Hacking', 'Cybersecurity', 'OMG Cable', 'MG', 'DEF CON', 'USB Exploits'],
 imageKey: 'usbCableHackingBanner',
@@ -2723,6 +2723,68 @@ content: `
       <h3>🔐 Final Thoughts</h3>
       <blockquote style="border-left:4px solid #28a745;padding-left:10px;">“In cybersecurity, never assume the harmless is harmless.”</blockquote>
       <p>The OMG Cable is a wake-up call: If a USB cable can be a hacker’s gateway, what else can be? From firmware to hardware, vigilance is the new default.</p>
+    </section>
+  </div>
+`
+},{
+  id: 'darknet-diaries-greg-laughing-mantis-ep160-july-2025',
+title: '🎧 Darknet Diaries EP 160 – “Greg” (aka Laughing Mantis)',
+date: '2025-07-27',
+author: 'EthicalByte',
+summary: 'From teenage hacker to InfoSec advocate, Greg Linares—once known as Laughing Mantis—shares his gripping journey through early cybercrime, arrest, and redemption in this must-hear episode of Darknet Diaries.',
+tags: ['Darknet Diaries', 'Hacker Story', 'Youth in Cybersecurity', 'Ethical Hacking', 'Redemption'],
+imageKey: 'laughingMantisBanner',
+content: `
+  <div style="background:#f9f9f9;padding:24px;border-radius:10px;border:1px solid #ddd;">
+    <div style="text-align:center;margin-bottom:20px">
+      <h2>🎧 “Greg” (aka Laughing Mantis)</h2><br>
+      <p><i>Published: July 28, 2025 | Author: EthicalByte</i></p>
+    </div>
+
+    <section>
+      <h3>🔍 Who is Greg Linares?</h3><br>
+      <p>Known in online circles as <strong>Laughing Mantis</strong>, Greg Linares was once one of the youngest hackers arrested in Arizona. His story unfolds in <em>Darknet Diaries EP 160</em>, where he shares his raw and honest journey—from digital defiance to personal redemption.</p>
+    </section>
+
+    <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+      <h3>⚡ Rise, Fall, and Rise Again</h3><br>
+      <ul>
+        <li>🧠 <strong>Early Genius:</strong> Greg started hacking in his early teens, impressing underground forums with his network exploits and manipulation skills.</li>
+        <li>🚔 <strong>Reality Check:</strong> A bold mistake led to his arrest as a teenager—forever changing his life trajectory.</li>
+        <li>🔁 <strong>Reinvention:</strong> Greg now openly discusses the ethics of hacking and helps educate the next generation on responsible infosec practices.</li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;">
+      <h3>💡 Lessons from the Life of Laughing Mantis</h3><br>
+      <ul>
+        <li>⚖️ Talent must be paired with <strong>ethics</strong> and responsibility.</li>
+        <li>🧩 One reckless decision can ripple through a lifetime.</li>
+        <li>🔄 Redemption is real—growth comes from honest reflection and change.</li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+      <h3>🛠️ Actionable Insights</h3><br>
+      <ul>
+        <li>✅ Support youth mentorships in cybersecurity spaces.</li>
+        <li>📚 Encourage ethical coding and digital responsibility education early.</li>
+        <li>🎓 Give second chances—today’s rebel could be tomorrow’s innovator.</li>
+        <li>🧭 Organizations should identify and engage young cyber talent before legal issues occur.</li>
+        <li>🔐 Better collaboration between legal systems and educational institutions can redirect potential into progress.</li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;">
+      <h3>🎯 Final Thoughts</h3><br>
+      <blockquote style="border-left:4px solid #007bff;padding-left:10px;">“Greg’s story isn’t just about hacking—it’s about humanity, healing, and how the infosec world can be a space for growth.”</blockquote>
+      <p>We all make mistakes. Some are bigger than others. But the way we respond, learn, and evolve is what defines us. Greg's journey proves that even the darkest tunnels can lead to brighter outcomes when truth, humility, and guidance are present.</p>
+      <p>As the cybersecurity world continues to evolve, it needs more advocates like Greg—individuals who have walked the path, stumbled, and come back stronger. Their voices carry the weight of experience and the wisdom of hindsight.</p>
+    </section>
+
+    <section style="margin-top:20px;background:#e7f1ff;padding:15px;border-radius:8px;">
+      <h3>🎧 Listen to the Full Story</h3><br>
+      <p>Catch the full episode on <strong>Darknet Diaries – Episode 160: “Greg”</strong> to hear firsthand how a teenage hacker turned his life around and now shapes the future of cybersecurity with integrity and purpose.</p>
     </section>
   </div>
 `
