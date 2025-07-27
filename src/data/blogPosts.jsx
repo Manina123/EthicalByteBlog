@@ -2728,7 +2728,7 @@ content: `
 `
 },{
   id: 'darknet-diaries-greg-laughing-mantis-ep160-july-2025',
-title: '🎧 Darknet Diaries EP 160 – “Greg” (aka Laughing Mantis)',
+title: '🎧 “Greg” (aka Laughing Mantis)',
 date: '2025-07-27',
 author: 'EthicalByte',
 summary: 'From teenage hacker to InfoSec advocate, Greg Linares—once known as Laughing Mantis—shares his gripping journey through early cybercrime, arrest, and redemption in this must-hear episode of Darknet Diaries.',
