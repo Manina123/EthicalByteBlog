@@ -47,7 +47,8 @@
       coindcxBreachBanner: "https://ethicalbyte.in/blogs/img/44.webp",
       staccAttackBanner: "https://ethicalbyte.in/blogs/img/45.webp",
       usbCableHackingBanner: "https://ethicalbyte.in/blogs/img/46.webp",
-      laughingMantisBanner: "https://ethicalbyte.in/blogs/img/47.webp"
+      laughingMantisBanner: "https://ethicalbyte.in/blogs/img/47.webp",
+      allianzBreachBanner: "https://ethicalbyte.in/blogs/img/48.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
