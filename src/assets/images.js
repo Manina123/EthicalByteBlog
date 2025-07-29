@@ -49,7 +49,8 @@
       usbCableHackingBanner: "https://ethicalbyte.in/blogs/img/46.webp",
       laughingMantisBanner: "https://ethicalbyte.in/blogs/img/47.webp",
       allianzBreachBanner: "https://ethicalbyte.in/blogs/img/48.webp",
-      cargoTalonBanner: "https://ethicalbyte.in/blogs/img/49.webp"
+      cargoTalonBanner: "https://ethicalbyte.in/blogs/img/49.webp",
+      vastavAIDeepfakeBanner: "https://ethicalbyte.in/blogs/img/50.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
