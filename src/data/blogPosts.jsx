@@ -2854,7 +2854,76 @@ content: `
   </div>
 `
 
+},
+{
+  id: 'cargo-talon-eaglet-cyber-espionage-russia-july-2025',
+title: '🎯 Operation CargoTalon – EAGLET Backdoor Targets Russian Aerospace Sector',
+date: '2025-07-29',
+author: 'EthicalByte',
+summary: 'A sophisticated cyber‑espionage campaign dubbed Operation CargoTalon used the EAGLET backdoor to infiltrate Russian aerospace organizations, marking a major escalation in state-linked hacking activity.',
+tags: ['Cyber Espionage', 'EAGLET', 'Russian Aerospace', 'Operation CargoTalon', 'UNG0901', 'InfoSec'],
+imageKey: 'cargoTalonBanner',
+content: `
+  <div style="background:#fdfdfd;padding:24px;border-radius:12px;border:1px solid #e2e8f0;font-size:15px;line-height:1.6;color:#1e293b;">
+
+    <div style="text-align:center;margin-bottom:20px">
+      <h2 style="color:#1e293b;">🎯 Operation CargoTalon – EAGLET Backdoor Targets Russian Aerospace</h2><br>
+      <p><i>Published: July 25, 2025 | Author: EthicalByte</i></p>
+    </div>
+
+    <section>
+      <h3 style="color:#1e293b;">🔍 What Happened?</h3><br>
+      <p>Cybersecurity researchers uncovered a stealthy operation—<strong>Operation CargoTalon</strong>—that delivered a sophisticated backdoor named <strong>EAGLET</strong> to compromise Russian aerospace and defense firms. The threat actor behind this is tracked as <strong>UNG0901</strong>.</p>
+      <p>The group relied on phishing lures using transport and logistics themes, tricking users into downloading ZIP files containing Windows shortcut (.lnk) files. These launched PowerShell scripts that executed a fake document and installed EAGLET in the background.</p>
+    </section>
+
+    <section style="margin-top:20px;background:#fffbea;padding:16px;border-radius:10px;">
+      <h3 style="color:#92400e;">🛠️ Attack Mechanics</h3><br>
+      <ul>
+        <li>📎 ZIP Archive includes transport-themed filenames like <em>“TTN‑Reference‑Sheet.zip”</em></li>
+        <li>🔗 LNK file silently runs PowerShell, deploying a decoy Excel file</li>
+        <li>🧬 Injects the <strong>EAGLET</strong> backdoor DLL with shell command and file access capability</li>
+        <li>🌐 Connects to C2 IP: <code>185.225.17.104</code></li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;background:#f8d7da;padding:15px;border-radius:8px;">
+      <h3 style="color:#1e293b;">📊 Why It Matters</h3><br>
+      <ul>
+        <li>🚨 <strong>Target:</strong> High-value defense and aerospace networks</li>
+        <li>🛡️ <strong>Strategic Espionage:</strong> Long-term persistence possible using DLL sideloading</li>
+        <li>🎭 <strong>Disguise:</strong> Using business documents increases phishing success rate</li>
+      </ul>
+      <p>This campaign highlights how cyber‑espionage no longer requires zero-days when attackers exploit human behavior and predictable file structures.</p>
+    </section>
+
+    <section style="margin-top:20px;background:#ecfdf5;padding:16px;border-radius:10px;">
+      <h3 style="color:#047857;">✅ How to Defend</h3><br>
+      <ul>
+        <li>📧 Run phishing simulations with document-based bait</li>
+        <li>🔎 Alert on PowerShell running via Explorer shortcuts</li>
+        <li>🔐 Monitor traffic to suspicious C2 infrastructure</li>
+        <li>📚 Train all employees—not just IT—on threat vector recognition</li>
+      </ul>
+    </section>
+
+    <section style="margin-top:20px;background:#e0f2fe;padding:16px;border-radius:10px;">
+      <h3 style="color:#0369a1;">🌐 Broader Implications</h3><br>
+      <p>Operations like CargoTalon are increasing in frequency, often linked to nation-state actors. Russian, Chinese, North Korean, and other aligned APTs are shifting from destructive malware to <strong>targeted exfiltration and silent persistence</strong>.</p>
+      <p>UNG0901’s methods align with other reported campaigns in the Asia‑Europe corridor. The inclusion of multiple decoy documents also points to multi-sector targeting across transport, defense, and policy organizations.</p>
+    </section>
+
+    <section style="margin-top:20px;">
+      <h3 style="color:#1e293b;">📌 Final Thought</h3><br>
+      <blockquote style="border-left:4px solid #0369a1;padding-left:12px;">"CargoTalon shows us that even logistics paperwork can be weaponized—reminding us that digital warfare thrives on everyday trust."</blockquote>
+      <p>The takeaway? A ZIP file with a familiar name might be the launchpad for state-level intrusion. The key to stopping it is layered defense, proactive awareness, and training that treats every file like a possible threat.</p>
+    </section>
+
+  </div>
+`
 }
+
+
 
 
 
