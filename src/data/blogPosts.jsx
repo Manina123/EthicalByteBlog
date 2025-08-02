@@ -3128,6 +3128,66 @@ content: `
   </div>
 `
 
+},{
+  id: 'microsoft-oauth-tycoon-phishing-august-2025',
+title: '🎯 Fake OAuth Apps + Tycoon Kit: 3,000+ Microsoft 365 Accounts Breached',
+date: '2025-08-02',
+author: 'EthicalByte',
+summary: 'A stealthy phishing campaign using fake Microsoft OAuth apps and the Tycoon kit has compromised thousands of Microsoft 365 accounts. It bypasses MFA and mimics over 50 known brands. This operation is a masterclass in modern-day identity hijacking.',
+tags: ['OAuth', 'Phishing', 'Microsoft 365', 'Tycoon Kit', 'Cybersecurity', 'Adversary-in-the-middle'],
+imageKey: 'microsoftOauthTycoonAttack',
+content: `
+  <div style="background-color:#fbfbfb;padding:20px;border-radius:12px;border:1px solid #e0e0e0;">
+
+    <div style="text-align:center;">
+      <h3 style="color:#1a1a1a;">🎯 Fake OAuth Apps + Tycoon Kit: 3,000+ Microsoft 365 Accounts Breached</h3><br>
+      <p style="font-style:italic;color:#666;">A phishing campaign so advanced, it didn’t need passwords.</p>
+    </div>
+
+    <p>
+      A highly coordinated phishing operation has exploited fake Microsoft OAuth apps combined with the Tycoon phishing kit, breaching over <strong>3,000 users across 900 organizations</strong>. 
+      The attackers bypassed Multi-Factor Authentication (MFA) using adversary-in-the-middle (AiTM) infrastructure and tricked victims into authorizing malicious applications — all while maintaining long-term access to cloud data.
+    </p>
+
+    <p>
+      Victims clicked on phishing emails that led them to spoofed Microsoft login pages. These pages were actually AiTM proxies that intercepted credentials and authentication tokens. 
+      From there, users were prompted to grant OAuth permissions to fake apps cleverly disguised as Microsoft Teams, Adobe, SharePoint, or DocuSign integrations.
+    </p>
+
+    <p>
+      Once the permissions were granted, the attackers didn’t need usernames or passwords anymore. They could access emails, calendars, OneDrive files, and Teams messages — all through OAuth token access. 
+      The Tycoon phishing kit automated much of the infrastructure, handling session hijacking, brand spoofing, and token persistence in a seamless flow.
+    </p>
+
+    <p>
+      Microsoft confirmed that these fake apps were hosted in legitimate cloud environments and even passed basic domain verification. Because they abused the OAuth consent model, victims didn’t realize anything had gone wrong.
+    </p>
+
+    <div style="background:#fff3cd;padding:15px;border-radius:8px;margin-top:20px;border:1px solid #ffecb5;">
+      <p><strong>Highlights:</strong><br>
+      • 3,000+ users affected across 900+ companies<br>
+      • 50+ spoofed app brands used to lure victims<br>
+      • MFA bypassed with adversary-in-the-middle proxies<br>
+      • Access granted via consent to fake OAuth apps<br>
+      • Attackers used token refresh mechanisms to maintain persistence<br>
+      </p>
+    </div>
+
+    <p style="margin-top:20px;">
+      This is a critical lesson for defenders: Cloud security is not just about strong passwords or even MFA anymore. It’s about understanding how OAuth scopes and token lifetimes work, auditing what applications users are authorizing, and restricting third-party app access by default.
+    </p>
+
+    <p>
+      Organizations are advised to review tenant-wide OAuth policies, restrict user consent, and regularly scan for anomalous cloud app activity. User education around fake app consent requests is now as vital as phishing awareness itself.
+    </p>
+
+    <p style="margin-top:20px;">
+      This campaign is one of the most sophisticated examples of phishing-as-a-service we’ve seen in 2025 — stealthy, brand-polished, and identity-focused. It proves one thing: attackers no longer just want your credentials. They want your trust.
+    </p>
+
+  </div>
+`
+
 }
 
 

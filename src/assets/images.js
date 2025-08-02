@@ -52,7 +52,8 @@
       cargoTalonBanner: "https://ethicalbyte.in/blogs/img/49.webp",
       vastavAIDeepfakeBanner: "https://ethicalbyte.in/blogs/img/50.webp",
       quantumBitcoinBanner: "https://ethicalbyte.in/blogs/img/51.webp",
-      nigeriaAICybersecurityBanner: "https://ethicalbyte.in/blogs/img/52.webp"
+      nigeriaAICybersecurityBanner: "https://ethicalbyte.in/blogs/img/52.webp",
+      microsoftOauthTycoonAttack: "https://ethicalbyte.in/blogs/img/53.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
