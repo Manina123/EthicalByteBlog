@@ -3255,7 +3255,7 @@ content: `
   id: "nvidia-triton-ai-rce-2025",
   title: "NVIDIA Triton AI Servers Can Be Hijacked — No Login Needed",
   date: "2025-08-05",
-  author: "EthicalByte Newsroom",
+  author: "EthicalByte",
   summary: "New critical vulnerabilities in NVIDIA's Triton Inference Server expose AI infrastructure to unauthenticated remote code execution. Researchers warn it could lead to full model theft and unauthorized control.",
   tags: ["NVIDIA", "Triton", "AI Security", "Remote Code Execution", "Model Theft", "Unauthenticated Access"],
   imageKey: "nvidiaTritonExploit",

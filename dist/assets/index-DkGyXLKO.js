@@ -2772,7 +2772,7 @@ fileInput.addEventListener('change', () =&gt; {
     </section>
 
   </div>
-`},{id:"nvidia-triton-ai-rce-2025",title:"NVIDIA Triton AI Servers Can Be Hijacked — No Login Needed",date:"2025-08-05",author:"EthicalByte Newsroom",summary:"New critical vulnerabilities in NVIDIA's Triton Inference Server expose AI infrastructure to unauthenticated remote code execution. Researchers warn it could lead to full model theft and unauthorized control.",tags:["NVIDIA","Triton","AI Security","Remote Code Execution","Model Theft","Unauthenticated Access"],imageKey:"nvidiaTritonExploit",content:`
+`},{id:"nvidia-triton-ai-rce-2025",title:"NVIDIA Triton AI Servers Can Be Hijacked — No Login Needed",date:"2025-08-05",author:"EthicalByte",summary:"New critical vulnerabilities in NVIDIA's Triton Inference Server expose AI infrastructure to unauthenticated remote code execution. Researchers warn it could lead to full model theft and unauthorized control.",tags:["NVIDIA","Triton","AI Security","Remote Code Execution","Model Theft","Unauthenticated Access"],imageKey:"nvidiaTritonExploit",content:`
     <div style="background-color:#f6f8fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
       <h3 style="color:#c53030;">🚨 <br> Critical RCE Vulnerability in NVIDIA Triton AI Servers</h3><br>
       <h3>🧠 What Happened?</h3><br>
