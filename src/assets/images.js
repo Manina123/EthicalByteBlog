@@ -56,7 +56,8 @@
       microsoftOauthTycoonAttack: "https://ethicalbyte.in/blogs/img/53.webp",
       networkSecurityDigitalEraBanner: "https://ethicalbyte.in/blogs/img/54.webp",
       nvidiaTritonExploit: "https://ethicalbyte.in/blogs/img/55.webp",
-      generativeAICyberBanner: "https://ethicalbyte.in/blogs/img/56.webp"
+      generativeAICyberBanner: "https://ethicalbyte.in/blogs/img/56.webp",
+      networkSecurityDigitalEraBanner: "https://ethicalbyte.in/blogs/img/57.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
