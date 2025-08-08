@@ -3433,7 +3433,89 @@ content: `
 
     </div>
   `
+},
+{
+  id: "gemini-calendar-exploit-2025",
+  title: "🛡️ Gemini Exploited via Weaponized Calendar Invites",
+  subtitle: "Google’s AI Assistant Abused to Steal Emails and Control Devices",
+  date: "2025-08-08",
+  author: "EthicalByte",
+  tags: ["AI Security", "Prompt Injection", "Google Gemini", "Cyber Attacks", "2025"],
+  imageKey: "geminicalendarexploitbanner",
+  content: `
+    <div style="background-color:#f8f9fa;padding:20px;border-radius:12px;border:1px solid #ddd;">
+
+      <div style="text-align:center;"><br>
+        <h3 style="color:#212529;">🛡️ Gemini Exploited via Weaponized Calendar Invites</h3><br>
+        <p style="font-style:italic;">Google’s AI Assistant Abused to Steal Emails and Control Devices</p>
+      </div>
+
+      <section style="margin-top:20px;">
+        <h3 style="color:#007bff;">🧠 What Happened</h3><br>
+        <p>A newly discovered vulnerability chain targets Google's Gemini AI assistant via malicious calendar invites and weaponized email prompts. These indirect prompt injections are part of a growing trend called <strong>Targeted Promptware Attacks</strong>.</p>
+        <p>The attacker embeds harmful prompts inside calendar event descriptions or email content. When Gemini processes these, it treats them as user instructions — bypassing user intent and executing unintended commands.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#fff3cd;padding:15px;border-radius:8px;">
+        <h3 style="color:#856404;">⚙️ How the Exploit Works</h3><br>
+        <ol>
+          <li>Attacker sends a crafted calendar invite or Gmail with hidden prompts inside descriptions or metadata.</li>
+          <li>Gemini automatically processes the content when triggered by user interaction or background sync.</li>
+          <li>The assistant executes unintended commands — including sending emails, accessing documents, or controlling smart devices.</li>
+        </ol>
+        <p>This process is completely invisible to the user — making it a <strong>zero-interaction exploit vector</strong>.</p>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h3 style="color:#dc3545;">🚨 Key Risks Identified</h3><br>
+        <ul>
+          <li>✅ 73% success rate in enterprise-level threat simulations</li>
+          <li>🔓 Full access to Gmail, Google Docs, Calendar & Drive</li>
+          <li>🎛️ Unauthorized control of connected smart home devices (lights, cameras, locks)</li>
+          <li>📹 Covert streaming of Google Meet sessions without participant awareness</li>
+          <li>📤 Silent data exfiltration via auto-forwarded emails or AI-generated summaries</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h3 style="color:#007bff;">📉 Why It Matters</h3><br>
+        <p>This is a textbook case of <strong>prompt injection without prompting</strong>. Users don’t even need to engage — the AI assistant does it for them. Calendar invites and emails are now double-edged swords: productivity tools and possible payload vectors.</p>
+        <p>With AI models becoming default handlers for messages, calendars, and tasks — prompt-layer abuse is inevitable unless controls are built in.</p>
+      </section>
+
+      <section style="margin-top:20px;background:#cce5ff;padding:15px;border-radius:8px;">
+        <h3 style="color:#004085;">🧩 Technical Analysis</h3><br>
+        <p>Gemini’s NLP pipeline doesn’t distinguish between user-intended content and attacker-embedded instructions. The model parses the entire content field without proper context validation, leading to unexpected behavior.</p>
+        <p>This type of <strong>context collapse</strong> is critical in LLMs that auto-process user data from various surfaces (like calendar, chat, email).</p>
+        <ul>
+          <li>Input parsing lacks strict role-based separation</li>
+          <li>No guardrails on background AI actions triggered via system-level integrations</li>
+          <li>Prompt injection filters only apply to chat UI, not system triggers</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;">
+        <h3 style="color:#155724;">✅ Mitigations</h3><br>
+        <ul>
+          <li>🛡️ Enable sandbox execution modes for calendar/email parsing</li>
+          <li>🚫 Disable auto-execution of assistant actions without user confirmation</li>
+          <li>🧽 Sanitize structured content (i.e., event metadata) before ingestion</li>
+          <li>🧠 Context-separation models for input isolation</li>
+          <li>📚 User education on AI-triggering metadata (event notes, descriptions)</li>
+        </ul>
+      </section>
+
+      <section style="margin-top:20px;background:#d4edda;padding:15px;border-radius:8px;">
+        <h3 style="color:#155724;">🔮 Final Thoughts</h3><br>
+        <p>This exploit underlines a major blindspot in AI integration — invisible inputs with powerful outcomes.</p>
+        <p>It’s time to treat AI assistants as programmable interfaces, not static tools. That means adding logs, alerts, approval workflows, and context filters — just like any other endpoint.</p>
+        <p>As attackers shift their focus from users to the AI agents acting on their behalf, defenders must adapt — or the assistant becomes the insider threat.</p>
+      </section>
+
+    </div>
+  `
 }
+
 
 
 
