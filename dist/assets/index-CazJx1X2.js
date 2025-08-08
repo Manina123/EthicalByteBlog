@@ -2931,7 +2931,6 @@ fileInput.addEventListener('change', () =&gt; {
       <div style="text-align:center;"><br>
         <h3 style="color:#212529;">🛡️ Gemini Exploited via Weaponized Calendar Invites</h3><br>
         <p style="font-style:italic;">Google’s AI Assistant Abused to Steal Emails and Control Devices</p>
-        <img src="https://ethicalbyte.in/assets/blog/gemini-exploit.jpg" alt="Gemini AI Prompt Injection" style="max-width:100%; border-radius:10px; margin:20px 0;" />
       </div>
 
       <section style="margin-top:20px;">
@@ -2994,7 +2993,6 @@ fileInput.addEventListener('change', () =&gt; {
         <p>This exploit underlines a major blindspot in AI integration — invisible inputs with powerful outcomes.</p>
         <p>It’s time to treat AI assistants as programmable interfaces, not static tools. That means adding logs, alerts, approval workflows, and context filters — just like any other endpoint.</p>
         <p>As attackers shift their focus from users to the AI agents acting on their behalf, defenders must adapt — or the assistant becomes the insider threat.</p>
-        <p style="font-size: 0.9em; color: gray;">Source: EthicalByte Research & Analysis</p>
       </section>
 
     </div>
