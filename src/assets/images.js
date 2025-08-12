@@ -59,7 +59,8 @@
       generativeAICyberBanner: "https://ethicalbyte.in/blogs/img/56.webp",
       networkSecurityDigitalEraBanner: "https://ethicalbyte.in/blogs/img/57.webp",
       geminicalendarexploitbanner: "https://ethicalbyte.in/blogs/img/58.webp",
-      lenovobadcamexploitbanner: "https://ethicalbyte.in/blogs/img/59.webp"
+      lenovobadcamexploitbanner: "https://ethicalbyte.in/blogs/img/59.webp",
+      malwareTop5: "https://ethicalbyte.in/blogs/img/60.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
