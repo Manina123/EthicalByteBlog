@@ -3731,7 +3731,7 @@ content: `
   summary: "AI/ML systems face growing threats like data poisoning, model theft, and adversarial attacks, demanding stronger security and monitoring.",
   author: "EthicalByte",
   tags: ["AI", "Machine Learning", "Innovation", "Tech Trends", "Automation", "Data Science"],
-  imageKey: "ai-ml-innovations-2025",
+  imageKey: "aimlinnovations2025",
   content: `
     <section style="padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; background-color: #eaf6f6; border-radius: 8px;">
   <h3 style="color: #006d77;">AI and Machine Learning – The August 2025 Evolution</h3><br>
