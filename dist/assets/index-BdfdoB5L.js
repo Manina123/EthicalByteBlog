@@ -3124,7 +3124,7 @@ fileInput.addEventListener('change', () =&gt; {
         Whether you’re an individual user or a large enterprise, proactive security practices are no longer optional — they’re a survival necessity.
       </p>
     </section>
-  `},{id:"shinyhunters-scatteredspider-alliance-2025",title:"ShinyHunters & Scattered Spider Join Forces — A Dangerous Cyber Alliance Emerges",subtitle:"Salesforce users under attack, banks and financial firms could be next",date:"2025-08-13",author:"EthicalByte",tags:["Cybercrime","Threat Intelligence","Banking Security","Hacker Groups"],imageKey:"shinyspider2025",content:`
+  `},{id:"shinyhunters-scatteredspider-alliance-2025",title:"ShinyHunters & Scattered Spider Join Forces — A Dangerous Cyber Alliance Emerges",subtitle:"Salesforce users under attack, banks and financial firms could be next",date:"2025-08-13",summary:"ShinyHunters and Scattered Spider, two of the world’s most dangerous cybercrime groups, have teamed up. After targeting Salesforce users globally, experts warn their next focus could be banks and financial institutions — making this alliance a major threat to global cybersecurity.",author:"EthicalByte",tags:["Cybercrime","Threat Intelligence","Banking Security","Hacker Groups"],imageKey:"shinyspider2025",content:`
     <section style="padding: 20px; font-family: Arial, sans-serif; background: linear-gradient(135deg, #1a1f3b, #3b0066); color: white;">
       <h3 style="font-size: 28px; margin-bottom: 15px; color: #ffcc00;">⚠️ ShinyHunters + Scattered Spider: A Cybercrime Super-Team</h3><br>
       <p style="font-size: 16px; line-height: 1.6;">

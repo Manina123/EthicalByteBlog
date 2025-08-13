@@ -3667,6 +3667,7 @@ content: `
   title: "ShinyHunters & Scattered Spider Join Forces — A Dangerous Cyber Alliance Emerges",
   subtitle: "Salesforce users under attack, banks and financial firms could be next",
   date: "2025-08-13",
+  summary:"ShinyHunters and Scattered Spider, two of the world’s most dangerous cybercrime groups, have teamed up. After targeting Salesforce users globally, experts warn their next focus could be banks and financial institutions — making this alliance a major threat to global cybersecurity.",
   author: "EthicalByte",
   tags: ["Cybercrime", "Threat Intelligence", "Banking Security", "Hacker Groups"],
   imageKey: "shinyspider2025",
