@@ -63,7 +63,8 @@
       malwareTop5: "https://ethicalbyte.in/blogs/img/60.webp",
       shinyspider2025: "https://ethicalbyte.in/blogs/img/61.webp",
       aimlinnovations2025: "https://ethicalbyte.in/blogs/img/62.webp",
-      aideepfakecyberattacks:"https://ethicalbyte.in/blogs/img/63.webp"
+      aideepfakecyberattacks:"https://ethicalbyte.in/blogs/img/63.webp",
+      ermacTrojanLeak: "https://ethicalbyte.in/blogs/img/64.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };

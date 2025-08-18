@@ -3877,6 +3877,88 @@ content: `
 
   `
 }
+,{
+  id: "ermac-v3-android-trojan-leak",
+  title: "ERMAC V3.0 Android Banking Trojan Source Code Leaked",
+  date: "2025-08-18",
+  author: "EthicalByte",
+  summary: "The full source code of ERMAC V3.0 — one of the most dangerous Android banking trojans — has been leaked, exposing its builder, backend, panels, and exfiltration servers. Here’s why this matters.",
+  tags: ["ERMAC", "AndroidMalware", "BankingTrojan", "Cybercrime", "SourceCodeLeak"],
+  imageKey: "ermacTrojanLeak",
+  content: `
+    <div style="background:linear-gradient(135deg,#fdfdfd,#f5f6fa); padding:25px; border-radius:14px; border:1px solid #ddd; font-family:Segoe UI,Arial,sans-serif; line-height:1.6; max-width:850px; margin:0 auto;">
+
+  <h2 style="color:#e11d48; margin-top:0; font-size:1.8em;">🚨 ERMAC V3.0 Source Code Leaked</h2><br>
+  <p><strong>ERMAC V3.0</strong> — a dangerous Android banking trojan targeting financial apps, crypto wallets, and personal accounts — has had its <strong>entire source code leaked</strong>, including:</p>
+
+  <ul style="margin:10px 0; padding-left:20px;">
+    <li>✅ Backend servers & admin panel</li>
+    <li>✅ Builder for new malware variants</li>
+    <li>✅ Exfiltration modules</li>
+    <li>✅ Default credentials exposed</li>
+  </ul>
+
+  <h3 style="color:#2563eb; font-size:1.4em;">🔍 Why This Matters</h3><br>
+  <p>This leak lowers the barrier for cybercriminals — even <strong>low-skilled attackers</strong> can now deploy their own malware campaigns.</p>
+  <ul>
+    <li>📱 Targets <strong>700+ financial apps</strong> (banking, wallets, payments)</li>
+    <li>💳 Intercepts <strong>2FA codes</strong></li>
+    <li>🛠️ Includes overlay attacks, SMS theft, and keylogging</li>
+    <li>⚠️ Easily adaptable for new apps</li>
+  </ul>
+
+  <h3 style="color:#ea580c; font-size:1.4em;">📉 The Bigger Picture</h3><br>
+  <p>The impact is a <strong>double-edged sword</strong> — defenders gain insight, but cybercrime will likely surge with:</p>
+  <ul>
+    <li>🚫 More ERMAC variants in the wild</li>
+    <li>🌍 Wider global spread</li>
+    <li>🕵️ Adoption by new cybercrime groups</li>
+  </ul>
+
+  <!-- User Recommendations -->
+  <div style="background:#fef2f2; border-left:4px solid #dc2626; padding:15px; margin:20px 0; border-radius:8px;">
+    <h3 style="margin-top:0; color:#b91c1c;">🛡️ Recommendations for Users</h3><br>
+    <ul style="margin:0; padding-left:20px;">
+      <li>🔒 Install apps only from <strong>Google Play</strong></li>
+      <li>📱 Regularly check app permissions</li>
+      <li>⚠️ Avoid overlays/popups requesting sensitive info</li>
+      <li>🛡️ Use mobile security tools with <strong>banking protection</strong></li>
+    </ul>
+  </div>
+
+  <!-- Enterprise Recommendations -->
+  <div style="background:#f0f9ff; border-left:4px solid #2563eb; padding:15px; margin:20px 0; border-radius:8px;">
+    <h3 style="margin-top:0; color:#1d4ed8;">🏭 Recommendations for Enterprises</h3><br>
+    <ul style="margin:0; padding-left:20px;">
+      <li>✅ Monitor mobile endpoints for ERMAC activity</li>
+      <li>✅ Train staff on phishing & malicious APK risks</li>
+      <li>✅ Subscribe to <strong>threat intelligence feeds</strong></li>
+    </ul>
+  </div>
+
+  <!-- Final Takeaway -->
+  <blockquote style="border-left:4px solid #e11d48; padding-left:1em; font-style:italic; background:#fff7ed; margin:20px 0; border-radius:6px;">
+    With ERMAC V3.0’s source code public, the Android threat landscape faces a surge in activity.  
+    <strong>For users</strong>: caution is critical.  
+    <strong>For enterprises</strong>: proactive defense is the only way forward.
+  </blockquote>
+
+  <!-- Mobile-friendly inline responsiveness -->
+  <div style="display:none;">
+    <style>
+      @media (max-width:600px) {
+        .ermac-article { padding:15px !important; font-size:0.95em !important; }
+        .ermac-article h2 { font-size:1.4em !important; }
+        .ermac-article h3 { font-size:1.2em !important; }
+        .ermac-article ul { padding-left:18px !important; }
+      }
+    </style>
+  </div>
+
+</div>
+
+  `
+}
 
 
 
