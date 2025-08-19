@@ -3958,7 +3958,87 @@ content: `
 </div>
 
   `
+},
+{
+  id: "gmail-phishing-attack-2025",
+  title: "Gmail Phishing Campaign Uses Voicemail Lures & Fake Login Flows",
+  summary: "Credential theft at scale with CAPTCHA gates, MFA prompts, and cloaked redirect chains",
+  date: "2025-08-19",
+  author: "EthicalByte",
+  tags: ["Phishing", "Gmail", "Account Security", "MFA", "Email Security"],
+  imageKey: "gmailPhishVoicemailBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:#eaf6f6; border-radius:10px;">
+  <h3 style="color:#006d77;">🛑 What Happened</h3><br>
+  <p>
+    A widespread <strong>Gmail phishing campaign</strong> has been uncovered, using convincing 
+    <b>voicemail and notification emails</b> as bait to lure victims into clicking. Once engaged, 
+    targets are funneled through a series of <b>redirects and CAPTCHA challenges</b>, making the 
+    attack chain appear more trustworthy while simultaneously frustrating automated security scanners. 
+    The final destination is a <strong>highly polished fake Google login page</strong>, 
+    designed to steal credentials and bypass multi-factor authentication with alarming precision. 
+    Researchers note that the scale, realism, and persistence of this campaign mark it as one of the 
+    most dangerous phishing waves seen in 2025.
+  </p>
+</section>
+
+
+    <section style="padding:20px; background:#fefae0; border-radius:10px; margin-top:14px;">
+      <h3 style="color:#e76f51;">🧭 How the Attack Works</h3><br>
+      <ol style="margin-left:18px;">
+        <li>User receives a “new voicemail / document” email with a <em>View</em> button.</li>
+        <li>Click → redirect chain (often via trusted-looking domains) → human CAPTCHA.</li>
+        <li>Landing page mimics Google sign-in; steals email + password.</li>
+        <li>Second screen asks for <strong>MFA code</strong> / recovery info → full account takeover.</li>
+        <li>Scripts use obfuscation and anti-debugging to evade detection.</li>
+      </ol>
+    </section>
+
+    <section style="padding:20px; background:#edf6f9; border-radius:10px; margin-top:14px;">
+      <h3 style="color:#006d77;">🔎 Red Flags to Spot</h3><br>
+      <ul style="margin-left:18px;">
+        <li>“Voicemail” emails sent to roles that don’t use voicemail.</li>
+        <li>Mismatched sender/display names or odd reply-to domains.</li>
+        <li>Link tooltips show long redirect chains or URL shorteners.</li>
+        <li>CAPTCHA before viewing a simple file/voice note.</li>
+        <li>Google sign-in that doesn’t live on <strong>accounts.google.com</strong>.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:#fff3cd; border-radius:10px; margin-top:14px; border-left:6px solid #ff9f43;">
+      <h3 style="color:#ff6f00;">🎯 Who’s at Risk & Impact</h3><br>
+      <p>Anyone with a Google account—especially <strong>admins, finance, sales, and support</strong> roles targeted for payment fraud, inbox rule abuse, OAuth token theft, and data exfiltration from Drive/Workspace.</p>
+    </section>
+
+    <section style="padding:20px; background:#f0f7ff; border-radius:10px; margin-top:14px;">
+      <h3 style="color:#264653;">🛡️ Mitigation Checklist</h3><br>
+      <ul style="margin-left:18px;">
+        <li><strong>Enforce phishing-resistant MFA</strong> (security keys / passkeys) for all users.</li>
+        <li>Use a <strong>password manager</strong>—it won’t autofill on fake domains.</li>
+        <li>Block link shorteners and inspect URL destinations at the secure gateway.</li>
+        <li>Enable Google Workspace <strong>context-aware access</strong> & alerting on atypical sign-ins.</li>
+        <li>Harden recovery options; disable SMS recovery for high-risk users.</li>
+        <li>Run simulated phishing with voicemail/document lures; coach report-first behavior.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:#eaf6f6; border-radius:10px; margin-top:14px;">
+      <h3 style="color:#006d77;">🚑 If You Clicked</h3><br>
+      <ol style="margin-left:18px;">
+        <li>Reset Google password immediately; revoke active sessions.</li>
+        <li>Rotate/revoke <strong>OAuth app tokens</strong> under Security → Third-party access.</li>
+        <li>Review Gmail filters/forwarding rules and remove anything suspicious.</li>
+        <li>Turn on security keys/passkeys; audit recovery email/phone.</li>
+      </ol>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:#f8f9fa; border-radius:10px; margin-top:14px;">
+      <h3 style="color:#2a9d8f;">📚 Share & Stay Safe</h3><br>
+      <p>Verify links, use passkeys, and report suspicious emails. A 5-second URL check can save an account takeover.</p>
+    </section>
+  `
 }
+
 
 
 
