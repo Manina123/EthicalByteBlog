@@ -3379,11 +3379,21 @@ fileInput.addEventListener('change', () =&gt; {
 
 </div>
 
-  `},{id:"gmail-phishing-attack-2025",title:"Gmail Phishing Campaign Uses Voicemail Lures & Fake Login Flows",subtitle:"Credential theft at scale with CAPTCHA gates, MFA prompts, and cloaked redirect chains",date:"2025-08-19",author:"EthicalByte",tags:["Phishing","Gmail","Account Security","MFA","Email Security"],imageKey:"gmailPhishVoicemailBanner",content:`
+  `},{id:"gmail-phishing-attack-2025",title:"Gmail Phishing Campaign Uses Voicemail Lures & Fake Login Flows",summary:"Credential theft at scale with CAPTCHA gates, MFA prompts, and cloaked redirect chains",date:"2025-08-19",author:"EthicalByte",tags:["Phishing","Gmail","Account Security","MFA","Email Security"],imageKey:"gmailPhishVoicemailBanner",content:`
     <section style="padding:20px; font-family:Arial, sans-serif; background:#eaf6f6; border-radius:10px;">
-      <h3 style="color:#006d77;">🛑 What Happened</h3><br>
-      <p>A widespread <strong>Gmail phishing campaign</strong> is abusing believable voicemail/notification emails to push users through a polished fake login flow. The pages are hosted behind multiple redirects with CAPTCHAs to appear legitimate and frustrate automated scanners.</p>
-    </section>
+  <h3 style="color:#006d77;">🛑 What Happened</h3><br>
+  <p>
+    A widespread <strong>Gmail phishing campaign</strong> has been uncovered, using convincing 
+    <b>voicemail and notification emails</b> as bait to lure victims into clicking. Once engaged, 
+    targets are funneled through a series of <b>redirects and CAPTCHA challenges</b>, making the 
+    attack chain appear more trustworthy while simultaneously frustrating automated security scanners. 
+    The final destination is a <strong>highly polished fake Google login page</strong>, 
+    designed to steal credentials and bypass multi-factor authentication with alarming precision. 
+    Researchers note that the scale, realism, and persistence of this campaign mark it as one of the 
+    most dangerous phishing waves seen in 2025.
+  </p>
+</section>
+
 
     <section style="padding:20px; background:#fefae0; border-radius:10px; margin-top:14px;">
       <h3 style="color:#e76f51;">🧭 How the Attack Works</h3><br>
