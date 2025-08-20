@@ -65,7 +65,8 @@
       aimlinnovations2025: "https://ethicalbyte.in/blogs/img/62.webp",
       aideepfakecyberattacks:"https://ethicalbyte.in/blogs/img/63.webp",
       ermacTrojanLeak: "https://ethicalbyte.in/blogs/img/64.webp",
-      gmailPhishVoicemailBanner: "https://ethicalbyte.in/blogs/img/65.webp"
+      gmailPhishVoicemailBanner: "https://ethicalbyte.in/blogs/img/65.webp",
+      rapperbotDdosBanner:"https://ethicalbyte.in/blogs/img/66.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
