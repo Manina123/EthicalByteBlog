@@ -4111,7 +4111,67 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "ai-browser-promptfix-attack-2025",
+  title: "PromptFix ALERT: AI Browsers Can Be Tricked by Hidden Prompts",
+  summary: "Researchers expose how malicious CAPTCHAs can hijack AI-driven browsers like Comet.",
+  date: "2025-08-21",
+  author: "EthicalByte",
+  tags: ["AI", "Prompt Injection", "Browser Security", "Cyber Threats"],
+  imageKey: "aiBrowserPromptFix2025",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg, #0f172a, #1e293b); color:#f8fafc; border-radius:12px;">
+      <h2 style="color:#f43f5e;">🛑 AI Browsers Under Attack</h2><br>
+      <p>
+        Security researchers have discovered that <b>AI-powered browsers</b> such as <b>Comet</b> can be manipulated 
+        by hidden prompts embedded in fake <b>CAPTCHAs</b>. These invisible instructions bypass user awareness 
+        and exploit the very systems designed to simplify web navigation.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg, #1e293b, #334155); border-radius:10px; color:#f1f5f9; margin-top:15px;">
+      <h3 style="color:#22d3ee;">⚠️ What Can Happen</h3><br>
+      <ul style="line-height:1.6; font-size:15px;">
+        <li>🤖 Auto-clicks on <b>phishing links</b> hidden in sites.</li>
+        <li>💳 Automatic filling of <b>credit card and personal details</b>.</li>
+        <li>💻 Silent <b>malware downloads</b> triggered in the background.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg, #0f766e, #134e4a); border-radius:10px; color:white; margin-top:15px;">
+      <h3 style="color:#facc15;">🔍 Why It’s Dangerous</h3><br>
+      <p>
+        Traditional phishing relies on tricking the user. 
+        <b>Prompt injection attacks</b> flip the script by deceiving the AI itself. 
+        This means that even a cautious human can be compromised if their AI browser is manipulated. 
+        The automation designed to protect convenience may instead become an attacker’s weapon.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg, #3b0764, #581c87); border-radius:10px; color:#f3e8ff; margin-top:15px;">
+      <h3 style="color:#c084fc;">🛡️ Defense Strategies</h3><br>
+      <ul style="line-height:1.6;">
+        <li>Adopt AI browsers that implement <b>prompt injection detection</b>.</li>
+        <li>Restrict browser permissions for autofill and auto-clicking.</li>
+        <li>Use strong <b>endpoint monitoring</b> to catch malware payloads.</li>
+        <li>Regularly audit AI assistants for <b>unexpected actions</b>.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg, #111827, #1e293b); border-radius:10px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#38bdf8;">📌 Final Take</h3><br>
+      <p>
+        The rise of AI browsers brings speed and convenience, 
+        but also a new type of cyber threat — <b>AI prompt manipulation</b>. 
+        As attackers innovate with hidden instructions inside web elements, 
+        defenders must rethink how security applies in the era of AI-driven browsing. 
+        In short: <b>your AI assistant can be hacked, even if you aren’t.</b>
+      </p>
+    </section>
+  `
 }
+
 
 
 
