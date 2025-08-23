@@ -68,7 +68,8 @@
       gmailPhishVoicemailBanner: "https://ethicalbyte.in/blogs/img/65.webp",
       rapperbotDdosBanner:"https://ethicalbyte.in/blogs/img/66.webp",
       aiBrowserPromptFix2025: "https://ethicalbyte.in/blogs/img/67.webp",
-      quirkyloadermalware2025: "https://ethicalbyte.in/blogs/img/68.webp"
+      quirkyloadermalware2025: "https://ethicalbyte.in/blogs/img/68.webp",
+      operationSerengetiBanner: "https://ethicalbyte.in/blogs/img/69.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
