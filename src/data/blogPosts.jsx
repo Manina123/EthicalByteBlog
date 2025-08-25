@@ -4318,7 +4318,71 @@ content: `
       </p>
     </section>
   `
+},{
+  id: "linux-filename-malware-2025",
+  title: "Linux Malware Hidden in Filenames: Phishing RAR Trick Exposed",
+  summary: "Attackers can hijack systems using nothing more than a malicious file name.",
+  date: "2025-08-25",
+  author: "EthicalByte",
+  tags: ["Linux", "Phishing", "Malware", "RAR", "Cybersecurity"],
+  imageKey: "linuxFilenameMalwareBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#111827,#1f2937); color:#f5f5f5; border-radius:12px;">
+      <h3 style="color:#ef4444;">🛑 What Happened</h3><br>
+      <p>
+        Researchers have uncovered a dangerous new technique in the wild: phishing emails carrying 
+        <strong>RAR archive files</strong> that can <b>infect Linux systems without opening any file content</b>. 
+        The malware isn’t hidden in macros, scripts, or binaries — instead, it’s buried <b>inside the file name itself</b>.
+      </p>
+    </section><br>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1f2937,#0f172a); border-radius:12px; color:#e5e7eb; margin-top:15px;">
+      <h3 style="color:#facc15;">⚙️ How the Attack Works</h3><br>
+      <p>
+        The RAR archive contains files with <b>specially crafted names</b> that embed malicious Bash commands. 
+        When the archive is extracted, Linux interprets the filename as code, triggering execution without any 
+        user interaction. 
+      </p>
+      <p>
+        ✔️ No need to run executables  
+        ✔️ No macros or embedded payloads  
+        ✔️ Just an extraction process that silently executes commands
+      </p>
+    </section><br>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#0f766e,#134e4a); border-radius:12px; color:#f0fdfa; margin-top:15px;">
+      <h3 style="color:#34d399;">🚨 Why It’s Dangerous</h3><br>
+      <p>
+        This technique bypasses traditional <b>antivirus scans</b> and signature-based defenses. 
+        Since there’s no “hidden content,” scanners often mark the file as safe. 
+        In reality, the danger lies in how the <b>Linux shell parses filenames</b>. 
+        With attackers getting creative, even seasoned sysadmins could fall victim.
+      </p>
+    </section><br>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2563eb;">🛡️ How to Stay Safe</h3><br>
+      <ul style="line-height:1.8; margin-left:18px;">
+        <li>🚫 Never extract archives from untrusted emails.</li>
+        <li>🔒 Use sandbox environments for suspicious files.</li>
+        <li>⚙️ Configure Linux to prevent execution of filenames containing commands.</li>
+        <li>🧩 Deploy behavior-based detection, not just signature AV.</li>
+        <li>👥 Train staff to identify phishing lures with “urgent” attachments.</li>
+      </ul>
+    </section><br>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1f2937,#111827); border-radius:12px; color:#f5f5f5; text-align:center; margin-top:15px;">
+      <h3 style="color:#ef4444;">✅ Final Thoughts</h3><br>
+      <p>
+        The discovery of <b>malware hidden in filenames</b> marks a dangerous evolution in phishing attacks. 
+        It’s a reminder that attackers will always find creative ways to turn the simplest elements 
+        — like a file name — into an execution vector. 
+        Defenders must step up with layered defenses, sandboxing, and proactive monitoring.
+      </p>
+    </section>
+  `
 }
+
 
 
 
