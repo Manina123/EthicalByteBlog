@@ -72,7 +72,8 @@
       operationSerengetiBanner: "https://ethicalbyte.in/blogs/img/69.webp",
       linuxFilenameMalwareBanner: "https://ethicalbyte.in/blogs/img/70.webp",
       upcrypterPhishingBanner: "https://ethicalbyte.in/blogs/img/71.webp",
-      storm0501CloudTakeoverBanner: "https://ethicalbyte.in/blogs/img/72.webp"
+      storm0501CloudTakeoverBanner: "https://ethicalbyte.in/blogs/img/72.webp",
+      tamperedchefMalwareBanner: "https://ethicalbyte.in/blogs/img/73.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
