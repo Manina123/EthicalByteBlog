@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
     import { getPostById } from '@/data/blogPosts.jsx';
     import { postImages } from '@/assets/images.js';
@@ -6,6 +5,7 @@ import React, { useEffect, useState } from 'react';
     import { ArrowLeft, CalendarDays, UserCircle, Tag } from 'lucide-react';
     import NotFoundPage from './NotFoundPage';
     import { useTheme } from '@/components/ThemeProvider';
+    import PostInteractions from '@/components/PostInteractions';
 
     const BlogPostPage = ({ postId }) => {
       const { theme } = useTheme();
@@ -34,8 +34,7 @@ import React, { useEffect, useState } from 'react';
       const contentTextColorClass = theme === 'dark' ? 'text-slate-300' : 'text-foreground/90';
       const proseClass = theme === 'dark' ? 'prose-invert' : '';
       const loaderBorderClass = theme === 'dark' ? 'border-primary' : 'border-primary';
-      const exploreButtonBgClass = theme === 'dark' ? 'bg-primary hover:bg-primary/90 text-primary-foreground' : 'bg-primary hover:bg-primary/90 text-primary-foreground';
-
+      
       if (isLoading) {
         return (
           <div className="flex justify-center items-center min-h-[60vh]">
@@ -92,17 +91,8 @@ import React, { useEffect, useState } from 'react';
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-            className={`mt-12 pt-8 border-t ${headerBorderClass} text-center`}
-          >
-            <p className={`${metaColorClass} mb-4 text-sm`}>Enjoyed this article? Share it with your network!</p>
-            <a href="#/" className={`inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-medium rounded-md ${exploreButtonBgClass} transition-colors shadow-md hover:shadow-lg`}>
-              Explore More Articles
-            </a>
-          </motion.div>
+          <PostInteractions postId={postId} />
+
         </motion.article>
       );
     };

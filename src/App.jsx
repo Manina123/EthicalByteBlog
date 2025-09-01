@@ -1,7 +1,5 @@
 
 import React, { useState, useEffect } from 'react';
-    import { ThemeProvider } from '@/components/ThemeProvider';
-    import { Toaster } from '@/components/ui/toaster';
     import Layout from '@/components/Layout';
     import HomePage from '@/pages/HomePage';
     import BlogPostPage from '@/pages/BlogPostPage';
@@ -47,12 +45,9 @@ import React, { useState, useEffect } from 'react';
       }
       
       return (
-        <ThemeProvider defaultTheme="light" storageKey="cyberblog-theme">
-          <Layout routeKey={currentPath}>
-            <PageComponent {...pageProps} />
-          </Layout>
-          <Toaster />
-        </ThemeProvider>
+        <Layout routeKey={currentPath}>
+          <PageComponent {...pageProps} />
+        </Layout>
       );
     };
 

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
     import { blogPosts as allBlogPostsData } from '@/data/blogPosts.jsx';
     import BlogCard from '@/components/BlogCard';
