@@ -4603,7 +4603,80 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "velociraptor-abuse-teams-phishing-2025",
+  title: "When Trusted Tools Turn Rogue: Velociraptor Abuse & Fake IT Teams Chats",
+  summary: "Attackers weaponize a legitimate forensic tool and impersonate IT staff to steal credentials.",
+  date: "2025-09-01",
+  author: "EthicalByte",
+  tags: ["Velociraptor", "Malware", "Microsoft Teams", "Phishing", "Forensic Tools"],
+  imageKey: "velociraptorAbuseBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#111827,#1e293b); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ef4444;">🚨 Trusted Tools, Twisted Purposes</h3><br>
+      <p>
+        Attackers are now abusing <b>Velociraptor</b>, a legitimate open-source forensic tool, to sneak into enterprise 
+        networks. At the same time, they’re launching <b>fake IT support chats</b> on <b>Microsoft Teams</b> — 
+        tricking employees into handing over credentials or installing malware.  
+      </p>
+      <p>
+        This dual-pronged campaign shows a dangerous shift: adversaries are moving away from sketchy tools and 
+        toward <b>trusted platforms</b> to gain persistence and credibility inside organizations.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1e293b,#334155); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+     <br> <h3 style="color:#facc15;">⚙️ How the Attack Works</h3><br>
+      <p>
+        <b>Step 1:</b> Velociraptor, normally used for forensic investigations, is deployed by attackers to quietly collect 
+        system data and map the environment.  
+      </p>
+      <p>
+        <b>Step 2:</b> Employees receive what appears to be a legitimate <b>IT support message</b> in Microsoft Teams. 
+        The attackers impersonate internal staff, claiming “system updates” or “security fixes” are needed.  
+      </p>
+      <p>
+        <b>Step 3:</b> Victims are tricked into sharing login credentials or downloading malware disguised as updates, 
+        giving attackers direct access to critical accounts and systems.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#0f766e,#134e4a); border-radius:12px; color:#f0fdfa; margin-top:15px;">
+    <br>  <h3 style="color:#34d399;">🚨 Why It’s Dangerous</h3><br>
+      <p>
+        By abusing Velociraptor, attackers gain <b>legitimate visibility</b> into endpoints — the same way defenders do. 
+        Combined with phishing inside a trusted collaboration platform like Teams, detection becomes much harder.  
+      </p>
+      <p>
+        Traditional defenses rarely flag these moves, since both the forensic tool and Teams are seen as 
+        “safe” by default. This lets adversaries operate <b>under the radar</b> while quietly escalating privileges.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+     <br> <h3 style="color:#2563eb;">🛡️ Defense Measures</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✔️ Audit and restrict use of admin/forensic tools like Velociraptor</li>
+        <li>✔️ Monitor Teams chats for suspicious impersonation attempts</li>
+        <li>✔️ Use strong MFA to reduce risk of stolen credentials</li>
+        <li>✔️ Train employees to verify IT requests through official channels</li>
+        <li>✔️ Deploy behavioral analytics to flag abnormal data collection</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#1e293b,#111827); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+     <br> <h3 style="color:#ef4444;">✅ Final Thoughts</h3><br>
+      <p>
+        The abuse of <b>Velociraptor</b> and impersonation on <b>Microsoft Teams</b> prove a key reality: 
+        even trusted tools and platforms can become attack vectors in the wrong hands.  
+        Organizations must treat every login, chat, and tool invocation as potential risk — and 
+        secure both human and technical trust boundaries before adversaries exploit them.  
+      </p>
+    </section>
+  `
 }
+
 
 
 
