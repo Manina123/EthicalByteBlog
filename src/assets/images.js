@@ -74,7 +74,8 @@
       upcrypterPhishingBanner: "https://ethicalbyte.in/blogs/img/71.webp",
       storm0501CloudTakeoverBanner: "https://ethicalbyte.in/blogs/img/72.webp",
       tamperedchefMalwareBanner: "https://ethicalbyte.in/blogs/img/73.webp",
-      velociraptorAbuseBanner:"https://ethicalbyte.in/blogs/img/74.webp"
+      velociraptorAbuseBanner:"https://ethicalbyte.in/blogs/img/74.webp",
+      zscalerSalesloftBreachBanner: "https://ethicalbyte.in/blogs/img/75.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
