@@ -77,7 +77,8 @@
       velociraptorAbuseBanner:"https://ethicalbyte.in/blogs/img/74.webp",
       zscalerSalesloftBreachBanner: "https://ethicalbyte.in/blogs/img/75.webp",
       mystrodxBackdoorBanner: "https://ethicalbyte.in/blogs/img/76.webp",
-      hexstrikeAiWeaponizedBanner: "https://ethicalbyte.in/blogs/img/77.webp"
+      hexstrikeAiWeaponizedBanner: "https://ethicalbyte.in/blogs/img/77.webp",
+      genaiChatGPTLeakBanner: "https://ethicalbyte.in/blogs/img/78.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };

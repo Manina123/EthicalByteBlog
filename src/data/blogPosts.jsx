@@ -4885,7 +4885,75 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "genai-chatgpt-data-leak-2025",
+  title: "Are Your Employees Leaking Secrets into ChatGPT?",
+  summary: "Why most security tools can’t see GenAI traffic — and what that means for your data.",
+  date: "2025-09-05",
+  author: "EthicalByte",
+  tags: ["GenAI", "ChatGPT", "Data Loss Prevention", "Insider Threat", "AI Security"],
+  imageKey: "genaiChatGPTLeakBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#111827,#1e293b); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#f87171;">🚨 Secrets Flowing Into ChatGPT</h3><br>
+      <p>
+        Right now, employees across industries may be pasting sensitive data — 
+        <b>emails, files, API keys, intellectual property</b> — directly into <b>ChatGPT</b> 
+        and other AI assistants. Once entered, this information leaves your environment 
+        and enters an ecosystem that most <b>DLP (Data Loss Prevention) tools simply cannot see</b>.
+      </p>
+      <p>
+        The result? An invisible insider threat channel where confidential business information 
+        flows into AI systems beyond your control.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1e293b,#334155); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#fbbf24;">🔍 Why DLP Tools Fail</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔒 GenAI traffic is often encrypted and routed outside standard corporate monitoring</li>
+        <li>🤖 Most DLP tools were never designed to parse AI-specific data flows</li>
+        <li>📡 Shadow IT: employees use personal devices & browsers beyond corporate visibility</li>
+        <li>🕵️ Insider risk: sensitive content can be exposed without malicious intent</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#064e3b,#022c22); border-radius:12px; color:#d1fae5; margin-top:15px;">
+      <h3 style="color:#34d399;">⚠️ Why This Matters</h3><br>
+      <p>
+        Generative AI introduces a <b>new blind spot</b> for enterprise security. 
+        Unlike email or web uploads, AI interactions aren’t logged or monitored by default, 
+        meaning critical intellectual property can leave the organization undetected.  
+      </p>
+      <p>
+        In regulated industries like <b>finance, healthcare, and defense</b>, this creates 
+        compliance and national security risks.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2563eb;">🛡️ Defensive Measures</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✔️ Deploy GenAI-aware monitoring solutions</li>
+        <li>✔️ Set policies for what data can/cannot be entered into AI tools</li>
+        <li>✔️ Train employees on AI data risks</li>
+        <li>✔️ Monitor browser and endpoint activity for unauthorized AI usage</li>
+        <li>✔️ Explore proxy-based inspection of AI traffic flows</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#1e293b,#111827); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#f87171;">✅ Final Thoughts</h3><br>
+      <p>
+        Generative AI is here to stay — but so is the risk of <b>accidental data exfiltration</b>.  
+        If your security stack can’t see AI traffic, you’re already blind to one of the fastest-growing insider risks.  
+        The fix isn’t blocking AI entirely, but <b>monitoring and governing its use responsibly</b>.
+      </p>
+    </section>
+  `
 }
+
 
 
 
