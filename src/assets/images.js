@@ -78,7 +78,8 @@
       zscalerSalesloftBreachBanner: "https://ethicalbyte.in/blogs/img/75.webp",
       mystrodxBackdoorBanner: "https://ethicalbyte.in/blogs/img/76.webp",
       hexstrikeAiWeaponizedBanner: "https://ethicalbyte.in/blogs/img/77.webp",
-      genaiChatGPTLeakBanner: "https://ethicalbyte.in/blogs/img/78.webp"
+      genaiChatGPTLeakBanner: "https://ethicalbyte.in/blogs/img/78.webp",
+      castleRATBanner: "https://ethicalbyte.in/blogs/img/79.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };

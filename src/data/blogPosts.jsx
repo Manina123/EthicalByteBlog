@@ -4952,7 +4952,74 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "castlerat-trojan-tag150-2025",
+  title: "CastleRAT: TAG-150’s New Trojan Expands CastleLoader Operations",
+  summary: "Python & C-based malware capable of stealing passwords, hijacking wallets, logging keys, and full PC takeover.",
+  date: "2025-09-06",
+  author: "EthicalByte",
+  tags: ["CastleRAT", "TAG-150", "Trojan", "Malware", "Cybercrime"],
+  imageKey: "castleRATBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#0f172a,#1e293b); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#f87171;">🚨 Meet CastleRAT</h3><br>
+      <p>
+        A notorious cyber gang, <b>TAG-150</b>, has unveiled its latest weapon: <b>CastleRAT</b>, a 
+        <b>Python & C-based trojan</b> engineered to expand their ongoing <b>CastleLoader operations</b>.  
+        This new malware represents a dangerous step up in sophistication, combining multiple capabilities 
+        into a single, powerful package.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1e293b,#334155); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#fbbf24;">⚙️ What CastleRAT Can Do</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔑 Steals saved <b>passwords</b> and credentials</li>
+        <li>💰 Hijacks <b>cryptocurrency wallets</b></li>
+        <li>⌨️ Logs <b>keystrokes</b> to capture sensitive input</li>
+        <li>🖥️ Grants attackers <b>full remote control</b> over infected PCs</li>
+      </ul>
+      <p>
+        Unlike one-dimensional malware, CastleRAT functions as an all-in-one espionage and theft tool — 
+        maximizing attacker ROI per infection.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#064e3b,#022c22); border-radius:12px; color:#d1fae5; margin-top:15px;">
+      <h3 style="color:#34d399;">🔍 Linked to CastleLoader Campaigns</h3><br>
+      <p>
+        CastleRAT is not a standalone threat — it integrates seamlessly with TAG-150’s <b>CastleLoader ecosystem</b>, 
+        allowing rapid deployment and chaining of multiple malware families.  
+      </p>
+      <p>
+        This tight integration suggests TAG-150 is scaling its infrastructure for <b>massive, sustained cybercrime operations</b>.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2563eb;">🛡️ Defense Against CastleRAT</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✔️ Keep systems and apps patched to reduce initial infection vectors</li>
+        <li>✔️ Deploy EDR solutions to detect trojan-like behaviors</li>
+        <li>✔️ Monitor for unusual process injections and persistence attempts</li>
+        <li>✔️ Train employees on phishing awareness — CastleLoader campaigns often start with malicious emails</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#1e293b,#0f172a); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#f87171;">✅ Final Thoughts</h3><br>
+      <p>
+        With <b>CastleRAT</b>, TAG-150 proves its evolution from nuisance to a full-fledged cybercrime syndicate.  
+        The malware’s ability to combine credential theft, crypto hijacking, and remote control makes it a 
+        <b>serious threat to both individuals and enterprises</b>.  
+        Defenders must recognize that today’s trojans are no longer simple — they’re multi-purpose weapons 
+        embedded in larger, organized crime ecosystems.
+      </p>
+    </section>
+  `
 }
+
 
 
 
