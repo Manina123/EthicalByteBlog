@@ -9,6 +9,7 @@ import React, { useState, useEffect } from 'react';
     const App = () => {
       const [currentPath, setCurrentPath] = useState(window.location.hash || '#/');
       const [postId, setPostId] = useState(null);
+      const [searchTerm, setSearchTerm] = useState('');
 
       useEffect(() => {
         const handleHashChange = () => {
@@ -31,7 +32,10 @@ import React, { useState, useEffect } from 'react';
       }, []);
 
       let PageComponent;
-      let pageProps = {};
+      let pageProps = {
+        searchTerm,
+        setSearchTerm,
+      };
 
       if (currentPath === '#/' || currentPath === '#') {
         PageComponent = HomePage;

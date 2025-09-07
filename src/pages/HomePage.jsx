@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useMemo } from 'react';
     import { blogPosts as allBlogPostsData } from '@/data/blogPosts.jsx';
     import BlogCard from '@/components/BlogCard';
@@ -9,9 +10,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 
     const RECENT_POSTS_COUNT = 6;
 
-    const HomePage = () => {
+    const HomePage = ({ searchTerm, setSearchTerm }) => {
       const { theme } = useTheme();
-      const [searchTerm, setSearchTerm] = useState('');
       const [recentPosts, setRecentPosts] = useState([]);
       
       const allPostsSorted = useMemo(() => {

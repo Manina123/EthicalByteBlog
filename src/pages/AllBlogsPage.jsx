@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useMemo } from 'react';
     import { blogPosts as allBlogPostsData } from '@/data/blogPosts.jsx';
     import BlogCard from '@/components/BlogCard';
@@ -9,10 +10,9 @@ import React, { useState, useEffect, useMemo } from 'react';
 
     const POSTS_PER_PAGE = 9; 
 
-    const AllBlogsPage = () => {
+    const AllBlogsPage = ({ searchTerm, setSearchTerm }) => {
       const { theme } = useTheme();
       const [currentPage, setCurrentPage] = useState(1);
-      const [searchTerm, setSearchTerm] = useState('');
       const [displayedPosts, setDisplayedPosts] = useState([]);
       
       const filteredAndSortedPosts = useMemo(() => {
