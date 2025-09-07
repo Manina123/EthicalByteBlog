@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, useMemo } from 'react';
+    import React, { useState, useEffect, useMemo, useCallback } from 'react';
     import { blogPosts as allBlogPostsData } from '@/data/blogPosts.jsx';
     import BlogCard from '@/components/BlogCard';
     import { motion } from 'framer-motion';
@@ -38,13 +38,13 @@ import React, { useState, useEffect, useMemo } from 'react';
       }, [searchTerm, allPostsSorted, filteredPosts]);
 
 
-      const handleSearchChange = (event) => {
+      const handleSearchChange = useCallback((event) => {
         setSearchTerm(event.target.value);
-      };
+      }, [setSearchTerm]);
 
-      const handleClearSearch = () => {
+      const handleClearSearch = useCallback(() => {
         setSearchTerm('');
-      };
+      }, [setSearchTerm]);
       
       const containerVariants = {
         hidden: { opacity: 0 },
@@ -167,3 +167,4 @@ import React, { useState, useEffect, useMemo } from 'react';
     };
 
     export default HomePage;
+  

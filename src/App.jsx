@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+    import React, { useState, useEffect, useCallback } from 'react';
     import Layout from '@/components/Layout';
     import HomePage from '@/pages/HomePage';
     import BlogPostPage from '@/pages/BlogPostPage';
@@ -30,29 +30,37 @@ import React, { useState, useEffect } from 'react';
           window.removeEventListener('hashchange', handleHashChange);
         };
       }, []);
+      
+      const handleSetSearchTerm = useCallback((term) => {
+        setSearchTerm(term);
+      }, []);
 
-      let PageComponent;
-      let pageProps = {
-        searchTerm,
-        setSearchTerm,
+      const renderPage = () => {
+        let PageComponent;
+        let pageProps = {};
+
+        if (currentPath === '#/' || currentPath === '#') {
+          PageComponent = HomePage;
+          pageProps = { searchTerm, setSearchTerm: handleSetSearchTerm };
+        } else if (currentPath === '#/all-blogs') {
+          PageComponent = AllBlogsPage;
+          pageProps = { searchTerm, setSearchTerm: handleSetSearchTerm };
+        } else if (currentPath.startsWith('#/post/') && postId) {
+          PageComponent = BlogPostPage;
+          pageProps = { postId };
+        } else {
+          PageComponent = NotFoundPage;
+        }
+
+        return <PageComponent {...pageProps} />;
       };
-
-      if (currentPath === '#/' || currentPath === '#') {
-        PageComponent = HomePage;
-      } else if (currentPath === '#/all-blogs') {
-        PageComponent = AllBlogsPage;
-      } else if (currentPath.startsWith('#/post/') && postId) {
-        PageComponent = BlogPostPage;
-        pageProps = { postId };
-      } else {
-        PageComponent = NotFoundPage;
-      }
       
       return (
         <Layout routeKey={currentPath}>
-          <PageComponent {...pageProps} />
+          {renderPage()}
         </Layout>
       );
     };
 
     export default App;
+  

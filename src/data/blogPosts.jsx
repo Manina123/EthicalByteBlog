@@ -3436,7 +3436,7 @@ content: `
 },
 {
   id: "gemini-calendar-exploit-2025",
-  title: "🛡️ Gemini Exploited via Weaponized Calendar Invites",
+  title: "Gemini Exploited via Weaponized Calendar Invites",
   subtitle: "Google’s AI Assistant Abused to Steal Emails and Control Devices",
   date: "2025-08-08",
   author: "EthicalByte",
@@ -4445,7 +4445,8 @@ content: `
       </p>
     </section>
   `
-},{
+},
+{
   id: "storm0501-cloud-ransomware-2025",
   title: "Storm-0501: Ransomware Without the Ransomware",
   summary: "Hackers no longer need encryption — cloud account takeover is the new extortion model.",
@@ -4527,7 +4528,8 @@ content: `
       </p>
     </section>
   `
-},{
+},
+{
   id: "tamperedchef-malware-2025",
   title: "TamperedChef: Fake PDF Editor Malware Campaign",
   summary: "A Google Ads hijack leads users to info-stealing malware disguised as a PDF tool.",
@@ -5019,41 +5021,6 @@ content: `
     </section>
   `
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     ];
 
     export const getPostById = (id) => blogPosts.find(post => post.id === id);
