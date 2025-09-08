@@ -80,7 +80,7 @@
       hexstrikeAiWeaponizedBanner: "https://ethicalbyte.in/blogs/img/77.webp",
       genaiChatGPTLeakBanner: "https://ethicalbyte.in/blogs/img/78.webp",
       castleRATBanner: "https://ethicalbyte.in/blogs/img/79.webp",
-      castleRATBanner: "https://ethicalbyte.in/blogs/img/80.webp"
+     barrelFireBanner: "https://ethicalbyte.in/blogs/img/80.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
