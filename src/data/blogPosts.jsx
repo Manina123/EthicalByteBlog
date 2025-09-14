@@ -5176,7 +5176,7 @@ content: `
 {
   id: "hybridpetya-ransomware-2025",
   title: "HybridPetya: The Ransomware That Breaks Secure Boot",
-  subtitle: "A new strain bypasses UEFI protections, encrypts entire systems, and demands $1,000 in Bitcoin",
+  summary: "A new strain bypasses UEFI protections, encrypts entire systems, and demands $1,000 in Bitcoin",
   date: "2025-09-14",
   author: "EthicalByte",
   tags: ["Ransomware", "HybridPetya", "UEFI", "Secure Boot", "Malware"],
