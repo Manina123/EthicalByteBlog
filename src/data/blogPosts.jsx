@@ -5172,6 +5172,64 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "hybridpetya-ransomware-2025",
+  title: "HybridPetya: The Ransomware That Breaks Secure Boot",
+  subtitle: "A new strain bypasses UEFI protections, encrypts entire systems, and demands $1,000 in Bitcoin",
+  date: "2025-09-14",
+  author: "EthicalByte",
+  tags: ["Ransomware", "HybridPetya", "UEFI", "Secure Boot", "Malware"],
+  imageKey: "hybridPetyaBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#1b2735,#090a0f); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ff5252;">⚠ HybridPetya — A Ransomware Evolution</h3><br>
+      <p>
+        A new ransomware strain, <b>HybridPetya</b>, has emerged with a chilling capability: it can 
+        <b>bypass Secure Boot protections</b> on modern PCs and embed itself into the <b>UEFI firmware</b>.  
+        Victims are shown a fake <b>CHKDSK repair screen</b> before being hit with a <b>$1,000 Bitcoin demand</b>.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#2c5364,#203a43); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#ffca28;">🔑 How HybridPetya Works</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🖥 Exploits <b>Secure Boot vulnerabilities</b> to execute before the OS loads</li>
+        <li>⚡ Infects the <b>UEFI firmware</b>, ensuring persistence beyond reinstalls</li>
+        <li>🔒 Encrypts entire drives — not just files — leaving systems unusable</li>
+        <li>💰 Displays ransom note demanding <b>$1,000 in Bitcoin</b></li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#0f2027,#203a43,#2c5364); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#90caf9;">🚨 Why This Threat Is Alarming</h3><br>
+      <p>
+        Traditional ransomware encrypts files after boot. <b>HybridPetya goes deeper</b> — it hijacks  
+        the system before the operating system even starts, making recovery nearly impossible.  
+        Security researchers warn that <b>Secure Boot bypass attacks are becoming more frequent</b>, 
+        signaling a dangerous new era of ransomware evolution.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#1565c0;">🛡 Defenses Against HybridPetya</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✅ Keep <b>firmware and BIOS</b> updated to patch Secure Boot vulnerabilities</li>
+        <li>✅ Enable <b>hardware-based security features</b> like TPM</li>
+        <li>✅ Use <b>advanced endpoint protection</b> with firmware scanning</li>
+        <li>✅ Maintain <b>offline, encrypted backups</b> to recover without paying</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#090a0f,#1b2735); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#ff5252;">💀 Final Thoughts</h3><br>
+      <p>
+        <b>HybridPetya</b> represents a new class of ransomware — one that attacks the very foundation of your system.  
+        With Secure Boot and UEFI under siege, <b>prevention is critical</b>. Once infected, even wiping the OS may not be enough.  
+        This is not just ransomware — it’s <b>ransomware redefined</b>.
+      </p>
+    </section>
+  `
 }
 
 

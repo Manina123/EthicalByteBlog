@@ -82,7 +82,8 @@
       castleRATBanner: "https://ethicalbyte.in/blogs/img/79.webp",
      barrelFireBanner: "https://ethicalbyte.in/blogs/img/80.webp",
      fakeHireBanner: "https://ethicalbyte.in/blogs/img/81.webp",
-     pixel10C2PABanner: "https://ethicalbyte.in/blogs/img/82.webp"
+     pixel10C2PABanner: "https://ethicalbyte.in/blogs/img/82.webp",
+     hybridPetyaBanner: "https://ethicalbyte.in/blogs/img/83.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
