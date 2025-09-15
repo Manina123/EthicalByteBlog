@@ -5230,7 +5230,75 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "fbi-salesforce-raids-2025",
+  title: "FBI Warns: Hackers Raiding Salesforce to Steal Data",
+  summary: "UNC6040, UNC6395, and known groups like ShinyHunters, LAPSUS$, and Scattered Spider are behind the campaigns.",
+  date: "2025-09-15",
+  author: "EthicalByte",
+  tags: ["FBI Alert", "Salesforce Breach", "Token Theft", "Phishing", "Cybercrime Groups"],
+  imageKey: "fbiSalesforceBreach",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#141E30,#243B55); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ff4d4d;">🚨 FBI Alert: Salesforce Under Siege</h3><br>
+      <p>
+        The FBI has issued a new warning about <b>ongoing Salesforce data raids</b>, carried out by advanced 
+        threat actors <b>UNC6040</b> and <b>UNC6395</b>. Using <b>stolen tokens, phishing calls, and custom malware</b>, 
+        these hackers are breaching enterprise Salesforce instances to steal sensitive data and extort victims.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#232526,#414345); border-radius:12px; color:#eaeaea; margin-top:15px;">
+      <h3 style="color:#ffca28;">🕵️ The Threat Actors</h3><br>
+      <p>
+        Investigators have tied the activity to cybercrime collectives including <b>ShinyHunters</b>, <b>LAPSUS$</b>, 
+        and <b>Scattered Spider</b>. These groups briefly announced their "retirement," but the FBI cautions that such 
+        claims are rarely trustworthy. Instead, they may be reorganizing and evolving their operations.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#000428,#004e92); border-radius:12px; color:#f0f0f0; margin-top:15px;">
+      <h3 style="color:#90caf9;">⚙️ How the Attacks Work</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔑 Theft of <b>OAuth tokens</b> to gain persistent access</li>
+        <li>📞 <b>Phishing calls</b> to trick employees into handing over credentials</li>
+        <li>🛠 <b>Custom exploitation tools</b> tailored for Salesforce environments</li>
+        <li>📤 Large-scale data exfiltration followed by extortion attempts</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1c1c1c,#434343); border-radius:12px; color:#ddd; margin-top:15px;">
+      <h3 style="color:#34d399;">🌍 Impact on Organizations</h3><br>
+      <p>
+        The raids are not just about stolen customer data — they also compromise <b>licensing details</b>, 
+        <b>support case text</b>, and other sensitive business information. This enables attackers to not only extort 
+        companies but also weaponize stolen insights against customers and partners.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2563eb;">🛡️ Defensive Measures</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✔️ Rotate and monitor <b>OAuth tokens</b> regularly</li>
+        <li>✔️ Enable <b>multi-factor authentication (MFA)</b> across Salesforce accounts</li>
+        <li>✔️ Train employees to detect <b>phishing attempts</b> over calls & emails</li>
+        <li>✔️ Monitor for <b>unusual API calls or large data exports</b></li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#243B55,#141E30); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#ff4d4d;">⚡ Final Thoughts</h3><br>
+      <p>
+        The FBI’s warning makes one thing clear: <b>retired hacker groups don’t retire</b>.  
+        They rebrand, regroup, and return stronger.  
+        Enterprises must strengthen defenses around SaaS platforms like Salesforce — because attackers know 
+        this is where the crown jewels are kept.
+      </p>
+    </section>
+  `
 }
+
 
 
     ];
