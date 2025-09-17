@@ -85,7 +85,8 @@
      pixel10C2PABanner: "https://ethicalbyte.in/blogs/img/82.webp",
      hybridPetyaBanner: "https://ethicalbyte.in/blogs/img/83.webp",
      fbiSalesforceBreach: "https://ethicalbyte.in/blogs/img/84.webp",
-     browserAttacks2025Banner: "https://ethicalbyte.in/blogs/img/85.webp"
+     browserAttacks2025Banner: "https://ethicalbyte.in/blogs/img/85.webp",
+     aiAgentControlBanner: "https://ethicalbyte.in/blogs/img/86.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
