@@ -5525,7 +5525,7 @@ content: `
 },{
   id: "ai-quantum-cybersecurity-2025",
   title: "AI + Quantum: The Next Frontier in Cybersecurity",
-  subtitle: "Great potential, greater risks — experts warn of a new era of cyber challenges",
+  summary: "Great potential, greater risks — experts warn of a new era of cyber challenges",
   date: "2025-09-19",
   author: "EthicalByte",
   tags: ["AI", "Quantum Computing", "Cybersecurity", "Webinar", "Future Tech"],
