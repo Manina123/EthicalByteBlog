@@ -88,7 +88,8 @@
      browserAttacks2025Banner: "https://ethicalbyte.in/blogs/img/85.webp",
      aiAgentControlBanner: "https://ethicalbyte.in/blogs/img/86.webp",
      venomHotelBanner: "https://ethicalbyte.in/blogs/img/87.webp",
-     aiQuantumCyberBanner: "https://ethicalbyte.in/blogs/img/88.webp"
+     aiQuantumCyberBanner: "https://ethicalbyte.in/blogs/img/88.webp",
+     sapSovereignCloudIndia: "https://ethicalbyte.in/blogs/img/89.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
