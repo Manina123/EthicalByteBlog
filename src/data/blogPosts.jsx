@@ -5767,7 +5767,85 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "brickstorm-backdoor-unc5221-2025",
+  title: "BRICKSTORM Backdoor: China-Linked Hackers Breach U.S. Firms",
+  summary: "UNC5221 (China-linked actors) used a stealthy backdoor called BRICKSTORM to infiltrate legal, SaaS and tech firms — hiding for 393 days while exfiltrating emails and cloning servers.",
+  date: "2025-09-25",
+  author: "EthicalByte",
+  tags: ["UNC5221", "BRICKSTORM", "Advanced Persistent Threat", "Backdoor", "Data Exfiltration", "Supply Chain"],
+  imageKey: "brickstormBackdoorBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#071024,#0e2740); border-radius:12px; color:#eef6fb;">
+      <h3 style="color:#ff6b6b;">🚨 BRICKSTORM: Stealthy 393-Day Intrusion</h3><br>
+      <p>
+        Security researchers have uncovered a long-running intrusion by a group tracked as <b>UNC5221</b>, leveraging a custom backdoor named <b>BRICKSTORM</b>.  
+        The adversary infiltrated top U.S. legal, SaaS, and technology firms and remained undetected for <b>393 days</b>, quietly stealing emails, cloning servers, and moving laterally across environments.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#0b2a3a,#113b53); border-radius:12px; color:#e6f2f8; margin-top:15px;">
+      <h3 style="color:#ffd166;">⚙️ How BRICKSTORM Operates</h3><br>
+      <p>
+        BRICKSTORM is designed for persistence and low-observability. Key tactics observed include:
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔒 <b>Stealthy persistence</b> via custom service installers and manipulated startup items</li>
+        <li>📨 <b>Email harvesting</b> — exfiltrating mailboxes and archived correspondence</li>
+        <li>🖥️ <b>Server cloning</b> to reproduce critical VMs/services for deeper lateral movement</li>
+        <li>🕵️ <b>Living-off-the-land techniques</b> to avoid signature-based detection</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#062033,#0b2a3d); border-radius:12px; color:#dff3fb; margin-top:15px;">
+      <h3 style="color:#7be495;">🔍 Indicators & Detection Challenges</h3><br>
+      <p>
+        The campaign’s stealth made detection difficult. Observed challenges include:
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>❗ <b>Low-and-slow data exfiltration</b> that blends into normal traffic</li>
+        <li>❗ <b>Custom tooling</b> that lacks public IoCs for signature detection</li>
+        <li>❗ Use of <b>legitimate admin utilities</b> and scheduled tasks to mask activity</li>
+      </ul>
+      <p>
+        Analysts recommend focusing on <b>anomalous account activity, unexpected service clones, and unusual outbound connections</b> rather than relying solely on known IoCs.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#12202b,#243b55); border-radius:12px; color:#ecfbff; margin-top:15px;">
+      <h3 style="color:#90caf9;">🌍 Impact on Victims</h3><br>
+      <p>
+        Victims included high-value targets with sensitive client data and intellectual property. Consequences observed:
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>📧 Compromised attorney-client correspondence and internal communications</li>
+        <li>⚙️ Cloned production servers enabling further covert access and sabotage risk</li>
+        <li>🔗 Elevated supply-chain risk as SaaS integrations and third-party connectors were abused</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#08121a,#0d2b3b); border-radius:12px; color:#d8f3ff; margin-top:15px;">
+      <h3 style="color:#ff9f43;">🛡️ Recommended Immediate Actions</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔁 Rotate & revoke credentials and API tokens for suspected accounts and services</li>
+        <li>🔎 Hunt for cloned VM/service artifacts and unexpected disk images</li>
+        <li>🧯 Ensure EDR & telemetry capture is enabled for long-term baselining and retrospective analysis</li>
+        <li>🔐 Enforce strict least-privilege policies and break overly broad service permissions</li>
+        <li>📢 Notify customers & stakeholders if sensitive client data may have been exposed</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:#f3f9fb; border-radius:12px; color:#122233; margin-top:15px;">
+      <h3 style="color:#2563eb;">✅ Final Thoughts</h3><br>
+      <p>
+        BRICKSTORM shows how advanced actors can combine custom backdoors, living-off-the-land techniques, and patient operations to steal high-value data while remaining invisible.  
+        The modern defense playbook must include threat hunting, aggressive credential hygiene, and continuous telemetry — because long dwell times cause the most damage.
+      </p>
+    </section>
+  `
 }
+
 
 
 

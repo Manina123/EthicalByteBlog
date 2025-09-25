@@ -91,7 +91,8 @@
      aiQuantumCyberBanner: "https://ethicalbyte.in/blogs/img/88.webp",
      sapSovereignCloudIndia: "https://ethicalbyte.in/blogs/img/89.webp",
      autonomousAICyberBanner: "https://ethicalbyte.in/blogs/img/90.webp",
-     europeCryptoScam2025: "https://ethicalbyte.in/blogs/img/91.webp"
+     europeCryptoScam2025: "https://ethicalbyte.in/blogs/img/91.webp",
+     brickstormBackdoorBanner: "https://ethicalbyte.in/blogs/img/92.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
