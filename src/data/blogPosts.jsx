@@ -5844,7 +5844,76 @@ content: `
       </p>
     </section>
   `
+},{
+  id: "oneplus-cve-2025-10184",
+  title: "⚠️ OnePlus OxygenOS Flaw Exposes MFA SMS Codes",
+  summary: "A high-severity vulnerability (CVSS 8.2) in OxygenOS allows malicious apps to read SMS—including multi-factor authentication codes—without user consent.",
+  date: "2025-09-26",
+  author: "EthicalByte",
+  tags: ["OnePlus", "Vulnerability", "CVE-2025-10184", "Android Security", "MFA Bypass"],
+  imageKey: "oneplusSMSVuln",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#1a1a40,#0d0d0d); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ff4d6d;">🚨 Critical Flaw in OxygenOS Exposes Your Messages</h3><br>
+      <p>
+        Security researchers have uncovered a dangerous flaw — <b>CVE-2025-10184</b> — impacting 
+        OnePlus devices running <b>OxygenOS 12 and later</b>. The vulnerability (CVSS 8.2) allows 
+        <b>any malicious app</b> installed on the device to <b>read SMS messages without permission</b>, 
+        including sensitive <b>MFA codes</b>, bank OTPs, and account verification texts.
+      </p>
+      <p>
+        Even more concerning: the issue has remained unpatched since <b>2021</b>, putting millions of users at risk.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#2c003e,#1a1a40); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#ffd166;">📱 What Makes CVE-2025-10184 So Dangerous?</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🚫 No permissions needed — malware can read SMS silently</li>
+        <li>🔑 MFA, OTPs, and 2FA codes can be intercepted in real-time</li>
+        <li>📤 Attackers can use stolen codes to take over accounts and bypass security</li>
+        <li>🕵️ Potential for large-scale credential theft and financial fraud</li>
+      </ul>
+      <p>
+        The vulnerability bypasses Android’s standard permission model, exposing users even if they follow best security practices.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#003049,#001219); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#06d6a0;">🧪 Current Status & OnePlus Response</h3><br>
+      <p>
+        OnePlus has acknowledged the report and stated that they are <b>“actively investigating”</b> the vulnerability.  
+        However, no official patch or update timeline has been announced as of yet.
+      </p>
+      <p>
+        Users running OxygenOS 12 and newer versions should treat this vulnerability as an active risk.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2563eb;">🛡️ How to Protect Yourself</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✔️ Avoid installing apps from unknown sources or sideloading APKs</li>
+        <li>✔️ Use an authenticator app instead of SMS-based 2FA where possible</li>
+        <li>✔️ Monitor device permissions and uninstall suspicious apps</li>
+        <li>✔️ Apply security patches immediately once available</li>
+      </ul>
+      <p>
+        Until OnePlus issues a fix, <b>your best defense is caution</b>. Treat every app installation as a potential risk.
+      </p>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#1a1a40,#0d0d0d); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#ff4d6d;">✅ Final Thoughts</h3><br>
+      <p>
+        CVE-2025-10184 is a stark reminder that <b>even trusted OEM software can introduce massive security gaps</b>.  
+        Until OxygenOS receives a patch, treat your SMS inbox as <b>compromised territory</b> — and shift to 
+        more secure authentication methods immediately.
+      </p>
+    </section>
+  `
 }
+
 
 
 
