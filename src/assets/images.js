@@ -94,7 +94,8 @@
      europeCryptoScam2025: "https://ethicalbyte.in/blogs/img/91.webp",
      brickstormBackdoorBanner: "https://ethicalbyte.in/blogs/img/92.webp",
      oneplusSMSVuln: "https://ethicalbyte.in/blogs/img/93.webp",
-     evilaiMalwareBanner: "https://ethicalbyte.in/blogs/img/94.webp"
+     evilaiMalwareBanner: "https://ethicalbyte.in/blogs/img/94.webp",
+     ukBitcoinBust: "https://ethicalbyte.in/blogs/img/95.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
