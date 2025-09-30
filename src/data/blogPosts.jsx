@@ -5912,7 +5912,75 @@ content: `
       </p>
     </section>
   `
+},
+{
+  id: "evilai-malware-campaign-2025",
+  title: "EvilAI Malware Masquerades as AI Tools in Global Attack",
+  summary: "A stealthy new malware campaign, 'EvilAI', is hiding inside legitimate AI and productivity apps — targeting critical sectors worldwide with advanced evasion tactics.",
+  date: "2025-09-30",
+  author: "EthicalByte",
+  tags: ["EvilAI", "Malware", "AI Threats", "Cybersecurity", "Global Campaign"],
+  imageKey: "evilaiMalwareBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#0d0d0d,#1a1a40); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ff4d6d;">🚨 EvilAI: The Malware Hiding in Plain Sight</h3><br>
+      <p>
+        A new wave of cyberattacks is sweeping across industries — and this time, it's hiding in plain sight.  
+        Dubbed <b>"EvilAI"</b>, the campaign involves malicious code embedded inside seemingly legitimate AI and productivity tools, now infecting organizations in <b>India, the U.S., France, Brazil</b>, and beyond.
+      </p>
+      <p>
+        Unlike traditional malware, EvilAI blends perfectly with business workflows, bypassing most security tools and staying undetected for weeks — or even months.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1a1a40,#2c003e); border-radius:12px; color:#e0e0e0; margin-top:15px;">
+      <h3 style="color:#ffd166;">🧠 How EvilAI Works</h3><br>
+      <p>
+        This is not a typical malicious payload. EvilAI leverages legitimate features and developer frameworks to hide its activity:
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✅ Uses <b>valid code-signing certificates</b> to appear authentic</li>
+        <li>🔐 Encrypts command-and-control (C2) traffic with <b>AES encryption</b></li>
+        <li>🧩 Exploits <b>NeutralinoJS</b> to execute payloads inside trusted app processes</li>
+        <li>🦠 Deploys modular components for <b>data theft, credential harvesting,</b> and <b>persistence</b></li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#003049,#001219); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#06d6a0;">🏭 Targeted Industries</h3><br>
+      <p>
+        EvilAI is targeting sectors where disruption or data theft has maximum impact. Current intelligence points to attacks against:
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🏭 <b>Manufacturing</b> – Industrial espionage and supply chain disruptions</li>
+        <li>🏥 <b>Healthcare</b> – Patient record theft and ransomware staging</li>
+        <li>🏛️ <b>Government</b> – Surveillance and long-term espionage</li>
+        <li>💻 <b>Tech Companies</b> – Source code exfiltration and backdoor planting</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#2c003e,#0d0d0d); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#ff4d6d;">⚠️ Why It’s So Dangerous</h3><br>
+      <p>
+        EvilAI is redefining how malware operates. By <b>hiding inside trusted applications</b> and <b>using real developer techniques</b>, it bypasses antivirus engines, EDR systems, and even zero-trust policies.  
+        Once inside, it establishes persistence, spreads laterally, and can <b>harvest sensitive data silently</b>.
+      </p>
+      <p>
+        Even seasoned security teams are finding it difficult to distinguish legitimate AI behavior from malicious activity.
+      </p>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2196f3;">🔍 Final Thoughts</h3><br>
+      <p>
+        <b>EvilAI</b> proves that the future of cyberattacks is not brute force — it's <b>deception</b>.  
+        As AI tools become ubiquitous, security teams must scrutinize even trusted software for hidden threats.  
+        The question is no longer “Is this app safe?” but “Do I know <b>what’s running inside</b> it?”
+      </p>
+    </section>
+  `
 }
+
 
 
 
