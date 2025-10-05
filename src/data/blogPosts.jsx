@@ -6151,7 +6151,71 @@ content: `
       </p>
     </section>
   `
+},{
+  id: "cometjacking-insider-threat-2025",
+  title: "CometJacking: One Click Turns Perplexity’s AI into an Insider Threat",
+  summary: "A new exploit called 'CometJacking' abuses Perplexity’s AI agent memory to exfiltrate sensitive data — including Gmail and Calendar — with a single malicious URL, no credentials required.",
+  date: "2025-10-05",
+  author: "EthicalByte",
+  tags: ["AI Security", "CometJacking", "Perplexity", "Insider Threat", "Data Exfiltration"],
+  imageKey: "cometJackingBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#0d0d0d,#1a1a40); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ff4d6d;">🚨 CometJacking: Turning AI Against You</h3><br>
+      <p>
+        Security researchers have uncovered a dangerous new exploit called <b>CometJacking</b> — a technique that turns Perplexity’s AI agent, <b>Comet</b>, into a stealthy insider threat with just one malicious link.
+      </p>
+      <p>
+        A single crafted URL can <b>hijack the Comet agent</b>, query its internal memory (<code>collection=...</code>), and <b>exfiltrate sensitive data</b> such as Gmail contents or calendar events <b>without requiring any credentials</b>.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1a1a40,#2c003e); border-radius:12px; color:#e2e8f0; margin-top:15px;">
+      <h3 style="color:#ffd166;">🧠 How the Exploit Works</h3><br>
+      <p>
+        Comet’s internal memory feature is designed to store contextual information from previous sessions to improve responses. However, attackers discovered they could <b>trick the agent into exposing this memory</b> remotely through a simple <b>GET request</b>.
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✅ Step 1: Host a malicious URL embedding a query that targets the Comet memory API.</li>
+        <li>✅ Step 2: The agent reads and processes the request — <b>no auth or permissions required</b>.</li>
+        <li>✅ Step 3: Exfiltrated data is <b>Base64-encoded</b> and sent off-box to an attacker-controlled server.</li>
+      </ul>
+      <p>
+        Because the action occurs within the context of a “trusted” AI agent, <b>traditional security tools fail to flag the activity</b>.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#003049,#001219); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#06d6a0;">⚠️ Real-World Impact</h3><br>
+      <p>
+        CometJacking shows how <b>AI memory itself can become a data leak vector</b>.  
+        Sensitive corporate data, emails, cloud tokens, calendar details, and internal conversations — once stored for context — can be quietly siphoned off by malicious actors.
+      </p>
+      <p>
+        The risk is amplified because <b>no credentials, phishing, or malware deployment</b> are required. A single URL click is enough.
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#2c003e,#0d0d0d); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#ff4d6d;">🛡️ Defenses and Mitigations</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔐 Restrict agent memory exposure with <b>access control layers</b> and validation checks.</li>
+        <li>🚫 Disable or isolate sensitive memory storage in production environments.</li>
+        <li>📊 Implement <b>URL sanitization</b> and strict query whitelisting before processing requests.</li>
+        <li>🧠 Monitor LLM agents for <b>unexpected outbound traffic</b> or Base64 data streams.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:#f8f9fa; border-radius:12px; color:#333; margin-top:15px;">
+      <h3 style="color:#2563eb;">🚀 Final Thoughts</h3><br>
+      <p>
+        CometJacking proves that <b>AI systems are not just attack targets — they can become attackers themselves</b>.  
+        As enterprise adoption of agentic AI accelerates, organizations must treat these systems like any other endpoint: <b>monitor, restrict, and harden them</b>.
+      </p>
+    </section>
+  `
 }
+
 
 
 

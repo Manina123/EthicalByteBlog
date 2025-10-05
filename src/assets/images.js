@@ -96,7 +96,8 @@
      oneplusSMSVuln: "https://ethicalbyte.in/blogs/img/93.webp",
      evilaiMalwareBanner: "https://ethicalbyte.in/blogs/img/94.webp",
      ukBitcoinBust: "https://ethicalbyte.in/blogs/img/95.webp",
-     ukAppleBackdoorBanner: "https://ethicalbyte.in/blogs/img/96.webp"
+     ukAppleBackdoorBanner: "https://ethicalbyte.in/blogs/img/96.webp",
+     cometJackingBanner: "https://ethicalbyte.in/blogs/img/97.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
