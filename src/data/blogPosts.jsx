@@ -6214,6 +6214,66 @@ content: `
       </p>
     </section>
   `
+},{
+  id: "oracle-ebs-zero-day-cl0p-2025",
+  title: "Oracle Patches CVE-2025-61882: Cl0p Exploits Live Zero-Day in EBS",
+  summary: "Oracle released an emergency patch for a critical 9.8 flaw in E-Business Suite (CVE-2025-61882), which is being actively exploited by Cl0p to steal data. The exploit enables remote code execution without authentication. Apply immediately. ",
+  date: "2025-10-06",
+  author: "EthicalByte",
+  tags: ["Oracle", "EBS", "Zero-Day", "Cl0p", "RCE", "Cybersecurity"],
+  imageKey: "oracleEBSZeroDayBanner",
+  content: `
+    <section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#0a0a0a,#1f1f3a); border-radius:12px; color:#f5f5f5;">
+      <h3 style="color:#ff4d4d;">🚨 Oracle Rushes Patch for Critical EBS Zero-Day</h3><br>
+      <p>
+        Oracle has issued an emergency security alert for **CVE-2025-61882**, a **critical 9.8 CVSS** vulnerability in E-Business Suite (EBS).  
+        This flaw allows **unauthenticated remote attackers** to execute code on vulnerable instances without needing usernames or passwords. :contentReference[oaicite:0]{index=0}
+      </p>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#1a1a40,#2c003e); border-radius:12px; color:#dfe7f0; margin-top:15px;">
+      <h3 style="color:#ffd166;">🧠 How It’s Being Exploited</h3><br>
+      <p>
+        Evidence suggests the Cl0p ransomware/extortion group is actively leveraging this zero-day to steal data from victim EBS environments. :contentReference[oaicite:1]{index=1}  
+        In many cases, victims have received extortion emails claiming their data is already compromised. :contentReference[oaicite:2]{index=2}  
+      </p>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✅ The vulnerability affects EBS versions **12.2.3 through 12.2.14**, specifically in the **Concurrent Processing / BI Publisher** integration. :contentReference[oaicite:3]{index=3}</li>
+        <li>✅ Attackers may exploit it by sending crafted HTTP requests to vulnerable endpoints. :contentReference[oaicite:4]{index=4}</li>
+        <li>✅ Because it’s unauthenticated, common defenses (like requiring login) are bypassed. :contentReference[oaicite:5]{index=5}</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#003049,#001219); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#06d6a0;">⚠️ Why This Is Alarming</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>🔐 Zero-day RCE with **no credentials needed** — extremely dangerous.</li>
+        <li>💼 EBS is often central to enterprise operations (finance, HR, supply chain) — breach impact is high.</li>
+        <li>💸 The linkage to **Cl0p extortion** means data theft might already be in progress. :contentReference[oaicite:6]{index=6}</li>
+        <li>⚠️ Many organizations may already be compromised but unaware.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; background:linear-gradient(135deg,#2c003e,#0d0d0d); border-radius:12px; color:#d1e0f0; margin-top:15px;">
+      <h3 style="color:#ff4d6d;">🛡 Mitigation & Next Steps</h3><br>
+      <ul style="margin-left:20px; line-height:1.8;">
+        <li>✅ Immediately apply Oracle’s patch for CVE-2025-61882. :contentReference[oaicite:7]{index=7}</li>
+        <li>✅ Compare configured endpoints to known vulnerable paths and apply firewall rules.</li>
+        <li>✅ Monitor for anomalous activity, especially suspicious HTTP requests or data exfiltration traffic.</li>
+        <li>✅ Review Oracle’s advisory and risk matrices in their patch documentation. :contentReference[oaicite:8]{index=8}</li>
+        <li>✅ For organizations that can’t patch immediately, isolate or disable exposed modules if feasible.</li>
+      </ul>
+    </section>
+
+    <section style="padding:20px; text-align:center; background:linear-gradient(135deg,#1a1a40,#0d0d0d); border-radius:12px; color:#f5f5f5; margin-top:15px;">
+      <h3 style="color:#ff4d6d;">✅ Final Thoughts</h3><br>
+      <p>
+        CVE-2025-61882 is not just another zero-day — it’s a critical entry point with direct ties to data theft and extortion.  
+        If you run Oracle EBS, your top priority must be patching immediately and validating your environment for any signs of compromise.  
+        The time to act is already overdue.
+      </p>
+    </section>
+  `
 }
 
 
