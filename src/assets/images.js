@@ -99,7 +99,7 @@
      ukAppleBackdoorBanner: "https://ethicalbyte.in/blogs/img/96.webp",
      cometJackingBanner: "https://ethicalbyte.in/blogs/img/97.webp",
      oracleEBSZeroDayBanner: "https://ethicalbyte.in/blogs/img/98.webp",
-     eeklyRecapBannerOct2025: "https://ethicalbyte.in/blogs/img/99.webp"
+     weeklyRecapBannerOct2025: "https://ethicalbyte.in/blogs/img/99.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };

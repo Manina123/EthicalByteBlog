@@ -6276,7 +6276,7 @@ content: `
   id: "weekly-cyber-recap-2025-10-05",
   title: "Weekly Cyber Recap — Patch Fast. Detect Early. Defend Better.",
   summary: "This week’s cybersecurity roundup highlights why rapid patching, proactive detection, and future-proof defense strategies are essential against evolving threats — from zero-day exploits to new browser-based attack vectors.",
-  date: "2025-10-05",
+  date: "2025-10-07",
   author: "EthicalByte",
   tags: ["Weekly Recap", "Zero-Day", "Patch Now", "Threat Intelligence", "Defense"],
   imageKey: "weeklyRecapBannerOct2025",
