@@ -6561,7 +6561,77 @@ content: `
       
     </section>
   `
+},
+{
+  id: "whatsapp-worm-malware-brazil-2025",
+  title: "🚨 WhatsApp Worm Malware Targets Brazilian Users",
+  summary: "A self-propagating Android campaign abuses WhatsApp to auto-message contacts, impersonate trusted apps, and spread fast. Brazilian users are hit first — but the blueprint is global.",
+  date: "2025-10-14",
+  author: "EthicalByte",
+  tags: ["WhatsApp", "Android", "Worm", "Malware", "Brazil", "Threat Intelligence", "Mobile Security"],
+  imageKey: "whatsappWormBrazilBanner",
+  content: `
+    <section style="padding:24px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#071a14,#0e2a22); border-radius:12px; color:#e7fff6;">
+      <h3 style="color:#25d366;">🚨 Self-Propagating Malware Campaign Hits Brazil</h3><br>
+      <p>
+        Researchers are tracking a <b>worm-style Android campaign</b> abusing <b>WhatsApp</b> to spread. 
+        Once a phone is infected, the malware <b>auto-messages the victim’s contacts</b> with a malicious link or APK —
+        turning one device into a distribution hub. Initial activity clusters in <b>Brazil</b>, but the pattern can scale globally.
+      </p>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#0b2520,#0f312a); border-radius:12px; color:#dcfff5;">
+      <h3 style="color:#a7f3d0;">🕵️ How the Worm Works</h3><br>
+      <ul style="margin-left:18px; line-height:1.8;">
+        <li>📲 <b>Infection vector:</b> malicious link/APK shared via WhatsApp chats and groups.</li>
+        <li>🎭 <b>Impersonation:</b> mimics WhatsApp/YouTube/Google Photos or shows fake Play Store update screens.</li>
+        <li>🪱 <b>Propagation:</b> enumerates contacts and <b>auto-sends</b> lure messages to each recipient.</li>
+        <li>🔐 <b>Data access:</b> seeks SMS, Contacts, Accessibility, and other sensitive permissions.</li>
+      </ul>
+      <p>Social trust + messaging automation = rapid spread with high click-through rates.</p>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#0a1f19,#0a1b24); border-radius:12px; color:#e0f7ff;">
+      <h3 style="color:#7dd3fc;">⚠️ Why This Matters</h3><br>
+      <ul style="margin-left:18px; line-height:1.8;">
+        <li>🌍 Local to global in days: WhatsApp’s network effect accelerates outbreaks.</li>
+        <li>🧠 Low skill required: reuse kits + brand mimicry make replication easy.</li>
+        <li>🏢 Business risk: infected employee phones can phish partners and customers.</li>
+      </ul>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#122d25,#0f2620); border-radius:12px; color:#eafff7;">
+      <h3 style="color:#34d399;">🛡 How to Protect (User & Org)</h3><br>
+      <ul style="margin-left:18px; line-height:1.8;">
+        <li>✅ Install apps <b>only</b> from Google Play; verify developer name & reviews.</li>
+        <li>🚫 Don’t sideload APKs from links in chats/SMS — even from known contacts.</li>
+        <li>🔐 Revoke <b>Install unknown apps</b> and unnecessary <b>Accessibility</b> permissions.</li>
+        <li>📲 Keep Android + Google Play Protect updated; deploy mobile AV/MTD in orgs.</li>
+      </ul>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#0c2620,#0a1b24); border-radius:12px; color:#d7f9ff;">
+      <h3 style="color:#60a5fa;">🧭 Detection & IR (Quick Playbook)</h3><br>
+      <ul style="margin-left:18px; line-height:1.8;">
+        <li>📊 Hunt for <b>messaging spikes</b> from a single device to many contacts in minutes.</li>
+        <li>📦 Flag <b>new app installs</b> + immediate requests for Contacts/SMS/Accessibility.</li>
+        <li>🌐 Block short-lived lure domains/URLs seen post-install.</li>
+        <li>🧹 If infected: quarantine device, remove rogue APKs, reset creds, re-enroll via MDM.</li>
+      </ul>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; text-align:center; background:#f7fffb; border-radius:12px; color:#0b1c17;">
+      <h3 style="color:#25d366;">📢 Final Thoughts</h3><br>
+      <p>
+        Messaging platforms are powerful — and now a <b>prime malware transport</b>. 
+        Treat every mobile compromise as a potential <b>propagation node</b>. 
+        Awareness + controls beat worms every time.
+      </p>
+  
+    </section>
+  `
 }
+
 
 
 
