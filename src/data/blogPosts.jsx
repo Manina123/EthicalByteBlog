@@ -6630,7 +6630,73 @@ content: `
   
     </section>
   `
+},{
+  id: "github-command-center-steganography-2025",
+  title: "When GitHub Becomes a Command Center: Malware Reboots from Stego-Images",
+  summary: "Attackers hide configs inside images on GitHub and use repos as resilient C2 — takedowns fail because the malware simply reboots from public code and steganographic payloads.",
+  date: "2025-10-15",
+  author: "EthicalByte",
+  tags: ["GitHub", "Steganography", "Resilient Malware", "Supply Chain", "Astaroth", "Threat Intelligence"],
+  imageKey: "githubResilienceBanner",
+  content: `
+    <section style="padding:24px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#07182b,#0b2536); border-radius:12px; color:#e6f7ff;">
+      <h3 style="color:#ff6b6b;">🚨 GitHub Turned Into a Malware Command Center</h3><br>
+      <p>
+        Researchers observed a resilient campaign that weaponizes public Git hosting (GitHub) as a recovery and command channel. When operators’ private servers get taken down, the malware fetches instructions and configuration embedded inside images stored in repositories — then restarts and resumes operations. This technique blends <b>public infrastructure</b> with <b>steganography</b> to dramatically increase attacker survivability.
+      </p>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#0b2a2b,#09202a); border-radius:12px; color:#dff7ff;">
+      <h3 style="color:#ffd166;">🕵️ How the Technique Works</h3><br>
+      <ol style="line-height:1.8; margin-left:18px;">
+        <li>Initial compromise: attackers deliver a lightweight loader to victims (phishing, exploit kit, etc.).</li>
+        <li>Stego retrieval: the loader pulls image files from a GitHub repo or raw.githubusercontent links.</li>
+        <li>Hidden configs: configuration or commands are encoded inside image files using steganography (hidden payloads in pixels/metadata).</li>
+        <li>Reconstitution: the malware decodes the hidden data, applies commands or downloads additional modules, and resumes control — even after their primary C2 servers are seized.</li>
+        <li>Resilience: public repos and raw URLs are cheap, robust, and often overlooked by defenders; takedowns take time and mirrored repos can reappear quickly.</li>
+      </ol>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#071827,#05212a); border-radius:12px; color:#dff7ff;">
+      <h3 style="color:#7ce7d6;">⚠️ Why This Matters</h3><br>
+      <ul style="line-height:1.8; margin-left:18px;">
+        <li>📡 Attackers reuse public infrastructure to evade traditional C2 blocking.</li>
+        <li>🖼 Steganography hides signals in plain sight — images bypass many detection rules.</li>
+        <li>🛡 Takedowns of private servers no longer guarantee neutralization.</li>
+        <li>🔁 Rapid replication: forks, mirrors, and raw-file access make recovery fast for adversaries.</li>
+      </ul>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#0a2830,#07202a); border-radius:12px; color:#dff7ff;">
+      <h3 style="color:#60a5fa;">🔍 Detection Signals & Hunting</h3><br>
+      <ul style="line-height:1.8; margin-left:18px;">
+        <li>🌐 Unusual outbound requests to raw.githubusercontent.com or GitHub raw URLs from endpoints that normally don’t fetch remote media.</li>
+        <li>🖼 High-volume image fetches followed by local decoding activity or creation of suspicious temp files.</li>
+        <li>📊 Correlate sudden image downloads with process spawns, new network connections, or unexpected persistence changes.</li>
+        <li>🔎 Monitor for repeatable patterns in image filenames or repo names tied to known threat actor behavior.</li>
+      </ul>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; background:linear-gradient(135deg,#071827,#041622); border-radius:12px; color:#eaf8ff;">
+      <h3 style="color:#34d399;">🛡 Mitigation & Response</h3><br>
+      <ol style="line-height:1.8; margin-left:18px;">
+        <li>Block or monitor access to raw.githubusercontent.com (use allowlists for necessary dev flows).</li>
+        <li>Use EDR to detect post-download decoding behavior and unusual child processes spawned after media fetches.</li>
+        <li>Harden egress filtering and DNS policies to catch lookups for repos and short-lived domains.</li>
+        <li>Enforce strict code review and provenance checks for third-party packages and scripts your CI/CD pulls from public repos.</li>
+        <li>Work with platform providers: report malicious repos to GitHub/TOS immediately and provide IOCs so they can act faster.</li>
+      </ol>
+    </section>
+
+    <section style="padding:22px; margin-top:14px; text-align:center; background:#f7fffb; border-radius:12px; color:#071827;">
+      <h3 style="color:#ff6b6b;">📢 Final Thoughts</h3><br>
+      <p style="line-height:1.6;">
+        Hiding configuration in images and using public Git hosting is a powerful tactic: it turns well-known, trusted services into a hidden recovery plane for attackers. Defenders must evolve — treat public-hosted artifacts as first-class risks, monitor developer tooling traffic, and add behavioral detection for media decoding & unusual repo access patterns.
+      </p>
+    </section>
+  `
 }
+
 
 
 

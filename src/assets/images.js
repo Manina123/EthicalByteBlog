@@ -102,7 +102,8 @@
      weeklyRecapBannerOct2025: "https://ethicalbyte.in/blogs/img/99.webp",
      gh0stRat100thBlogBanner: "https://ethicalbyte.in/blogs/img/100.webp",
      clayratAndroidSpywareBannerV2: "https://ethicalbyte.in/blogs/img/101.webp",
-     whatsappWormBrazilBanner: "https://ethicalbyte.in/blogs/img/102.webp"
+     whatsappWormBrazilBanner: "https://ethicalbyte.in/blogs/img/102.webp",
+     githubResilienceBanner: "https://ethicalbyte.in/blogs/img/103.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
