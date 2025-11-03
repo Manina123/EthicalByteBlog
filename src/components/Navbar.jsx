@@ -26,7 +26,7 @@ import React from 'react';
           transition={{ type: 'spring', stiffness: 120, damping: 20 }}
           className="sticky top-0 z-50 glassmorphism-nav"
         >
-          <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+          {/* <div className="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href={externalLogoLink} target="_blank" rel="noopener noreferrer" className="flex items-center">
               <img src={logoUrl} alt="EthicalByte Logo" className="h-10 md:h-12" />
             </a>
@@ -40,7 +40,7 @@ import React from 'react';
                 All Posts
               </a>
             </div>
-          </div>
+          </div> */}
         </motion.nav>
       );
     };
