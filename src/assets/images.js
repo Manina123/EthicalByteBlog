@@ -105,7 +105,8 @@
      whatsappWormBrazilBanner: "https://ethicalbyte.in/blogs/img/102.webp",
      githubResilienceBanner: "https://ethicalbyte.in/blogs/img/103.webp",
      funklockerBanner: "https://ethicalbyte.in/blogs/img/104.webp",
-      aibrowserpromptinjectionbanner: "https://ethicalbyte.in/blogs/img/105.webp"
+     aibrowserpromptinjectionbanner: "https://ethicalbyte.in/blogs/img/105.webp",
+     aiBrowserBlackWidowBanner:"https://ethicalbyte.in/blogs/img/106.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
