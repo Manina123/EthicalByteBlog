@@ -6932,7 +6932,82 @@ content: `
 
   </div>
   `
+},
+{
+  id: "samsung-landfall-spyware-2025",
+  title: "LANDFALL Spyware Hits Samsung Phones — Trusted Devices Turn System-Wide Threat",
+  subtitle: "A zero-day in Samsung’s image-processing library let LANDFALL infiltrate Galaxy models and run persistent surveillance.",
+  date: "2025-11-08",
+  author: "EthicalByte",
+  tags: ["Samsung", "LANDFALL", "Spyware", "Android Security", "Zero-Day", "Mobile Threat"],
+  imageKey: "samsungLandfallBanner2025",
+  content: `
+<section style="padding:20px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#0b3d91,#081b3c); border-radius:12px; color:#ffffff;">
+  <div style="display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);">
+    <div style="background:#c62828;color:#fff;padding:4px 6px;border-radius:6px;font-weight:700">★</div>
+    <div style="font-size:0.95rem">EthicalByte • Threat Brief</div>
+  </div>
+
+  <h3 style="color:#ffffff; margin-top:12px;">🚨 LANDFALL Spyware Penetrates Samsung Galaxy Phones</h3>
+
+  <p style="color:#d9e7ff; margin-top:8px;">
+    Security researchers discovered a sophisticated campaign targeting Samsung Galaxy devices via a zero-day vulnerability in the manufacturer’s image-processing library. The spyware — dubbed 
+    <strong style="color:#c62828;">LANDFALL</strong> — exploited this flaw to silently infiltrate phones, deploy keylogging, audio recording and full data exfiltration modules.
+  </p>
+</section>
+
+
+<section style="padding:18px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#071029,#0b1324); border-radius:12px; color:#d9e7ff; margin-top:15px;">
+  <h3 style="color:#dbe9ff;">📌 How the Attack Worked</h3>
+
+  <ul style="margin-left:20px; line-height:1.6; color:#d9e7ff;">
+    <li><strong>Malicious DNG image files:</strong> Crafted DNG files (disguised as JPEGs) were delivered via messaging apps and exploited CVE-2025-21042.</li>
+    <li><strong>Silent execution:</strong> Opening the media triggered the image library exploit, executing payloads and installing spyware with no user interaction.</li>
+    <li><strong>Wide device coverage:</strong> Impacted devices include Galaxy S22, S23, S24 and Z-series models across targeted regions.</li>
+  </ul>
+</section>
+
+
+<section style="padding:18px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#081a2a,#0b1830); border-radius:12px; color:#d9e7ff; margin-top:15px; border-left:6px solid #c62828;">
+  <h3 style="color:#dbe9ff;">⚠️ Why This Is Dangerous</h3>
+
+  <p style="margin-top:8px;">
+    Devices are trusted platforms; when a low-level image-processing component is compromised, attackers gain a stealthy, persistent foothold. LANDFALL enabled continuous surveillance — capturing credentials, sensor feeds, location, microphone and more.
+  </p>
+
+  <p style="margin-top:8px; color:#cfe3ff;">
+    The campaign ran silently for months (mid-2024 to early-2025) before being publicly exposed.
+  </p>
+</section>
+
+
+<section style="padding:18px; font-family:Arial, sans-serif; background:#ffffff; border-radius:12px; color:#0b2346; margin-top:15px; border:1px solid rgba(11,37,70,0.08);">
+  <h3 style="color:#0b3d91; margin-top:0;">🛡 What You Can Do</h3>
+
+  <ul style="margin-left:20px; line-height:1.6; color:#0b2346;">
+    <li>Install the latest Samsung software update immediately.</li>
+    <li>Avoid opening unexpected image files or APKs received through messaging apps.</li>
+    <li>Enable encryption + strong screen lock (PIN/biometric).</li>
+    <li>Use mobile threat protection if available.</li>
+    <li>Review app permissions (camera, mic, storage, location).</li>
+  </ul>
+
+  <div style="margin-top:10px;">
+    <a href="#" style="display:inline-block;padding:10px 14px;border-radius:10px;background:#c62828;color:#ffffff;text-decoration:none;font-weight:600;">Quick Checklist</a>
+  </div>
+</section>
+
+
+<section style="padding:18px; font-family:Arial, sans-serif; background:linear-gradient(135deg,#06122a,#081228); border-radius:12px; color:#d9e7ff; margin-top:15px; text-align:center;">
+  <h3 style="color:#dbe9ff; margin-top:0;">📢 Final Thoughts</h3>
+
+  <p style="margin:8px 0 0;">
+    Modern smartphones are full computing platforms — every subsystem (even image libraries) must be treated as an attack surface. Stay updated, stay cautious, and never trust unsolicited media.
+  </p>
+</section>
+  `
 }
+
 
 
 
