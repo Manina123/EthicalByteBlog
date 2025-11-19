@@ -6782,80 +6782,6 @@ content: `
       
     </section>
   `
-},{
-  id: "ai-browser-prompt-injection",
-  title: "The Invisible Hack: AI Browsers and the Rise of Indirect Prompt Injection Attacks",
-  summary: "When your browser's AI becomes a hacker's entry point.",
-  date: "2025-10-29",
-  author: "EthicalByte",
-  tags: ["AI Security", "Browser Vulnerabilities", "Prompt Injection", "Cyber Threats", "Brave Browser"],
-  imageKey: "aibrowserpromptinjectionbanner",
-  content: `
-  <div style="font-family:'Inter',sans-serif; background:linear-gradient(145deg,#080808 0%,#17131a 100%); color:#f4e7eb; padding:24px; border-radius:12px; box-shadow:0 6px 30px rgba(255,60,80,0.13);">
-
-      <div style="text-align:center;">
-        <h3 style="color:#e4002b; text-shadow:0 1px 6px #0c070a;">The Invisible Hack</h3><br>
-        <p style="color:#dfccd5; max-width:880px; margin:0 auto;">
-          Security researchers at <strong style="color:#ff4252;">Brave</strong> revealed a critical weakness in AI-powered browsers: attackers can hide instructions in web content (white-on-white text, HTML comments, spoilers, screenshots) that an assistant will obediently execute. When the assistant runs with your signed-in privileges, a single click can hand an attacker emails, one-time passwords, and full account access.
-        </p>
-      </div>
-
-      <section style="margin-top:20px; padding:18px; background:#140d13; border-radius:10px;">
-        <h3 style="color:#fd113e;">What's Happening?</h3><br>
-        <p style="color:#f6cad4; line-height:1.6;">
-          Attackers embed <strong style="color:#fd113e;">hidden prompts</strong> in page content — invisible text, comments, spoiler tags, or nearly-invisible overlays. AI assistants (like Comet in the Brave demo) can't reliably separate <em>user intent</em> from <em>page content</em>, so they execute both. The result: data exfiltration using the user's own authenticated sessions.
-        </p>
-      </section>
-
-      <section style="margin-top:18px; padding:18px; background:linear-gradient(90deg,#1b0c13,#26141f); border-radius:10px;">
-        <h3 style="color:#fd113e;">How the Exploit Worked (Demo)</h3><br>
-        <ul style="color:#fae3e3; line-height:1.7; margin-left:20px;">
-          <li>Hidden payload in a Reddit spoiler — triggered by "Summarize this comment".</li>
-          <li>Assistant logged into Perplexity to record the user email.</li>
-          <li>Assistant opened Gmail (user already authenticated) and grabbed an OTP.</li>
-          <li>Assistant posted email + OTP back to the attacker's comment — full account takeover with one click.</li>
-        </ul>
-        <p style="color:#ecd0d6;">No phishing link. No classic malware. Just a trust boundary collapse between page content and assistant commands.</p>
-      </section>
-
-      <section style="margin-top:18px; padding:18px; background:#130f14; border-radius:10px;">
-        <h3 style="color:#fd113e;">Why This Is Terrifying</h3><br>
-        <p style="color:#f2c6cb; line-height:1.6;">
-          AI browsers often act with the same session privileges as you. If you're logged into email, bank, or work apps, the assistant's actions inherit those privileges — meaning hidden instructions can access sensitive assets without human consent.
-        </p>
-        <p style="color:#a08a94;">Some browsers auto-send page content to the AI engine (background summarization). That behavior removes even the "click" requirement — visiting a malicious page might be enough.</p>
-      </section>
-
-      <section style="margin-top:18px; padding:18px; background:linear-gradient(90deg,#200b13,#28202b); border-radius:10px;">
-        <h3 style="color:#fd113e;">Attack Surface & Tech Notes</h3><br>
-        <ul style="color:#ffd0da; line-height:1.7; margin-left:20px;">
-          <li>Hidden text layers and HTML comments are simple carriers for malicious prompts.</li>
-          <li>Screenshots with near-invisible text (steganographic overlays) can embed instructions.</li>
-          <li>Auto-ingestion (background fetch → model prompt) drastically widens the attack surface.</li>
-          <li>Mitigations require both UI/UX isolation and server-side policy enforcement from browser vendors.</li>
-        </ul>
-      </section>
-
-      <section style="margin-top:18px; padding:18px; background:#18111a; border-radius:10px;">
-        <h3 style="color:#fd113e;">Immediate Mitigations (For Users & Admins)</h3><br>
-        <ul style="color:#f8dde3; line-height:1.7; margin-left:20px;">
-          <li>Disable AI summarization or assistant features while logged into sensitive accounts.</li>
-          <li>Use separate browser profiles for sensitive work (no third-party AI features in that profile).</li>
-          <li>Turn off auto-send/background content processing for AI features.</li>
-          <li>Enforce strict CSPs and sanitize third-party content in corporate web apps.</li>
-          <li>Monitor for unusual token reuse, rapid OTP requests, and anomalous API calls.</li>
-        </ul>
-      </section>
-
-      <section style="margin-top:18px; padding:20px; text-align:center; background:linear-gradient(180deg,#191217,#25171b); border-radius:10px; border:1px solid rgba(253,17,62,0.10);">
-        <h3 style="color:#fd113e;">Final Thoughts</h3><br>
-        <p style="color:#f8dde3; line-height:1.6;">
-          AI assistants are powerful — but they also blur the lines between <em>what you asked</em> and <em>what the page told them to do</em>. Until browsers implement strong isolation layers that separate user intent from page content, treat AI browser features like any other privileged tool: limit their reach, reduce automatic access, and assume attackers will try to weaponize convenience.
-        </p>
-        <p style="margin-top:10px; color:#ff4c64; font-style:italic;">Who's thinking for your browser? Make sure it's you.</p>
-      </section>
-  </div>
-`
 },
 {
   id: "ai-browser-indirect-prompt-injection-2025",
@@ -6936,8 +6862,8 @@ content: `
 {
   id: "samsung-landfall-spyware-2025",
   title: "LANDFALL Spyware Hits Samsung Phones — Trusted Devices Turn System-Wide Threat",
-  subtitle: "A zero-day in Samsung’s image-processing library let LANDFALL infiltrate Galaxy models and run persistent surveillance.",
-  date: "2025-11-08",
+  summary: "A zero-day in Samsung’s image-processing library let LANDFALL infiltrate Galaxy models and run persistent surveillance.",
+  date: "2025-11-19",
   author: "EthicalByte",
   tags: ["Samsung", "LANDFALL", "Spyware", "Android Security", "Zero-Day", "Mobile Threat"],
   imageKey: "samsungLandfallBanner2025",
