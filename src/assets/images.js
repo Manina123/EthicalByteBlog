@@ -107,7 +107,8 @@
      funklockerBanner: "https://ethicalbyte.in/blogs/img/104.webp",
      aibrowserpromptinjectionbanner: "https://ethicalbyte.in/blogs/img/105.webp",
      aiBrowserBlackWidowBanner:"https://ethicalbyte.in/blogs/img/106.webp",
-     samsungLandfallBanner2025: "https://ethicalbyte.in/blogs/img/107.webp"
+     samsungLandfallBanner2025: "https://ethicalbyte.in/blogs/img/107.webp",
+     cloudflareOutageBanner2025: "https://ethicalbyte.in/blogs/img/108.webp",
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };
