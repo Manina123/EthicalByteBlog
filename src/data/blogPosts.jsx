@@ -7001,7 +7001,101 @@ content: `
   </p>
 </section>
   `
+},{
+  id: "roningloader-dragon-breath-2025",
+  title: "RONINGLOADER Uses Fake Chrome and Teams Apps to Deploy Modified Gh0st RAT",
+  summary: "Hackers from the Dragon Breath group are pushing a multi-stage loader called RONINGLOADER through fake Chrome and Microsoft Teams installers, disabling security tools with real Windows drivers and dropping a modified variant of Gh0st RAT that hides inside regsvr32.exe.",
+  date: "2025-11-21",
+  author: "EthicalByte",
+  tags: ["RONINGLOADER", "Gh0st RAT", "Dragon Breath", "Malware", "Windows Security", "Threat Intel"],
+  imageKey: "roningloaderDragonBreathBanner2025",
+  content: `
+<section style="padding:22px; background:linear-gradient(135deg,#0b0b0b,#1a1a1a); border-radius:14px; font-family:Arial, sans-serif; color:#f5f5f5;">
+  <h3 style="color:#ff6b35;">🚨 Fake Chrome and Teams Apps Drop New RONINGLOADER Malware</h3>
+  <p style="margin-top:10px; line-height:1.6;">
+    Security researchers have uncovered a new malware chain where attackers use <b>fake Google Chrome and Microsoft Teams installers</b> to infect Windows systems. 
+    The loaders, bundled inside trojanized NSIS installers, deploy a tool named <b>RONINGLOADER</b>, which then delivers a <b>modified version of Gh0st RAT</b> for full remote control of the victim machine. :contentReference[oaicite:0]{index=0}
+  </p>
+</section>
+
+<section style="padding:20px; background:#131313; border-radius:12px; margin-top:18px; color:#f0f0f0;">
+  <h3 style="color:#ff9b40;">📌 How the Infection Starts</h3>
+  <p style="line-height:1.6;">
+    The campaign is linked to the threat group <b>Dragon Breath</b> (also known as APT-Q-27 / Golden Eye) and mainly targets Chinese-speaking users. :contentReference[oaicite:1]{index=1}
+  </p>
+  <ul style="margin-left:20px; line-height:1.7;">
+    <li>Victims are lured to download what looks like legitimate installers for Chrome, Teams and other popular apps.</li>
+    <li>These are actually <b>trojanized NSIS installers</b> that contain both a real app installer and a hidden malicious one.</li>
+    <li>The benign part installs the expected software, while the hidden installer quietly starts the RONINGLOADER infection chain in the background.</li>
+  </ul>
+  <p style="margin-top:8px; line-height:1.6;">
+    This “good app + bad loader” trick helps attackers earn the user’s trust while still gaining a foothold on the system.
+  </p>
+</section>
+
+<section style="padding:20px; background:linear-gradient(135deg,#101010,#1f1f1f); border-radius:12px; margin-top:18px; color:#f2f2f2;">
+  <h3 style="color:#ff6b35;">🧨 How RONINGLOADER Disables Security</h3>
+  <p style="line-height:1.6;">
+    Once active, RONINGLOADER goes after security tools before it drops the final payload. According to researchers, it uses several advanced tricks to weaken the host: :contentReference[oaicite:2]{index=2}
+  </p>
+  <ul style="margin-left:20px; line-height:1.7;">
+    <li><b>Scans for antivirus products</b> popular in its target region, including Microsoft Defender and Chinese security suites.</li>
+    <li><b>Loads legitimately signed Windows drivers</b> as temporary services and uses them to kill or block those security processes.</li>
+    <li><b>Abuses Protected Process Light (PPL)</b> and Windows Error Reporting to interfere with Defender and apply custom WDAC policies that block other vendors.</li>
+  </ul>
+  <p style="margin-top:8px; line-height:1.6;">
+    By leaning on <b>real signed drivers and Windows features</b>, RONINGLOADER makes its behavior look normal to many basic security products.
+  </p>
+</section>
+
+<section style="padding:20px; background:#171717; border-radius:12px; margin-top:18px; color:#f8f8f8;">
+  <h3 style="color:#ff9b40;">🕳 Living Inside regsvr32.exe</h3>
+  <p style="line-height:1.6;">
+    After clearing the way, RONINGLOADER loads its next stages in memory and injects a malicious DLL into <b>regsvr32.exe</b>, a trusted Windows binary. :contentReference[oaicite:3]{index=3}
+  </p>
+  <p style="margin-top:8px; line-height:1.6;">
+    From there, it can launch additional code in high-privilege processes like <b>TrustedInstaller.exe</b> or other service executables. 
+    This makes the activity blend with normal system operations and helps the malware avoid both user suspicion and simple process-based monitoring.
+  </p>
+</section>
+
+<section style="padding:20px; background:linear-gradient(135deg,#121212,#1f1f1f); border-radius:12px; margin-top:18px; color:#f3f3f3;">
+  <h3 style="color:#ff6b35;">🕵️ Final Payload: Modified Gh0st RAT</h3>
+  <p style="line-height:1.6;">
+    The last stage is a tailored build of <b>Gh0st RAT</b>, a long-running remote access trojan family now adapted for this campaign. :contentReference[oaicite:4]{index=4}
+  </p>
+  <ul style="margin-left:20px; line-height:1.7;">
+    <li>Runs commands and tools on the victim machine</li>
+    <li>Captures keystrokes, clipboard data and active window titles</li>
+    <li>Downloads and executes additional payloads from attacker servers</li>
+    <li>Clears event logs and alters registry keys to hide traces</li>
+    <li>Injects into system processes like <b>svchost.exe</b> for long-term persistence</li>
+  </ul>
+  <p style="margin-top:8px; line-height:1.6;">
+    In short, once Gh0st RAT is in place, the attacker can treat the victim system like a remote desktop under their control.
+  </p>
+</section>
+
+<section style="padding:20px; background:#ffffff; border-radius:12px; margin-top:18px; color:#151515;">
+  <h3 style="color:#e65100;">🛡 What Regular Users Should Do</h3>
+  <ul style="margin-left:20px; line-height:1.7;">
+    <li><b>Download apps only from official sources</b> — Chrome, Teams and other software should come from their official websites or trusted app stores, not random download sites or ads.</li>
+    <li><b>Be suspicious of “patched”, “fast” or “free” installers</b> for well-known tools, especially if the site domain looks unusual.</li>
+    <li><b>Keep Windows and security tools updated</b> so that known loader and driver abuse techniques are blocked faster.</li>
+    <li><b>Watch for unusual CPU/network activity</b> after installing new software — fans spinning hard or constant outbound traffic can be early warning signs.</li>
+  </ul>
+</section>
+
+<section style="padding:20px; background:linear-gradient(135deg,#080808,#151515); border-radius:12px; margin-top:18px; text-align:center; color:#f0f0f0;">
+  <h3 style="color:#ff6b35;">📢 Defender & SOC Takeaways</h3>
+  <p style="line-height:1.6;">
+    RONINGLOADER shows how far modern loaders go to <b>neutralize security first</b> and only then drop their main payload. 
+    Monitoring for <b>signed driver abuse, unusual regsvr32.exe activity, WDAC policy changes and rapid AV process kills</b> is now just as important as watching for classic malware binaries.
+  </p>
+</section>
+  `
 }
+
 
 
 
