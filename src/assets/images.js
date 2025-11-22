@@ -109,7 +109,8 @@
      aiBrowserBlackWidowBanner:"https://ethicalbyte.in/blogs/img/106.webp",
      samsungLandfallBanner2025: "https://ethicalbyte.in/blogs/img/107.webp",
      cloudflareOutageBanner2025: "https://ethicalbyte.in/blogs/img/108.webp",
-     roningloaderDragonBreathBanner2025: "https://ethicalbyte.in/blogs/img/109.webp"
+     roningloaderDragonBreathBanner2025: "https://ethicalbyte.in/blogs/img/109.webp",
+     landfallCommercialAndroidBanner2025: "https://ethicalbyte.in/blogs/img/110.webp"
       // Add more image keys and their URLs here
       // exampleKey: "YOUR_IMAGE_URL_HERE",
     };

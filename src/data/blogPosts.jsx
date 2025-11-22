@@ -7094,7 +7094,71 @@ content: `
   </p>
 </section>
   `
+},{
+  id: "landfall-android-commercial-vendor-2025",
+  title: "Commercial-Grade LANDFALL Spyware Exploits Zero-Day in Samsung Galaxy Phones",
+  summary: "A newly identified Android spyware named LANDFALL exploited an unpatched zero-day flaw in Samsung Galaxy devices’ image-processing libraries. The spyware was delivered through WhatsApp and operated silently for months before Samsung released a fix in April 2025.",
+  date: "2025-11-21",
+  author: "EthicalByte",
+  tags: ["LANDFALL", "Android Spyware", "Samsung", "Zero-Day", "Mobile Security", "Commercial Malware"],
+  imageKey: "landfallCommercialAndroidBanner2025",
+  content: `
+<section style="padding:22px; background:linear-gradient(135deg,#0f0f0f,#1b1b1b); border-radius:14px; font-family:Arial, sans-serif; color:#eaeaea;">
+  <h3 style="color:#ff6b35;">🚨 Newly Identified Android Spyware Linked to Commercial Vendor</h3>
+  <p style="margin-top:10px; line-height:1.6;">
+    A powerful Android spyware strain called <b>LANDFALL</b> has been uncovered targeting Samsung Galaxy devices through a previously unknown zero-day vulnerability. 
+    Researchers believe the malware originates from a <b>commercial surveillance vendor</b> due to its sophistication and operational structure.
+  </p>
+</section>
+
+<section style="padding:20px; background:#131313; border-radius:12px; margin-top:18px; color:#f0f0f0;">
+  <h3 style="color:#ffa559;">📌 How LANDFALL Infects Devices</h3>
+  <p style="line-height:1.6;">
+    The attackers exploited a <b>zero-day flaw</b> inside Samsung’s <b>image processing libraries</b>, used by Galaxy phones to render images.  
+    The infection chain began through <b>malicious images sent over WhatsApp</b>, where opening the image triggered the vulnerability and initiated the spyware installation.
+  </p>
+  <ul style="margin-left:20px; line-height:1.7;">
+    <li>Delivered through WhatsApp as seemingly normal images</li>
+    <li>Triggered a flaw in the device’s media processing pipeline</li>
+    <li>Installed spyware silently without any user interaction</li>
+    <li>Exfiltrated contacts, messages, app data, and device metadata</li>
+  </ul>
+</section>
+
+<section style="padding:20px; background:linear-gradient(135deg,#0f0f0f,#1f1f1f); border-radius:12px; margin-top:18px; color:#e6e6e6;">
+  <h3 style="color:#ff6b35;">🕵️ Likely Built by a Commercial Spyware Vendor</h3>
+  <p style="line-height:1.6;">
+    Investigators noted that LANDFALL does not resemble common criminal malware. Instead, it shows signs of being developed by an <b>advanced surveillance vendor</b>, similar to FinFisher, QuaDream, or NSO’s Pegasus frameworks.
+  </p>
+  <p style="margin-top:8px; line-height:1.6;">
+    Its modular structure, stealth, and exploit quality strongly indicate a <b>state-level or commercial customer</b>.
+  </p>
+</section>
+
+<section style="padding:20px; background:#171717; border-radius:12px; margin-top:18px; color:#f8f8f8;">
+  <h3 style="color:#ffa559;">⏳ Zero-Day Fix Delayed for Months</h3>
+  <p style="line-height:1.6;">
+    The vulnerability was privately reported to Samsung in <b>September 2024</b>.  
+    However, a patch was not released until <b>April 2025</b> — nearly seven months later.
+  </p>
+  <p style="margin-top:8px; line-height:1.6;">
+    During this window, attackers had uninterrupted access to vulnerable Galaxy devices, allowing them to spy on selected targets across regions.
+  </p>
+</section>
+
+<section style="padding:20px; background:linear-gradient(135deg,#080808,#151515); border-radius:12px; margin-top:18px; text-align:center; color:#f0f0f0;">
+  <h3 style="color:#ff6b35;">📢 Final Thoughts</h3>
+  <p style="line-height:1.6;">
+    LANDFALL highlights a growing market of <b>commercial-grade Android spyware</b> built for stealth and targeted surveillance.  
+    The delayed patch timeline also raises questions about vendor responsiveness to critical vulnerabilities.
+  </p>
+  <p style="margin-top:8px;">
+    Users of Samsung Galaxy devices should ensure they have the <b>April 2025 or later</b> firmware installed to remain protected.
+  </p>
+</section>
+  `
 }
+
 
 
 
