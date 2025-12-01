@@ -7157,7 +7157,71 @@ content: `
   </p>
 </section>
   `
+},
+{
+  id: "bloody-wolf-netsupport-rat-2025",
+  title: "Hackers Posing as Kyrgyzstan Justice Ministry Spread NetSupport RAT via Fake PDFs",
+  summary: "A hacking campaign — attributed to the group  — is distributing 2013-era  across Kyrgyzstan and Uzbekistan via fake PDFs and outdated Java exploits, targeting unsuspecting users with a long-standing remote-access tool.",
+  date: "2025-12-01",
+  author: "EthicalByte",
+  tags: ["NetSupport RAT","Bloody Wolf","Kyrgyzstan","Uzbekistan","Android & Windows Security","Malware Campaign"],
+  imageKey: "bloodyWolfNetSupportBanner2025",
+  content: `
+<section style="padding:22px; background:linear-gradient(135deg,#0d0d0d,#1a1a1a); border-radius:14px; font-family:Arial, sans-serif; color:#eaeaea;">
+  <h3 style=\"color:#ff6b35;\">🚨 NetSupport RAT Campaign — Hackers Pretend to be Kyrgyz Ministry</h3>
+  <p style=\"margin-top:10px; line-height:1.6;\">
+    A new campaign by the hacking group <b>Bloody Wolf</b> is distributing a well-known remote access trojan — <b>NetSupport RAT</b> — across Kyrgyzstan and Uzbekistan.  
+    The attackers pose as the country’s Justice Ministry and send fake PDF documents or Java-based installers to lure victims. Once opened, the RAT installs silently, giving full remote control to attackers. (<a href=\"https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html\" target=\"_blank\" rel=\"noopener\">thehackernews.com</a>)
+  </p>
+</section>
+
+<section style=\"padding:20px; background:#131313; border-radius:12px; margin-top:18px; color:#f0f0f0;\">
+  <h3 style=\"color:#ffa559;\">🎯 Attack Vector: Fake PDFs + Old Java Exploits</h3>
+  <p style=\"line-height:1.6;\">
+    The infection begins when targets receive a PDF or a seemingly legitimate file claiming to be from the “Justice Ministry.” The payload uses legacy techniques: outdated Java exploits or bundled installers — often ignored by modern users but still effective in regions where security hygiene is weak.
+  </p>
+  <ul style=\"margin-left:20px; line-height:1.7;\">
+    <li>PDF disguised as an official legal document or notice.</li>
+    <li>Embedded or accompanying Java-based installer leading to RAT deployment.</li>
+    <li>NetSupport RAT runs quietly in background, granting remote access.</li>
+    <li>The malware disables or bypasses common antivirus tools to stay hidden.</li>
+  </ul>
+</section>
+
+<section style=\"padding:20px; background:linear-gradient(135deg,#0f0f0f,#1f1f1f); border-radius:12px; margin-top:18px; color:#e6e6e6;\">
+  <h3 style=\"color:#ff6b35;\">🌍 Target Region & Impact</h3>
+  <p style=\"line-height:1.6;\">
+    According to researchers, the campaign is concentrated in **Kyrgyzstan and Uzbekistan**. Victims include individuals and small-scale organizations who likely receive unexpected “official documents.” Because the malware uses older tools, many traditional detections miss it — making it especially dangerous for regions with lower cyber-security awareness.
+  </p>
+</section>
+
+<section style=\"padding:20px; background:#171717; border-radius:12px; margin-top:18px; color:#f8f8f8;\">
+  <h3 style=\"color:#ffa559;\">⚠ Why Old Malware Still Works</h3>
+  <p style=\"line-height:1.6;\">
+    Even though NetSupport RAT has been around since 2013, the combination of <b>social engineering + outdated attack vectors</b> remains surprisingly effective — especially in areas where:
+  </p>
+  <ul style=\"margin-left:20px; line-height:1.7;\">
+    <li>Users ignore software-update prompts.</li>
+    <li>Security tools are outdated or absent.</li>
+    <li>Users are unfamiliar with phishing tactics.</li>
+    <li>Legal-looking PDFs evoke trust, leading to lowered guard.</li>
+  </ul>
+  <p style=\"margin-top:8px; line-height:1.6;\">
+    The campaign is a reminder: **old malware + new victims = dangerous success.**
+  </p>
+</section>
+
+<section style=\"padding:20px; background:linear-gradient(135deg,#080808,#151515); border-radius:12px; margin-top:18px; text-align:center; color:#f0f0f0;\">
+  <h3 style=\"color:#ff6b35;\">📢 Final Thoughts</h3>
+  <p style=\"line-height:1.6;\">
+    Security tools and users often focus on novel threats — but sometimes, legacy tools like NetSupport RAT remain effective because people forget them.  
+    If you are based in or connected with Kyrgyzstan or Uzbekistan, treat unsolicited PDFs or Java-based installers with extreme caution.  
+    Keep all security software updated and always verify the legitimacy of documents before opening them.  
+  </p>
+</section>
+  `
 }
+
 
 
 
