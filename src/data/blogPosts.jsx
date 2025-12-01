@@ -7171,8 +7171,7 @@ content: `
   <h3 style=\"color:#ff6b35;\">🚨 NetSupport RAT Campaign — Hackers Pretend to be Kyrgyz Ministry</h3>
   <p style=\"margin-top:10px; line-height:1.6;\">
     A new campaign by the hacking group <b>Bloody Wolf</b> is distributing a well-known remote access trojan — <b>NetSupport RAT</b> — across Kyrgyzstan and Uzbekistan.  
-    The attackers pose as the country’s Justice Ministry and send fake PDF documents or Java-based installers to lure victims. Once opened, the RAT installs silently, giving full remote control to attackers. (<a href=\"https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html\" target=\"_blank\" rel=\"noopener\">thehackernews.com</a>)
-  </p>
+    The attackers pose as the country’s Justice Ministry and send fake PDF documents or Java-based installers to lure victims. Once opened, the RAT installs silently, giving full remote control to attackers.</p>
 </section>
 
 <section style=\"padding:20px; background:#131313; border-radius:12px; margin-top:18px; color:#f0f0f0;\">
